@@ -7917,3 +7917,7 @@ C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\w
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.exe.manifest
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.application
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.Tesoreria.frmxSaldosTesoreria.resources
+C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppSAIC_Pensiones\winAppSAIC Pensiones\winAppSAIC\bin\Debug\winAppSAIC.exe.config
+C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppSAIC_Pensiones\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC_Pensiones.csproj.ResolveComReference.cache
+C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppSAIC_Pensiones\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.exe
+C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppSAIC_Pensiones\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.pdb

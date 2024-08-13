@@ -67,7 +67,7 @@
             // 
             // txtContrasena
             // 
-            this.txtContrasena.EditValue = "mar0103floR3$";
+            this.txtContrasena.EditValue = "";
             this.txtContrasena.Location = new System.Drawing.Point(128, 56);
             this.txtContrasena.Margin = new System.Windows.Forms.Padding(4);
             this.txtContrasena.Name = "txtContrasena";
@@ -79,7 +79,7 @@
             // 
             // txtUsuario
             // 
-            this.txtUsuario.EditValue = "mario.flores";
+            this.txtUsuario.EditValue = "";
             this.txtUsuario.Location = new System.Drawing.Point(128, 18);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.Name = "txtUsuario";
