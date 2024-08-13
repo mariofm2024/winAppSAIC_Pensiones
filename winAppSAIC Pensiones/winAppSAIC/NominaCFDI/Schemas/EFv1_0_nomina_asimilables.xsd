@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:ns1="https://esquemas.enlacefiscal.com/EF/EFv1_0_nomina_asimilables.xsd"
+	targetNamespace="https://esquemas.enlacefiscal.com/EF/EFv1_0_nomina_asimilables.xsd"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<element name="Nomina">
+		<complexType>
+			<sequence>
+				<element name="modo" minOccurs="0">
+					<simpleType>
+						<restriction base="xs:string">
+							<enumeration value="debug"/>
+							<enumeration value="produccion"/>
+						</restriction>
+					</simpleType>
+				</element>
+				<element name="versionEFNomina">
+					<simpleType>
+						<restriction base="xs:string">
+							<enumeration value="1.0"/>
+						</restriction>
+					</simpleType>
+				</element>
+				<element name="serieRecibo">
+					<simpleType>
+						<restriction base="xs:string">
+							<minLength value="1"/>
+							<maxLength value="10"/>
+							<pattern value="NULL|[a-zA-Z]+"/>
+							<whiteSpace value="collapse"/>
+						</restriction>
+					</simpleType>
+				</element>
+				<element name="folioRecibo">
+					<simpleType>
+						<restriction base="xs:string">
+							<minLength value="1"/>
+							<maxLength value="10"/>
+							<pattern value="[0-9]*"/>
+						</restriction>
+					</simpleType>
+				</element>
+				<element minOccurs="1" name="fechaEmision">
+					<simpleType>
+						<restriction base="xs:dateTime"/>
+					</simpleType>
+				</element>
+				<element name="nombreDisenio" minOccurs="0">
+					<simpleType>
+						<restriction base="xs:string"/>
+					</simpleType>
+				</element>
+				<element name="BloqueInformacion" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="titulo">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="texto" minOccurs="0">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="TextoRenglones" minOccurs="0">
+								<complexType>
+									<sequence>
+										<element name="renglon" type="string"
+											maxOccurs="10"/>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="Emisor">
+					<complexType>
+						<sequence>
+							<element name="rfc">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="12"/>
+										<maxLength value="13"/>
+									</restriction>
+								</simpleType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="GrupoCorporativo" minOccurs="0">
+					<complexType>
+						<sequence>
+							<element name="empresa">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+										<maxLength value="100"/>
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="Empleado">
+					<complexType>
+						<sequence>
+							<element name="nombre">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="apellidoPaterno">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="apellidoMaterno">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="rfc">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="12"/>
+										<maxLength value="13"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="curp">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="18"/>
+										<maxLength value="18"/>
+									</restriction>
+								</simpleType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="Empleo">
+					<complexType>
+						<sequence>
+							<element name="numEmpleado">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+										<maxLength value="15"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="tipoRegimen">
+								<simpleType>
+									<restriction base="xs:int">
+										<minInclusive value="1"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="periodicidadPago">
+								<simpleType>
+									<restriction base="xs:string">
+										<minLength value="1"/>
+										<maxLength value="100"/>
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="Pago">
+					<complexType>
+						<sequence>
+							<element name="fechaPago">
+								<simpleType>
+									<restriction base="xs:date">
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="fechaInicialPago">
+								<simpleType>
+									<restriction base="xs:date">
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="fechaFinalPago">
+								<simpleType>
+									<restriction base="xs:date">
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="numDiasPagados">
+								<simpleType>
+									<restriction base="xs:decimal">
+										<fractionDigits value="6"/>
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="montoPagado">
+								<simpleType>
+									<restriction base="decimal">
+										<fractionDigits value="6"/>
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="tipoMoneda">
+								<simpleType>
+									<restriction base="xs:string">
+										<enumeration value="MXN"/>
+										<enumeration value="USD"/>
+										<enumeration value="EUR"/>
+										<enumeration value="GBP"/>
+										<enumeration value="CAD"/>
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element minOccurs="0" name="tipoCambio">
+								<simpleType>
+									<restriction base="xs:decimal"/>
+								</simpleType>
+							</element>
+							<element name="CLABE" minOccurs="0">
+								<simpleType>
+									<restriction base="string">
+										<pattern value="[0-9]{18}"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="banco" minOccurs="0">
+								<simpleType>
+									<restriction base="string">
+										<pattern value="[0-9]{3}"/>
+									</restriction>
+								</simpleType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="Percepciones">
+					<complexType>
+						<sequence>
+							<element name="totalGravado">
+								<simpleType>
+									<restriction base="decimal">
+										<fractionDigits value="6"/>
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="Percepcion" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="clavePercepcion">
+											<simpleType>
+												<restriction base="string">
+												<pattern value="[0-9]{3}"/>
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="claveContable">
+											<simpleType>
+												<restriction base="xs:string">
+												<minLength value="3"/>
+												<maxLength value="15"/>
+												<whiteSpace value="collapse"/>
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="concepto">
+											<simpleType>
+												<restriction base="xs:string">
+												<minLength value="1"/>
+												<maxLength value="100"/>
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="importeGravado">
+											<simpleType>
+												<restriction base="xs:decimal">
+												<fractionDigits value="6"/>
+												<whiteSpace value="collapse"/>
+												</restriction>
+											</simpleType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="Deducciones">
+					<complexType>
+						<sequence>
+							<element name="totalGravado">
+								<simpleType>
+									<restriction base="decimal">
+										<fractionDigits value="6"/>
+										<whiteSpace value="collapse"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="Deduccion" maxOccurs="unbounded">
+								<complexType>
+									<sequence>
+										<element name="claveDeduccion">
+											<simpleType>
+												<restriction base="string">
+												<pattern value="[0-9]{3}"/>
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="claveContable">
+											<simpleType>
+												<restriction base="xs:string">
+												<minLength value="3"/>
+												<maxLength value="15"/>
+												<whiteSpace value="collapse"/>
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="concepto">
+											<simpleType>
+												<restriction base="xs:string">
+												<minLength value="1"/>
+												<maxLength value="100"/>
+												</restriction>
+											</simpleType>
+										</element>
+										<element name="importeGravado">
+											<simpleType>
+												<restriction base="xs:decimal">
+												<fractionDigits value="6"/>
+												<whiteSpace value="collapse"/>
+												</restriction>
+											</simpleType>
+										</element>
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

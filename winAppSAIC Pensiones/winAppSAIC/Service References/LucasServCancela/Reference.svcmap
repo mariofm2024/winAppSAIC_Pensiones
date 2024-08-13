@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e6e998a9-135d-43e6-a685-c17e4880cdc3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="sFacturacion40.xsd" MetadataType="Schema" ID="40178288-02bf-453f-a070-3bb611f5053e" SourceId="1" SourceUrl="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?xsd=xsd1" />
+    <MetadataFile FileName="sFacturacion401.xsd" MetadataType="Schema" ID="b1a028bc-fa4e-43ea-83b3-5f7bd6ec4458" SourceId="1" SourceUrl="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?xsd=xsd2" />
+    <MetadataFile FileName="Facturacion40Service.wsdl" MetadataType="Wsdl" ID="6792d9f2-5f4c-4e73-a6b3-1eae63454485" SourceId="1" SourceUrl="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?wsdl" />
+    <MetadataFile FileName="sFacturacion40.disco" MetadataType="Disco" ID="41bd1fde-2e93-4a5b-b54b-435908c2cc67" SourceId="1" SourceUrl="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?disco" />
+    <MetadataFile FileName="sFacturacion402.xsd" MetadataType="Schema" ID="9b03c3fc-d53b-42c4-b313-6495dd8e0b2e" SourceId="1" SourceUrl="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

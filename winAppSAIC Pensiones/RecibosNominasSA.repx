@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="12.1.4.0" Ref="2" Name="RecibosEmpleadosSueldos" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v12.1, Version=12.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" DataSource="#Ref-0" DataAdapter="#Ref-1" DataMember="vwRecibosEmpleadosHeader" FilterString="[IdTenedora] = ?pIdTenedora And [IdCliente] = ?pIdCliente And [AnoPeriodo] = ?pAno And [MesPeriodo] = ?pMes And [DiaPeriodo] = ?pDia" Margins="25, 25, 23, 21" Version="12.1" PageWidth="850" PageHeight="1100">
+  <Parameters>
+    <Item1 Ref="5" Name="pIdTenedora" Visible="false" Type="#Ref-4" />
+    <Item2 Ref="6" Name="pIdCliente" Visible="false" Type="#Ref-4" />
+    <Item3 Ref="9" Name="pDia" Visible="false" Type="#Ref-8" />
+    <Item4 Ref="10" Name="pMes" Visible="false" Type="#Ref-8" />
+    <Item5 Ref="11" Name="pAno" Visible="false" Type="#Ref-4" />
+  </Parameters>
+  <CalculatedFields>
+    <Item1 Ref="12" Expression="'Recibí de ' + [RazonSocial] +  ' el pago de sueldo integrado como antecede, correspondiente al periodo que en éste se indica y por la cantidad impresa en el &quot;importe&quot;, por lo que no me adeuda salarios, horas extras, días de descanso, prima dominical, porcentajes por ventas o en su caso comisiones, por lo que en este momento otorgo a su favor el más amplio finiquito que en derecho proceda.'" DataMember="vwRecibosEmpleadosHeader" Name="LeyendaRecibo" />
+  </CalculatedFields>
+  <Bands>
+    <Item1 Ref="13" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="0" />
+    <Item2 Ref="14" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="23" />
+    <Item3 Ref="15" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="21" />
+    <Item4 Ref="16" Name="DetailReport" ControlType="DetailReportBand" Level="0">
+      <Bands>
+        <Item1 Ref="17" ControlType="DetailBand" Name="Detail1" HeightF="436.7081">
+          <Controls>
+            <Item1 Ref="18" Name="xrLabel143" ControlType="XRLabel" LocationFloat="0, 55.00009" SizeF="95.83002,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel143">
+              <DataBindings>
+                <Item1 Ref="19" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="20" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item1>
+            <Item2 Ref="21" Name="xrLabel18" ControlType="XRLabel" LocationFloat="0, 37.00008" SizeF="95.83002,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="No. Empleado">
+              <StylePriority Ref="22" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item2>
+            <Item3 Ref="23" Name="xrLine1" ControlType="XRLine" SizeF="10.80728,148.8281" LocationFloat="399.6094, 186.5703" BorderWidth="1" LineWidth="2" LineDirection="Vertical">
+              <StylePriority Ref="24" UseBorderWidth="false" />
+            </Item3>
+            <Item4 Ref="25" Name="xrLabel94" ControlType="XRLabel" LocationFloat="63.12499, 127.15" SizeF="85.12167,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel94">
+              <DataBindings>
+                <Item1 Ref="26" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasPagar" />
+              </DataBindings>
+              <StylePriority Ref="27" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item4>
+            <Item5 Ref="28" Name="xrLabel93" ControlType="XRLabel" LocationFloat="390.2467, 127.15" SizeF="96,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel93">
+              <DataBindings>
+                <Item1 Ref="29" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescTipoSalario" />
+              </DataBindings>
+              <StylePriority Ref="30" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item5>
+            <Item6 Ref="31" Name="xrLabel92" ControlType="XRLabel" LocationFloat="63.12505, 109.05" SizeF="85.1216,18.1" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Días Laborados">
+              <StylePriority Ref="32" UseFont="false" UseBorders="false" />
+            </Item6>
+            <Item7 Ref="33" Name="xrLabel91" ControlType="XRLabel" LocationFloat="6.357829E-05, 145.2" SizeF="78.12506,17.99999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Importe">
+              <StylePriority Ref="34" UseFont="false" UseBorders="false" />
+            </Item7>
+            <Item8 Ref="35" Name="xrLabel86" ControlType="XRLabel" LocationFloat="558.8749, 392.2498" SizeF="178.125,23" TextAlignment="TopCenter" Font="Arial, 8pt, style=Bold" Padding="2,2,2,0,100" Text="Firma del Trabajador">
+              <StylePriority Ref="36" UseFont="false" UseTextAlignment="false" UsePadding="false" />
+            </Item8>
+            <Item9 Ref="37" Name="xrLabel85" ControlType="XRLabel" LocationFloat="10.00004, 367.0364" SizeF="516.0416,60.21332" TextAlignment="TopJustify" Font="Arial, 7pt" Padding="2,2,0,0,100" Text="xrLabel85">
+              <DataBindings>
+                <Item1 Ref="38" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.LeyendaRecibo" />
+              </DataBindings>
+              <StylePriority Ref="39" UseFont="false" UseTextAlignment="false" />
+            </Item9>
+            <Item10 Ref="40" Name="xrLabel25" ControlType="XRLabel" LocationFloat="272, 72.99999" SizeF="118.2467,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="No. Seguridad Social">
+              <StylePriority Ref="41" UseFont="false" UseBorders="false" />
+            </Item10>
+            <Item11 Ref="42" Name="xrLabel24" ControlType="XRLabel" LocationFloat="95.83002, 55.00005" SizeF="704.1665,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel9">
+              <DataBindings>
+                <Item1 Ref="43" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NombreEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="44" UseFont="false" UseBorders="false" />
+            </Item11>
+            <Item12 Ref="45" Name="xrLabel28" ControlType="XRLabel" LocationFloat="0, 109.05" SizeF="63.12505,18.09999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="S.B.C.">
+              <StylePriority Ref="46" UseFont="false" UseBorders="false" />
+            </Item12>
+            <Item13 Ref="47" Name="xrLabel27" ControlType="XRLabel" LocationFloat="271.9168, 91.00002" SizeF="118.3299,18.05" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel131">
+              <DataBindings>
+                <Item1 Ref="48" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NSS" />
+              </DataBindings>
+              <StylePriority Ref="49" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item13>
+            <Item14 Ref="50" Name="xrLabel23" ControlType="XRLabel" LocationFloat="160.4168, 73.00031" SizeF="111.5,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="R.F.C.">
+              <StylePriority Ref="51" UseFont="false" UseBorders="false" />
+            </Item14>
+            <Item15 Ref="52" Name="xrLabel20" ControlType="XRLabel" LocationFloat="160.4168, 91.0004" SizeF="111.5,18.0496" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel11">
+              <DataBindings>
+                <Item1 Ref="53" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RFCEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="54" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item15>
+            <Item16 Ref="55" Name="xrLabel19" ControlType="XRLabel" LocationFloat="7.152557E-05, 91.00052" SizeF="160.4167,18.04948" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel10">
+              <DataBindings>
+                <Item1 Ref="56" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.CURP" />
+              </DataBindings>
+              <StylePriority Ref="57" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item16>
+            <Item17 Ref="58" Name="xrLabel22" ControlType="XRLabel" LocationFloat="7.152557E-05, 73.00044" SizeF="160.4167,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="C.U.R.P.">
+              <StylePriority Ref="59" UseFont="false" UseBorders="false" />
+            </Item17>
+            <Item18 Ref="60" Name="xrLabel21" ControlType="XRLabel" LocationFloat="700.3334, 0" SizeF="99.66663,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" BackColor="Black" ForeColor="White" Text="No. Recibo">
+              <StylePriority Ref="61" UseFont="false" UseTextAlignment="false" UseBorders="false" UseBackColor="false" UseForeColor="false" />
+            </Item18>
+            <Item19 Ref="62" Name="xrLabel35" ControlType="XRLabel" LocationFloat="78.12506, 163.2" SizeF="721.8749,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel32">
+              <DataBindings>
+                <Item1 Ref="63" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.ImporteConLetra" />
+              </DataBindings>
+              <StylePriority Ref="64" UseFont="false" UseBorders="false" />
+            </Item19>
+            <Item20 Ref="65" Name="xrLabel34" ControlType="XRLabel" LocationFloat="5.7508E-05, 0" SizeF="570.3333,18" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel34">
+              <DataBindings>
+                <Item1 Ref="66" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="67" UseFont="false" />
+            </Item20>
+            <Item21 Ref="68" Name="xrLabel43" ControlType="XRLabel" LocationFloat="684.7498, 127.15" SizeF="115.2501,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel34">
+              <DataBindings>
+                <Item1 Ref="69" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RegistroPatronalIMSS" />
+              </DataBindings>
+              <StylePriority Ref="70" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item21>
+            <Item22 Ref="71" Name="xrLabel42" ControlType="XRLabel" LocationFloat="7.463538E-05, 127.15" SizeF="63.125,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel33">
+              <DataBindings>
+                <Item1 Ref="72" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.SDI" />
+              </DataBindings>
+              <StylePriority Ref="73" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item22>
+            <Item23 Ref="74" Name="xrLabel33" ControlType="XRLabel" LocationFloat="486.2467, 109.05" SizeF="76.54495,18.09999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Dnc. Jornada">
+              <StylePriority Ref="75" UseFont="false" UseBorders="false" />
+            </Item23>
+            <Item24 Ref="76" Name="xrLabel30" ControlType="XRLabel" LocationFloat="7.152557E-05, 163.2" SizeF="78.12506,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel31">
+              <DataBindings>
+                <Item1 Ref="77" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoNetoPagar" />
+              </DataBindings>
+              <StylePriority Ref="78" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item24>
+            <Item25 Ref="79" Name="xrLabel29" ControlType="XRLabel" LocationFloat="684.7498, 109.05" SizeF="115.2501,18.1" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Registro Patronal">
+              <StylePriority Ref="80" UseFont="false" UseBorders="false" />
+            </Item25>
+            <Item26 Ref="81" Name="xrLabel32" ControlType="XRLabel" LocationFloat="78.12506, 145.2" SizeF="721.8749,17.99998" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Importe con Letra">
+              <StylePriority Ref="82" UseFont="false" UseBorders="false" />
+            </Item26>
+            <Item27 Ref="83" Name="xrLabel31" ControlType="XRLabel" LocationFloat="294.2467, 127.15" SizeF="96,17.99999" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel25">
+              <DataBindings>
+                <Item1 Ref="84" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescTipoPeriodoNomina" />
+              </DataBindings>
+              <StylePriority Ref="85" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item27>
+            <Item28 Ref="86" Name="xrLabel7" ControlType="XRLabel" LocationFloat="562.7916, 127.15" SizeF="121.9583,17.99999" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel7">
+              <DataBindings>
+                <Item1 Ref="87" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.TipoPago" />
+              </DataBindings>
+              <StylePriority Ref="88" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item28>
+            <Item29 Ref="89" Name="xrLabel6" ControlType="XRLabel" LocationFloat="654.1669, 72.99999" SizeF="145.8331,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Banco">
+              <StylePriority Ref="90" UseFont="false" UseBorders="false" />
+            </Item29>
+            <Item30 Ref="91" Name="xrLabel9" ControlType="XRLabel" LocationFloat="390.2467, 91.00002" SizeF="113.9201,18.05" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel9">
+              <DataBindings>
+                <Item1 Ref="92" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.FechaIngreso" />
+              </DataBindings>
+              <StylePriority Ref="93" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item30>
+            <Item31 Ref="94" Name="xrLabel8" ControlType="XRLabel" LocationFloat="654.1668, 90.99989" SizeF="145.8331,18.05011" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel8">
+              <DataBindings>
+                <Item1 Ref="95" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescBanco" />
+              </DataBindings>
+              <StylePriority Ref="96" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item31>
+            <Item32 Ref="97" Name="xrLabel5" ControlType="XRLabel" LocationFloat="504.1668, 73" SizeF="150,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Cuenta">
+              <StylePriority Ref="98" UseFont="false" UseBorders="false" />
+            </Item32>
+            <Item33 Ref="99" Name="xrLabel2" ControlType="XRLabel" LocationFloat="390.2467, 72.99999" SizeF="113.9201,17.99987" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Fecha Ingreso">
+              <StylePriority Ref="100" UseFont="false" UseBorders="false" />
+            </Item33>
+            <Item34 Ref="101" Name="xrLabel1" ControlType="XRLabel" LocationFloat="562.7917, 109.05" SizeF="121.9581,18.1" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Forma de Pago">
+              <StylePriority Ref="102" UseFont="false" UseBorders="false" />
+            </Item34>
+            <Item35 Ref="103" Name="xrLabel4" ControlType="XRLabel" LocationFloat="148.2467, 109.05" SizeF="146,18.10001" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Periodo de Pago">
+              <StylePriority Ref="104" UseFont="false" UseBorders="false" />
+            </Item35>
+            <Item36 Ref="105" Name="xrLabel3" ControlType="XRLabel" LocationFloat="294.2467, 109.05" SizeF="96,18.09999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Periodicidad">
+              <StylePriority Ref="106" UseFont="false" UseBorders="false" />
+            </Item36>
+            <Item37 Ref="107" Name="xrLabel16" ControlType="XRLabel" LocationFloat="486.2466, 127.15" SizeF="76.54504,17.99999" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel35">
+              <DataBindings>
+                <Item1 Ref="108" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasJornada" />
+              </DataBindings>
+              <StylePriority Ref="109" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item37>
+            <Item38 Ref="110" Name="xrLabel15" ControlType="XRLabel" LocationFloat="95.83002, 36.99996" SizeF="704.1665,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Nombre del Trabajador">
+              <StylePriority Ref="111" UseFont="false" UseBorders="false" />
+            </Item38>
+            <Item39 Ref="112" Name="xrLabel17" ControlType="XRLabel" LocationFloat="390.2467, 109.05" SizeF="96,18.09999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Tipo de Sueldo">
+              <StylePriority Ref="113" UseFont="false" UseBorders="false" />
+            </Item39>
+            <Item40 Ref="114" Name="xrLabel14" ControlType="XRLabel" LocationFloat="0, 18" SizeF="700.3334,18.99997" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+              <DataBindings>
+                <Item1 Ref="115" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DomicilioRazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="116" UseFont="false" UseBorders="false" />
+            </Item40>
+            <Item41 Ref="117" Name="xrLabel11" ControlType="XRLabel" LocationFloat="148.2467, 127.15" SizeF="146,17.99989" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel20">
+              <DataBindings>
+                <Item1 Ref="118" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.PeriodoPago" />
+              </DataBindings>
+              <StylePriority Ref="119" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item41>
+            <Item42 Ref="120" Name="xrLabel10" ControlType="XRLabel" LocationFloat="700.3334, 18" SizeF="99.66663,19" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel19">
+              <DataBindings>
+                <Item1 Ref="121" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoRecibo" />
+              </DataBindings>
+              <StylePriority Ref="122" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item42>
+            <Item43 Ref="123" Name="xrLabel13" ControlType="XRLabel" LocationFloat="570.3334, 0" SizeF="130,18" TextAlignment="TopCenter" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel13">
+              <DataBindings>
+                <Item1 Ref="124" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RFCRazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="125" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item43>
+            <Item44 Ref="126" Name="xrLabel12" ControlType="XRLabel" LocationFloat="504.1668, 91" SizeF="150,18.05001" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="[vwRecibosEmpleadosHeader.NoCuentaBanco]">
+              <DataBindings>
+                <Item1 Ref="127" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoCuentaBanco" />
+              </DataBindings>
+              <StylePriority Ref="128" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item44>
+            <Item45 Ref="129" Name="xrLabel87" ControlType="XRLabel" LocationFloat="372.9168, 227" SizeF="17.3299,18" Visible="false" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel87">
+              <DataBindings>
+                <Item1 Ref="130" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasPagar" />
+              </DataBindings>
+              <StylePriority Ref="131" UseFont="false" />
+            </Item45>
+            <Item46 Ref="132" Name="xrLabel41" ControlType="XRLabel" LocationFloat="637, 339.625" SizeF="100,18" TextAlignment="TopRight" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel41">
+              <DataBindings>
+                <Item1 Ref="133" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoTotalDeducciones" />
+              </DataBindings>
+              <StylePriority Ref="134" UseFont="false" UseTextAlignment="false" />
+            </Item46>
+            <Item47 Ref="135" Name="xrLabel40" ControlType="XRLabel" LocationFloat="211.17, 339.625" SizeF="100,18" TextAlignment="TopRight" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel40">
+              <DataBindings>
+                <Item1 Ref="136" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoTotalPercepciones" />
+              </DataBindings>
+              <StylePriority Ref="137" UseFont="false" UseTextAlignment="false" />
+            </Item47>
+            <Item48 Ref="138" Name="xrLabel39" ControlType="XRLabel" LocationFloat="521.17, 339.625" SizeF="110.4167,18" TextAlignment="TopRight" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="Total Deducciones: ">
+              <StylePriority Ref="139" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item48>
+            <Item49 Ref="140" Name="xrLabel26" ControlType="XRLabel" LocationFloat="96.83, 339.625" SizeF="110.4167,18" TextAlignment="TopRight" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="Total Percepciones: ">
+              <StylePriority Ref="141" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item49>
+            <Item50 Ref="142" ControlType="XRSubreport" Name="xrSubreport2" LocationFloat="435.83, 207.5833" SizeF="354.17,128.0417">
+              <ReportSource Ref="145" ControlType="winAppSAIC.Deducciones, winAppSAIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DataSource="#Ref-143" DataAdapter="#Ref-144" DataMember="vwDeduccionesEmpleadoSA" FilterString="[IdPDOHeader] = ?pIdPDOHeader" Margins="12, 100, 12, 12" Version="12.1" PageWidth="850" PageHeight="1100">
+                <Parameters>
+                  <Item1 Ref="146" Name="pIdPDOHeader" Visible="false" Type="#Ref-4" />
+                </Parameters>
+                <Bands>
+                  <Item1 Ref="147" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="14.1">
+                    <Controls>
+                      <Item1 Ref="148" Name="xrLabel3" ControlType="XRLabel" LocationFloat="211, 0" SizeF="90,14" TextAlignment="TopRight" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+                        <DataBindings>
+                          <Item1 Ref="149" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.MontoPDO" />
+                        </DataBindings>
+                        <StylePriority Ref="150" UseFont="false" UseTextAlignment="false" />
+                        <Summary Ref="151" FormatString="{0:$0.00}" />
+                      </Item1>
+                      <Item2 Ref="152" Name="xrLabel2" ControlType="XRLabel" LocationFloat="10.00001, 0" SizeF="188,14" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel2">
+                        <DataBindings>
+                          <Item1 Ref="153" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.DescConcepto" />
+                        </DataBindings>
+                        <StylePriority Ref="154" UseFont="false" />
+                      </Item2>
+                      <Item3 Ref="155" Name="xrLabel1" ControlType="XRLabel" LocationFloat="318.75, 0" SizeF="48.95833,13.95833" Visible="false" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel1">
+                        <DataBindings>
+                          <Item1 Ref="156" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.IdPDOHeader" />
+                        </DataBindings>
+                        <StylePriority Ref="157" UseFont="false" />
+                      </Item3>
+                    </Controls>
+                  </Item1>
+                  <Item2 Ref="158" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="12" />
+                  <Item3 Ref="159" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="12" />
+                </Bands>
+              </ReportSource>
+            </Item50>
+            <Item51 Ref="160" ControlType="XRSubreport" Name="xrSubreport1" LocationFloat="10.00001, 207.5833" SizeF="354.1669,128.0417">
+              <ReportSource Ref="163" ControlType="winAppSAIC.Percepciones, winAppSAIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DataSource="#Ref-161" DataAdapter="#Ref-162" DataMember="vwPercepcionesEmpleadosSA" FilterString="[IdPDOHeader] = ?pIdPDOHeader" Margins="12, 100, 28, 10" Version="12.1" PageWidth="850" PageHeight="1100">
+                <Parameters>
+                  <Item1 Ref="164" Name="pIdPDOHeader" Visible="false" Type="#Ref-4" />
+                </Parameters>
+                <Bands>
+                  <Item1 Ref="165" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="14">
+                    <Controls>
+                      <Item1 Ref="166" Name="xrLabel3" ControlType="XRLabel" LocationFloat="211, 0" SizeF="90,14" TextAlignment="TopRight" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+                        <DataBindings>
+                          <Item1 Ref="167" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.MontoPDO" />
+                        </DataBindings>
+                        <StylePriority Ref="168" UseFont="false" UseTextAlignment="false" />
+                      </Item1>
+                      <Item2 Ref="169" Name="xrLabel2" ControlType="XRLabel" LocationFloat="10, 0" SizeF="188,14" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel2">
+                        <DataBindings>
+                          <Item1 Ref="170" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.DescConcepto" />
+                        </DataBindings>
+                        <StylePriority Ref="171" UseFont="false" />
+                      </Item2>
+                      <Item3 Ref="172" Name="xrLabel1" ControlType="XRLabel" LocationFloat="318.125, 0" SizeF="56.25,14" Visible="false" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel1">
+                        <DataBindings>
+                          <Item1 Ref="173" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.IdPDOHeader" />
+                        </DataBindings>
+                        <StylePriority Ref="174" UseFont="false" />
+                      </Item3>
+                    </Controls>
+                  </Item1>
+                  <Item2 Ref="175" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="28.25" />
+                  <Item3 Ref="176" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="10.41668" />
+                </Bands>
+              </ReportSource>
+            </Item51>
+            <Item52 Ref="177" Name="xrLabel38" ControlType="XRLabel" LocationFloat="435.83, 188.375" SizeF="354.17,17.99998" TextAlignment="TopCenter" BorderWidth="2" Borders="Bottom" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="DEDUCCIONES">
+              <StylePriority Ref="178" UseBorderWidth="false" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item52>
+            <Item53 Ref="179" Name="xrLabel37" ControlType="XRLabel" LocationFloat="10, 188.375" SizeF="354.1668,17.99998" TextAlignment="TopCenter" BorderWidth="2" Borders="Bottom" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="PERCEPCIONES">
+              <StylePriority Ref="180" UseBorderWidth="false" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item53>
+            <Item54 Ref="181" Name="xrLabel36" ControlType="XRLabel" LocationFloat="363.5542, 339.625" SizeF="62.48746,23" TextAlignment="TopRight" Visible="false" Font="Arial, 8pt, style=Bold, Italic" Padding="2,2,0,0,100" Text="[vwRecibosEmpleadosHeader.IdPDOHeader]">
+              <DataBindings>
+                <Item1 Ref="182" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.IdPDOHeader" />
+              </DataBindings>
+              <StylePriority Ref="183" UseFont="false" UseTextAlignment="false" />
+            </Item54>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item4>
+    <Item5 Ref="184" Name="DetailReport1" ControlType="DetailReportBand" Level="1">
+      <Bands>
+        <Item1 Ref="185" ControlType="DetailBand" Name="Detail2" HeightF="450.7916">
+          <Controls>
+            <Item1 Ref="186" Name="xrLabel107" ControlType="XRLabel" LocationFloat="6.357829E-05, 54.37956" SizeF="95.83002,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel143">
+              <DataBindings>
+                <Item1 Ref="187" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="188" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item1>
+            <Item2 Ref="189" Name="xrLabel50" ControlType="XRLabel" LocationFloat="6.357829E-05, 36.37953" SizeF="95.83002,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="No. Empleado">
+              <StylePriority Ref="190" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item2>
+            <Item3 Ref="191" Name="xrLabel100" ControlType="XRLabel" LocationFloat="558.8748, 393.7177" SizeF="178.125,23" TextAlignment="TopCenter" Font="Arial, 8pt, style=Bold" Padding="2,2,2,0,100" Text="Firma del Trabajador">
+              <StylePriority Ref="192" UseFont="false" UseTextAlignment="false" UsePadding="false" />
+            </Item3>
+            <Item4 Ref="193" Name="xrLabel99" ControlType="XRLabel" LocationFloat="9.999974, 368.5043" SizeF="516.0416,60.21332" TextAlignment="TopJustify" Font="Arial, 7pt" Padding="2,2,0,0,100" Text="xrLabel85">
+              <DataBindings>
+                <Item1 Ref="194" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.LeyendaRecibo" />
+              </DataBindings>
+              <StylePriority Ref="195" UseFont="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="196" Name="xrLine2" ControlType="XRLine" SizeF="10.80728,148.8281" LocationFloat="399.9999, 188.422" BorderWidth="1" LineWidth="2" LineDirection="Vertical">
+              <StylePriority Ref="197" UseBorderWidth="false" />
+            </Item5>
+            <Item6 Ref="198" Name="xrLabel70" ControlType="XRLabel" LocationFloat="78.12499, 162.5791" SizeF="721.8749,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel32">
+              <DataBindings>
+                <Item1 Ref="199" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.ImporteConLetra" />
+              </DataBindings>
+              <StylePriority Ref="200" UseFont="false" UseBorders="false" />
+            </Item6>
+            <Item7 Ref="201" Name="xrLabel69" ControlType="XRLabel" LocationFloat="0, 0" SizeF="570.3299,18" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel1">
+              <DataBindings>
+                <Item1 Ref="202" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="203" UseFont="false" />
+            </Item7>
+            <Item8 Ref="204" Name="xrLabel71" ControlType="XRLabel" LocationFloat="700.33, 0" SizeF="99.67,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" BackColor="Black" ForeColor="White" Text="No. Recibo">
+              <StylePriority Ref="205" UseFont="false" UseTextAlignment="false" UseBorders="false" UseBackColor="false" UseForeColor="false" />
+            </Item8>
+            <Item9 Ref="206" Name="xrLabel73" ControlType="XRLabel" LocationFloat="0, 90.37965" SizeF="160.4167,18.04948" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel10">
+              <DataBindings>
+                <Item1 Ref="207" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.CURP" />
+              </DataBindings>
+              <StylePriority Ref="208" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item9>
+            <Item10 Ref="209" Name="xrLabel72" ControlType="XRLabel" LocationFloat="0, 72.37955" SizeF="160.4167,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="C.U.R.P.">
+              <StylePriority Ref="210" UseFont="false" UseBorders="false" />
+            </Item10>
+            <Item11 Ref="211" Name="xrLabel65" ControlType="XRLabel" LocationFloat="0, 162.5791" SizeF="78.12506,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel31">
+              <DataBindings>
+                <Item1 Ref="212" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoNetoPagar" />
+              </DataBindings>
+              <StylePriority Ref="213" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item11>
+            <Item12 Ref="214" Name="xrLabel64" ControlType="XRLabel" LocationFloat="684.7498, 108.4291" SizeF="115.2501,17.99999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Registro Patronal">
+              <StylePriority Ref="215" UseFont="false" UseBorders="false" />
+            </Item12>
+            <Item13 Ref="216" Name="xrLabel66" ControlType="XRLabel" LocationFloat="486.2467, 108.4291" SizeF="76.54492,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Dnc. Jornada">
+              <StylePriority Ref="217" UseFont="false" UseBorders="false" />
+            </Item13>
+            <Item14 Ref="218" Name="xrLabel68" ControlType="XRLabel" LocationFloat="684.7498, 126.5291" SizeF="115.2501,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel34">
+              <DataBindings>
+                <Item1 Ref="219" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RegistroPatronalIMSS" />
+              </DataBindings>
+              <StylePriority Ref="220" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item14>
+            <Item15 Ref="221" Name="xrLabel67" ControlType="XRLabel" LocationFloat="7.947286E-06, 126.5291" SizeF="63.125,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel33">
+              <DataBindings>
+                <Item1 Ref="222" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.SDI" />
+              </DataBindings>
+              <StylePriority Ref="223" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item15>
+            <Item16 Ref="224" Name="xrLabel95" ControlType="XRLabel" LocationFloat="0, 144.5291" SizeF="78.12506,18.05003" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Importe">
+              <StylePriority Ref="225" UseFont="false" UseBorders="false" />
+            </Item16>
+            <Item17 Ref="226" Name="xrLabel89" ControlType="XRLabel" LocationFloat="271.9999, 72.37917" SizeF="118.2467,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="No. Seguridad Social">
+              <StylePriority Ref="227" UseFont="false" UseBorders="false" />
+            </Item17>
+            <Item18 Ref="228" Name="xrLabel96" ControlType="XRLabel" LocationFloat="63.12498, 108.4291" SizeF="85.12161,17.99999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Días Laborados">
+              <StylePriority Ref="229" UseFont="false" UseBorders="false" />
+            </Item18>
+            <Item19 Ref="230" Name="xrLabel98" ControlType="XRLabel" LocationFloat="63.12492, 126.5291" SizeF="85.12167,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel94">
+              <DataBindings>
+                <Item1 Ref="231" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasPagar" />
+              </DataBindings>
+              <StylePriority Ref="232" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item19>
+            <Item20 Ref="233" Name="xrLabel97" ControlType="XRLabel" LocationFloat="390.2466, 126.5291" SizeF="96,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel93">
+              <DataBindings>
+                <Item1 Ref="234" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescTipoSalario" />
+              </DataBindings>
+              <StylePriority Ref="235" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item20>
+            <Item21 Ref="236" Name="xrLabel75" ControlType="XRLabel" LocationFloat="160.4167, 72.37943" SizeF="111.5,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="R.F.C.">
+              <StylePriority Ref="237" UseFont="false" UseBorders="false" />
+            </Item21>
+            <Item22 Ref="238" Name="xrLabel74" ControlType="XRLabel" LocationFloat="160.4167, 90.37952" SizeF="111.5,18.0496" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel11">
+              <DataBindings>
+                <Item1 Ref="239" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RFCEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="240" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item22>
+            <Item23 Ref="241" Name="xrLabel76" ControlType="XRLabel" LocationFloat="271.9168, 90.37914" SizeF="118.3299,18.05" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel131">
+              <DataBindings>
+                <Item1 Ref="242" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NSS" />
+              </DataBindings>
+              <StylePriority Ref="243" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item23>
+            <Item24 Ref="244" Name="xrLabel88" ControlType="XRLabel" LocationFloat="95.83002, 54.37915" SizeF="704.0031,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel9">
+              <DataBindings>
+                <Item1 Ref="245" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NombreEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="246" UseFont="false" UseBorders="false" />
+            </Item24>
+            <Item25 Ref="247" Name="xrLabel77" ControlType="XRLabel" LocationFloat="0, 108.4291" SizeF="63.12505,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="S.B.C.">
+              <StylePriority Ref="248" UseFont="false" UseBorders="false" />
+            </Item25>
+            <Item26 Ref="249" Name="xrLabel49" ControlType="XRLabel" LocationFloat="390.2466, 108.4291" SizeF="96,17.95" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Tipo de Sueldo">
+              <StylePriority Ref="250" UseFont="false" UseBorders="false" />
+            </Item26>
+            <Item27 Ref="251" Name="xrLabel51" ControlType="XRLabel" LocationFloat="95.83002, 36.3791" SizeF="704.0031,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Nombre del Trabajador">
+              <StylePriority Ref="252" UseFont="false" UseBorders="false" />
+            </Item27>
+            <Item28 Ref="253" Name="xrLabel53" ControlType="XRLabel" LocationFloat="294.2466, 108.4291" SizeF="96,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Periodicidad">
+              <StylePriority Ref="254" UseFont="false" UseBorders="false" />
+            </Item28>
+            <Item29 Ref="255" Name="xrLabel52" ControlType="XRLabel" LocationFloat="486.2466, 126.5291" SizeF="76.54504,17.99999" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel35">
+              <DataBindings>
+                <Item1 Ref="256" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasJornada" />
+              </DataBindings>
+              <StylePriority Ref="257" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item29>
+            <Item30 Ref="258" Name="xrLabel45" ControlType="XRLabel" LocationFloat="570.3299, 0" SizeF="130,18" TextAlignment="TopCenter" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel2">
+              <DataBindings>
+                <Item1 Ref="259" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RFCRazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="260" UseFont="false" UseTextAlignment="false" />
+            </Item30>
+            <Item31 Ref="261" Name="xrLabel44" ControlType="XRLabel" LocationFloat="504.1667, 90.37914" SizeF="150,18.05001" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="[vwRecibosEmpleadosHeader.NoCuentaBanco]">
+              <DataBindings>
+                <Item1 Ref="262" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoCuentaBanco" />
+              </DataBindings>
+              <StylePriority Ref="263" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item31>
+            <Item32 Ref="264" Name="xrLabel46" ControlType="XRLabel" LocationFloat="700.33, 18" SizeF="99.66998,18.3791" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel19">
+              <DataBindings>
+                <Item1 Ref="265" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoRecibo" />
+              </DataBindings>
+              <StylePriority Ref="266" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item32>
+            <Item33 Ref="267" Name="xrLabel48" ControlType="XRLabel" LocationFloat="0, 18" SizeF="700.3299,18.3791" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+              <DataBindings>
+                <Item1 Ref="268" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DomicilioRazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="269" UseFont="false" UseBorders="false" />
+            </Item33>
+            <Item34 Ref="270" Name="xrLabel47" ControlType="XRLabel" LocationFloat="148.2466, 126.5291" SizeF="146,17.99989" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel20">
+              <DataBindings>
+                <Item1 Ref="271" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.PeriodoPago" />
+              </DataBindings>
+              <StylePriority Ref="272" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item34>
+            <Item35 Ref="273" Name="xrLabel60" ControlType="XRLabel" LocationFloat="654.1668, 72.37917" SizeF="145.6664,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Banco">
+              <StylePriority Ref="274" UseFont="false" UseBorders="false" />
+            </Item35>
+            <Item36 Ref="275" Name="xrLabel59" ControlType="XRLabel" LocationFloat="390.2466, 90.37915" SizeF="113.9202,18.05" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel59">
+              <DataBindings>
+                <Item1 Ref="276" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.FechaIngreso" />
+              </DataBindings>
+              <StylePriority Ref="277" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item36>
+            <Item37 Ref="278" Name="xrLabel61" ControlType="XRLabel" LocationFloat="562.7916, 126.5291" SizeF="121.9584,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel61">
+              <DataBindings>
+                <Item1 Ref="279" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.TipoPago" />
+              </DataBindings>
+              <StylePriority Ref="280" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item37>
+            <Item38 Ref="281" Name="xrLabel63" ControlType="XRLabel" LocationFloat="78.12498, 144.5291" SizeF="721.8749,18.05003" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Importe con Letra">
+              <StylePriority Ref="282" UseFont="false" UseBorders="false" />
+            </Item38>
+            <Item39 Ref="283" Name="xrLabel62" ControlType="XRLabel" LocationFloat="294.2466, 126.5291" SizeF="96,17.99999" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel25">
+              <DataBindings>
+                <Item1 Ref="284" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescTipoPeriodoNomina" />
+              </DataBindings>
+              <StylePriority Ref="285" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item39>
+            <Item40 Ref="286" Name="xrLabel55" ControlType="XRLabel" LocationFloat="562.7916, 108.4291" SizeF="121.9581,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Forma de Pago">
+              <StylePriority Ref="287" UseFont="false" UseBorders="false" />
+            </Item40>
+            <Item41 Ref="288" Name="xrLabel54" ControlType="XRLabel" LocationFloat="148.2466, 108.4291" SizeF="146,17.99989" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Periodo de Pago">
+              <StylePriority Ref="289" UseFont="false" UseBorders="false" />
+            </Item41>
+            <Item42 Ref="290" Name="xrLabel56" ControlType="XRLabel" LocationFloat="390.2466, 72.37915" SizeF="113.9202,17.99987" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Fecha Ingreso">
+              <StylePriority Ref="291" UseFont="false" UseBorders="false" />
+            </Item42>
+            <Item43 Ref="292" Name="xrLabel58" ControlType="XRLabel" LocationFloat="654.1667, 90.37901" SizeF="145.6664,18.05011" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel58">
+              <DataBindings>
+                <Item1 Ref="293" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescBanco" />
+              </DataBindings>
+              <StylePriority Ref="294" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item43>
+            <Item44 Ref="295" Name="xrLabel57" ControlType="XRLabel" LocationFloat="504.1667, 72.37917" SizeF="150,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Cuenta">
+              <StylePriority Ref="296" UseFont="false" UseBorders="false" />
+            </Item44>
+            <Item45 Ref="297" Name="xrLabel79" ControlType="XRLabel" LocationFloat="9.999974, 190" SizeF="354.1668,17.99998" TextAlignment="TopCenter" BorderWidth="2" Borders="Bottom" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="PERCEPCIONES">
+              <StylePriority Ref="298" UseBorderWidth="false" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item45>
+            <Item46 Ref="299" Name="xrLabel78" ControlType="XRLabel" LocationFloat="363.5541, 341.25" SizeF="38.54166,23" TextAlignment="TopRight" Visible="false" Font="Arial, 8pt, style=Bold, Italic" Padding="2,2,0,0,100" Text="[vwRecibosEmpleadosHeader.IdPDOHeader]">
+              <DataBindings>
+                <Item1 Ref="300" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.IdPDOHeader" />
+              </DataBindings>
+              <StylePriority Ref="301" UseFont="false" UseTextAlignment="false" />
+            </Item46>
+            <Item47 Ref="302" Name="xrLabel84" ControlType="XRLabel" LocationFloat="637, 341.25" SizeF="100,18" TextAlignment="TopRight" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel41">
+              <DataBindings>
+                <Item1 Ref="303" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoTotalDeducciones" />
+              </DataBindings>
+              <StylePriority Ref="304" UseFont="false" UseTextAlignment="false" />
+            </Item47>
+            <Item48 Ref="305" Name="xrLabel90" ControlType="XRLabel" LocationFloat="372.9168, 182.7458" SizeF="17.32983,18" Visible="false" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel87">
+              <DataBindings>
+                <Item1 Ref="306" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasPagar" />
+              </DataBindings>
+              <StylePriority Ref="307" UseFont="false" />
+            </Item48>
+            <Item49 Ref="308" ControlType="XRSubreport" Name="xrSubreport4" LocationFloat="435.83, 209.2084" SizeF="354.17,128.0417">
+              <ReportSource Ref="311" ControlType="winAppSAIC.Deducciones, winAppSAIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DataSource="#Ref-309" DataAdapter="#Ref-310" DataMember="vwDeduccionesEmpleadoSA" FilterString="[IdPDOHeader] = ?pIdPDOHeader" Margins="12, 100, 12, 12" Version="12.1" PageWidth="850" PageHeight="1100">
+                <Parameters>
+                  <Item1 Ref="312" Name="pIdPDOHeader" Visible="false" Type="#Ref-4" />
+                </Parameters>
+                <Bands>
+                  <Item1 Ref="313" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="14.1">
+                    <Controls>
+                      <Item1 Ref="314" Name="xrLabel3" ControlType="XRLabel" LocationFloat="211, 0" SizeF="90,14" TextAlignment="TopRight" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+                        <DataBindings>
+                          <Item1 Ref="315" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.MontoPDO" />
+                        </DataBindings>
+                        <StylePriority Ref="316" UseFont="false" UseTextAlignment="false" />
+                        <Summary Ref="317" FormatString="{0:$0.00}" />
+                      </Item1>
+                      <Item2 Ref="318" Name="xrLabel2" ControlType="XRLabel" LocationFloat="10.00001, 0" SizeF="188,14" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel2">
+                        <DataBindings>
+                          <Item1 Ref="319" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.DescConcepto" />
+                        </DataBindings>
+                        <StylePriority Ref="320" UseFont="false" />
+                      </Item2>
+                      <Item3 Ref="321" Name="xrLabel1" ControlType="XRLabel" LocationFloat="318.75, 0" SizeF="48.95833,13.95833" Visible="false" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel1">
+                        <DataBindings>
+                          <Item1 Ref="322" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.IdPDOHeader" />
+                        </DataBindings>
+                        <StylePriority Ref="323" UseFont="false" />
+                      </Item3>
+                    </Controls>
+                  </Item1>
+                  <Item2 Ref="324" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="12" />
+                  <Item3 Ref="325" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="12" />
+                </Bands>
+              </ReportSource>
+            </Item49>
+            <Item50 Ref="326" ControlType="XRSubreport" Name="xrSubreport3" LocationFloat="9.999974, 209.2084" SizeF="354.1669,128.0417">
+              <ReportSource Ref="329" ControlType="winAppSAIC.Percepciones, winAppSAIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DataSource="#Ref-327" DataAdapter="#Ref-328" DataMember="vwPercepcionesEmpleadosSA" FilterString="[IdPDOHeader] = ?pIdPDOHeader" Margins="12, 100, 28, 10" Version="12.1" PageWidth="850" PageHeight="1100">
+                <Parameters>
+                  <Item1 Ref="330" Name="pIdPDOHeader" Visible="false" Type="#Ref-4" />
+                </Parameters>
+                <Bands>
+                  <Item1 Ref="331" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="14">
+                    <Controls>
+                      <Item1 Ref="332" Name="xrLabel3" ControlType="XRLabel" LocationFloat="211, 0" SizeF="90,14" TextAlignment="TopRight" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+                        <DataBindings>
+                          <Item1 Ref="333" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.MontoPDO" />
+                        </DataBindings>
+                        <StylePriority Ref="334" UseFont="false" UseTextAlignment="false" />
+                      </Item1>
+                      <Item2 Ref="335" Name="xrLabel2" ControlType="XRLabel" LocationFloat="10, 0" SizeF="188,14" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel2">
+                        <DataBindings>
+                          <Item1 Ref="336" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.DescConcepto" />
+                        </DataBindings>
+                        <StylePriority Ref="337" UseFont="false" />
+                      </Item2>
+                      <Item3 Ref="338" Name="xrLabel1" ControlType="XRLabel" LocationFloat="318.125, 0" SizeF="56.25,14" Visible="false" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel1">
+                        <DataBindings>
+                          <Item1 Ref="339" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.IdPDOHeader" />
+                        </DataBindings>
+                        <StylePriority Ref="340" UseFont="false" />
+                      </Item3>
+                    </Controls>
+                  </Item1>
+                  <Item2 Ref="341" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="28.25" />
+                  <Item3 Ref="342" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="10.41668" />
+                </Bands>
+              </ReportSource>
+            </Item50>
+            <Item51 Ref="343" Name="xrLabel80" ControlType="XRLabel" LocationFloat="435.83, 190" SizeF="354.17,17.99998" TextAlignment="TopCenter" BorderWidth="2" Borders="Bottom" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="DEDUCCIONES">
+              <StylePriority Ref="344" UseBorderWidth="false" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item51>
+            <Item52 Ref="345" Name="xrLabel83" ControlType="XRLabel" LocationFloat="211.17, 341.25" SizeF="100,18" TextAlignment="TopRight" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel40">
+              <DataBindings>
+                <Item1 Ref="346" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoTotalPercepciones" />
+              </DataBindings>
+              <StylePriority Ref="347" UseFont="false" UseTextAlignment="false" />
+            </Item52>
+            <Item53 Ref="348" Name="xrLabel82" ControlType="XRLabel" LocationFloat="521.1699, 341.25" SizeF="110.4167,18" TextAlignment="TopRight" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="Total Deducciones: ">
+              <StylePriority Ref="349" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item53>
+            <Item54 Ref="350" Name="xrLabel81" ControlType="XRLabel" LocationFloat="96.82995, 341.25" SizeF="110.4167,18" TextAlignment="TopRight" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="Total Percepciones: ">
+              <StylePriority Ref="351" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item54>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item5>
+    <Item6 Ref="352" Name="DetailReport2" ControlType="DetailReportBand" Level="2">
+      <Bands>
+        <Item1 Ref="353" ControlType="DetailBand" Name="Detail3" HeightF="456.4982">
+          <Controls>
+            <Item1 Ref="354" Name="xrLabel145" ControlType="XRLabel" LocationFloat="7.093445E-05, 53.99996" SizeF="95.83002,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel143">
+              <DataBindings>
+                <Item1 Ref="355" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="356" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item1>
+            <Item2 Ref="357" Name="xrLabel144" ControlType="XRLabel" LocationFloat="7.093445E-05, 36.00002" SizeF="95.83002,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="No. Empleado">
+              <StylePriority Ref="358" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item2>
+            <Item3 Ref="359" Name="xrLabel142" ControlType="XRLabel" LocationFloat="558.8749, 393.0416" SizeF="178.125,23" TextAlignment="TopCenter" Font="Arial, 8pt, style=Bold" Padding="2,2,2,0,100" Text="Firma del Trabajador">
+              <StylePriority Ref="360" UseFont="false" UseTextAlignment="false" UsePadding="false" />
+            </Item3>
+            <Item4 Ref="361" Name="xrLabel141" ControlType="XRLabel" LocationFloat="10.00005, 367.8282" SizeF="516.0416,60.21332" TextAlignment="TopJustify" Font="Arial, 7pt" Padding="2,2,0,0,100" Text="xrLabel85">
+              <DataBindings>
+                <Item1 Ref="362" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.LeyendaRecibo" />
+              </DataBindings>
+              <StylePriority Ref="363" UseFont="false" UseTextAlignment="false" />
+            </Item4>
+            <Item5 Ref="364" Name="xrLine3" ControlType="XRLine" SizeF="10.80728,148.8281" LocationFloat="400, 188.4219" BorderWidth="1" LineWidth="2" LineDirection="Vertical">
+              <StylePriority Ref="365" UseBorderWidth="false" />
+            </Item5>
+            <Item6 Ref="366" Name="xrLabel127" ControlType="XRLabel" LocationFloat="78.125, 162.1495" SizeF="721.8749,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel32">
+              <DataBindings>
+                <Item1 Ref="367" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.ImporteConLetra" />
+              </DataBindings>
+              <StylePriority Ref="368" UseFont="false" UseBorders="false" />
+            </Item6>
+            <Item7 Ref="369" Name="xrLabel126" ControlType="XRLabel" LocationFloat="0, 0" SizeF="574.3333,18" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel1">
+              <DataBindings>
+                <Item1 Ref="370" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="371" UseFont="false" />
+            </Item7>
+            <Item8 Ref="372" Name="xrLabel128" ControlType="XRLabel" LocationFloat="704.3333, 0" SizeF="95.66663,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" BackColor="Black" ForeColor="White" Text="No. Recibo">
+              <StylePriority Ref="373" UseFont="false" UseTextAlignment="false" UseBorders="false" UseBackColor="false" UseForeColor="false" />
+            </Item8>
+            <Item9 Ref="374" Name="xrLabel130" ControlType="XRLabel" LocationFloat="0, 90.00016" SizeF="160.4167,18.04948" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel10">
+              <DataBindings>
+                <Item1 Ref="375" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.CURP" />
+              </DataBindings>
+              <StylePriority Ref="376" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item9>
+            <Item10 Ref="377" Name="xrLabel129" ControlType="XRLabel" LocationFloat="0, 71.99995" SizeF="160.4167,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="C.U.R.P.">
+              <StylePriority Ref="378" UseFont="false" UseBorders="false" />
+            </Item10>
+            <Item11 Ref="379" Name="xrLabel122" ControlType="XRLabel" LocationFloat="0, 162.1495" SizeF="78.12506,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel31">
+              <DataBindings>
+                <Item1 Ref="380" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoNetoPagar" />
+              </DataBindings>
+              <StylePriority Ref="381" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item11>
+            <Item12 Ref="382" Name="xrLabel121" ControlType="XRLabel" LocationFloat="684.6666, 108.0496" SizeF="115.2501,18.10001" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Registro Patronal">
+              <StylePriority Ref="383" UseFont="false" UseBorders="false" />
+            </Item12>
+            <Item13 Ref="384" Name="xrLabel123" ControlType="XRLabel" LocationFloat="486.1635, 108.0496" SizeF="76.54495,18.1" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Dnc. Jornada">
+              <StylePriority Ref="385" UseFont="false" UseBorders="false" />
+            </Item13>
+            <Item14 Ref="386" Name="xrLabel125" ControlType="XRLabel" LocationFloat="684.6666, 126.1495" SizeF="115.2501,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel34">
+              <DataBindings>
+                <Item1 Ref="387" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RegistroPatronalIMSS" />
+              </DataBindings>
+              <StylePriority Ref="388" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item14>
+            <Item15 Ref="389" Name="xrLabel124" ControlType="XRLabel" LocationFloat="7.881606E-06, 126.1496" SizeF="63.125,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel33">
+              <DataBindings>
+                <Item1 Ref="390" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.SDI" />
+              </DataBindings>
+              <StylePriority Ref="391" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item15>
+            <Item16 Ref="392" Name="xrLabel137" ControlType="XRLabel" LocationFloat="0, 144.1496" SizeF="78.12506,17.99999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Importe">
+              <StylePriority Ref="393" UseFont="false" UseBorders="false" />
+            </Item16>
+            <Item17 Ref="394" Name="xrLabel136" ControlType="XRLabel" LocationFloat="271.9167, 71.99983" SizeF="118.2467,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="No. Seguridad Social">
+              <StylePriority Ref="395" UseFont="false" UseBorders="false" />
+            </Item17>
+            <Item18 Ref="396" Name="xrLabel138" ControlType="XRLabel" LocationFloat="63.12498, 108.0496" SizeF="85.12161,18.10001" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Días Laborados">
+              <StylePriority Ref="397" UseFont="false" UseBorders="false" />
+            </Item18>
+            <Item19 Ref="398" Name="xrLabel140" ControlType="XRLabel" LocationFloat="63.12492, 126.1496" SizeF="85.12167,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel94">
+              <DataBindings>
+                <Item1 Ref="399" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasPagar" />
+              </DataBindings>
+              <StylePriority Ref="400" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item19>
+            <Item20 Ref="401" Name="xrLabel139" ControlType="XRLabel" LocationFloat="390.1634, 126.1496" SizeF="96,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel93">
+              <DataBindings>
+                <Item1 Ref="402" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescTipoSalario" />
+              </DataBindings>
+              <StylePriority Ref="403" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item20>
+            <Item21 Ref="404" Name="xrLabel132" ControlType="XRLabel" LocationFloat="160.4167, 71.99983" SizeF="111.5,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="R.F.C.">
+              <StylePriority Ref="405" UseFont="false" UseBorders="false" />
+            </Item21>
+            <Item22 Ref="406" Name="xrLabel131" ControlType="XRLabel" LocationFloat="160.4167, 89.99993" SizeF="111.4169,18.0496" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel11">
+              <DataBindings>
+                <Item1 Ref="407" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RFCEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="408" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item22>
+            <Item23 Ref="409" Name="xrLabel133" ControlType="XRLabel" LocationFloat="271.8336, 89.99991" SizeF="118.3299,18.05" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel131">
+              <DataBindings>
+                <Item1 Ref="410" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NSS" />
+              </DataBindings>
+              <StylePriority Ref="411" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item23>
+            <Item24 Ref="412" Name="xrLabel135" ControlType="XRLabel" LocationFloat="95.83002, 54.00016" SizeF="704.003,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel9">
+              <DataBindings>
+                <Item1 Ref="413" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NombreEmpleado" />
+              </DataBindings>
+              <StylePriority Ref="414" UseFont="false" UseBorders="false" />
+            </Item24>
+            <Item25 Ref="415" Name="xrLabel134" ControlType="XRLabel" LocationFloat="0, 108.0496" SizeF="63.12505,18.09999" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="S.B.C.">
+              <StylePriority Ref="416" UseFont="false" UseBorders="false" />
+            </Item25>
+            <Item26 Ref="417" Name="xrLabel106" ControlType="XRLabel" LocationFloat="390.1634, 108.0496" SizeF="96,18.09998" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Tipo de Sueldo">
+              <StylePriority Ref="418" UseFont="false" UseBorders="false" />
+            </Item26>
+            <Item27 Ref="419" Name="xrLabel108" ControlType="XRLabel" LocationFloat="95.83002, 36.00008" SizeF="704.003,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Nombre del Trabajador">
+              <StylePriority Ref="420" UseFont="false" UseBorders="false" />
+            </Item27>
+            <Item28 Ref="421" Name="xrLabel110" ControlType="XRLabel" LocationFloat="294.2467, 108.0496" SizeF="95.91663,18.09995" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Periodicidad">
+              <StylePriority Ref="422" UseFont="false" UseBorders="false" />
+            </Item28>
+            <Item29 Ref="423" Name="xrLabel109" ControlType="XRLabel" LocationFloat="486.1634, 126.1496" SizeF="76.54504,17.99999" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel35">
+              <DataBindings>
+                <Item1 Ref="424" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasJornada" />
+              </DataBindings>
+              <StylePriority Ref="425" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item29>
+            <Item30 Ref="426" Name="xrLabel102" ControlType="XRLabel" LocationFloat="574.3333, 1.4377E-05" SizeF="130,18" TextAlignment="TopCenter" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel2">
+              <DataBindings>
+                <Item1 Ref="427" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.RFCRazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="428" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item30>
+            <Item31 Ref="429" Name="xrLabel101" ControlType="XRLabel" LocationFloat="504.1668, 89.99966" SizeF="150,18.05001" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="[vwRecibosEmpleadosHeader.NoCuentaBanco]">
+              <DataBindings>
+                <Item1 Ref="430" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoCuentaBanco" />
+              </DataBindings>
+              <StylePriority Ref="431" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item31>
+            <Item32 Ref="432" Name="xrLabel103" ControlType="XRLabel" LocationFloat="704.3333, 18.00009" SizeF="95.66663,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel19">
+              <DataBindings>
+                <Item1 Ref="433" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.NoRecibo" />
+              </DataBindings>
+              <StylePriority Ref="434" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item32>
+            <Item33 Ref="435" Name="xrLabel105" ControlType="XRLabel" LocationFloat="0, 18.00001" SizeF="704.3334,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+              <DataBindings>
+                <Item1 Ref="436" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DomicilioRazonSocial" />
+              </DataBindings>
+              <StylePriority Ref="437" UseFont="false" UseBorders="false" />
+            </Item33>
+            <Item34 Ref="438" Name="xrLabel104" ControlType="XRLabel" LocationFloat="148.2466, 126.1496" SizeF="146,17.99989" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel20">
+              <DataBindings>
+                <Item1 Ref="439" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.PeriodoPago" />
+              </DataBindings>
+              <StylePriority Ref="440" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item34>
+            <Item35 Ref="441" Name="xrLabel117" ControlType="XRLabel" LocationFloat="654.1668, 72.00017" SizeF="145.6664,17.99951" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Banco">
+              <StylePriority Ref="442" UseFont="false" UseBorders="false" />
+            </Item35>
+            <Item36 Ref="443" Name="xrLabel116" ControlType="XRLabel" LocationFloat="390.1634, 89.99993" SizeF="114.0034,18.05" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel116">
+              <DataBindings>
+                <Item1 Ref="444" FormatString="{0:dd/MM/yyyy}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.FechaIngreso" />
+              </DataBindings>
+              <StylePriority Ref="445" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item36>
+            <Item37 Ref="446" Name="xrLabel118" ControlType="XRLabel" LocationFloat="562.7084, 126.1495" SizeF="121.7916,18" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel118">
+              <DataBindings>
+                <Item1 Ref="447" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.TipoPago" />
+              </DataBindings>
+              <StylePriority Ref="448" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item37>
+            <Item38 Ref="449" Name="xrLabel120" ControlType="XRLabel" LocationFloat="78.125, 144.1496" SizeF="721.8749,17.99998" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Importe con Letra">
+              <StylePriority Ref="450" UseFont="false" UseBorders="false" />
+            </Item38>
+            <Item39 Ref="451" Name="xrLabel119" ControlType="XRLabel" LocationFloat="294.2467, 126.1496" SizeF="95.91663,17.99998" TextAlignment="TopCenter" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel25">
+              <DataBindings>
+                <Item1 Ref="452" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescTipoPeriodoNomina" />
+              </DataBindings>
+              <StylePriority Ref="453" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item39>
+            <Item40 Ref="454" Name="xrLabel112" ControlType="XRLabel" LocationFloat="562.7084, 108.0496" SizeF="121.9581,18.1" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Forma de Pago">
+              <StylePriority Ref="455" UseFont="false" UseBorders="false" />
+            </Item40>
+            <Item41 Ref="456" Name="xrLabel111" ControlType="XRLabel" LocationFloat="148.2466, 108.0496" SizeF="146,18.10001" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Periodo de Pago">
+              <StylePriority Ref="457" UseFont="false" UseBorders="false" />
+            </Item41>
+            <Item42 Ref="458" Name="xrLabel113" ControlType="XRLabel" LocationFloat="390.1634, 71.99986" SizeF="114.0034,17.99987" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Fecha Ingreso">
+              <StylePriority Ref="459" UseFont="false" UseBorders="false" />
+            </Item42>
+            <Item43 Ref="460" Name="xrLabel115" ControlType="XRLabel" LocationFloat="654.1667, 89.99999" SizeF="145.6664,18.04964" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel115">
+              <DataBindings>
+                <Item1 Ref="461" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DescBanco" />
+              </DataBindings>
+              <StylePriority Ref="462" UseFont="false" UseBorders="false" />
+            </Item43>
+            <Item44 Ref="463" Name="xrLabel114" ControlType="XRLabel" LocationFloat="504.1668, 71.9997" SizeF="150,18" Borders="All" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="Cuenta">
+              <StylePriority Ref="464" UseFont="false" UseBorders="false" />
+            </Item44>
+            <Item45 Ref="465" Name="xrLabel169" ControlType="XRLabel" LocationFloat="372.9167, 228.625" SizeF="17.32996,18" Visible="false" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel87">
+              <DataBindings>
+                <Item1 Ref="466" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.DiasPagar" />
+              </DataBindings>
+              <StylePriority Ref="467" UseFont="false" />
+            </Item45>
+            <Item46 Ref="468" Name="xrLabel170" ControlType="XRLabel" LocationFloat="637, 341.25" SizeF="100,18" TextAlignment="TopRight" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel41">
+              <DataBindings>
+                <Item1 Ref="469" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoTotalDeducciones" />
+              </DataBindings>
+              <StylePriority Ref="470" UseFont="false" UseTextAlignment="false" />
+            </Item46>
+            <Item47 Ref="471" Name="xrLabel165" ControlType="XRLabel" LocationFloat="211.17, 341.25" SizeF="100,18" TextAlignment="TopRight" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="xrLabel40">
+              <DataBindings>
+                <Item1 Ref="472" FormatString="{0:c2}" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.MontoTotalPercepciones" />
+              </DataBindings>
+              <StylePriority Ref="473" UseFont="false" UseTextAlignment="false" />
+            </Item47>
+            <Item48 Ref="474" Name="xrLabel164" ControlType="XRLabel" LocationFloat="521.1699, 341.25" SizeF="110.4167,18" TextAlignment="TopRight" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="Total Deducciones: ">
+              <StylePriority Ref="475" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item48>
+            <Item49 Ref="476" Name="xrLabel163" ControlType="XRLabel" LocationFloat="96.82996, 341.25" SizeF="110.4167,18" TextAlignment="TopRight" Borders="None" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="Total Percepciones: ">
+              <StylePriority Ref="477" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item49>
+            <Item50 Ref="478" ControlType="XRSubreport" Name="xrSubreport6" LocationFloat="435.83, 209.2083" SizeF="354.17,128.0417">
+              <ReportSource Ref="481" ControlType="winAppSAIC.Deducciones, winAppSAIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DataSource="#Ref-479" DataAdapter="#Ref-480" DataMember="vwDeduccionesEmpleadoSA" FilterString="[IdPDOHeader] = ?pIdPDOHeader" Margins="12, 100, 12, 12" Version="12.1" PageWidth="850" PageHeight="1100">
+                <Parameters>
+                  <Item1 Ref="482" Name="pIdPDOHeader" Visible="false" Type="#Ref-4" />
+                </Parameters>
+                <Bands>
+                  <Item1 Ref="483" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="14.1">
+                    <Controls>
+                      <Item1 Ref="484" Name="xrLabel3" ControlType="XRLabel" LocationFloat="211, 0" SizeF="90,14" TextAlignment="TopRight" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+                        <DataBindings>
+                          <Item1 Ref="485" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.MontoPDO" />
+                        </DataBindings>
+                        <StylePriority Ref="486" UseFont="false" UseTextAlignment="false" />
+                        <Summary Ref="487" FormatString="{0:$0.00}" />
+                      </Item1>
+                      <Item2 Ref="488" Name="xrLabel2" ControlType="XRLabel" LocationFloat="10.00001, 0" SizeF="188,14" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel2">
+                        <DataBindings>
+                          <Item1 Ref="489" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.DescConcepto" />
+                        </DataBindings>
+                        <StylePriority Ref="490" UseFont="false" />
+                      </Item2>
+                      <Item3 Ref="491" Name="xrLabel1" ControlType="XRLabel" LocationFloat="318.75, 0" SizeF="48.95833,13.95833" Visible="false" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel1">
+                        <DataBindings>
+                          <Item1 Ref="492" PropertyName="Text" DataMember="vwDeduccionesEmpleadoSA.IdPDOHeader" />
+                        </DataBindings>
+                        <StylePriority Ref="493" UseFont="false" />
+                      </Item3>
+                    </Controls>
+                  </Item1>
+                  <Item2 Ref="494" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="12" />
+                  <Item3 Ref="495" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="12" />
+                </Bands>
+              </ReportSource>
+            </Item50>
+            <Item51 Ref="496" ControlType="XRSubreport" Name="xrSubreport5" LocationFloat="9.999974, 209.2083" SizeF="354.1669,128.0417">
+              <ReportSource Ref="499" ControlType="winAppSAIC.Percepciones, winAppSAIC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DataSource="#Ref-497" DataAdapter="#Ref-498" DataMember="vwPercepcionesEmpleadosSA" FilterString="[IdPDOHeader] = ?pIdPDOHeader" Margins="12, 100, 28, 10" Version="12.1" PageWidth="850" PageHeight="1100">
+                <Parameters>
+                  <Item1 Ref="500" Name="pIdPDOHeader" Visible="false" Type="#Ref-4" />
+                </Parameters>
+                <Bands>
+                  <Item1 Ref="501" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="14">
+                    <Controls>
+                      <Item1 Ref="502" Name="xrLabel3" ControlType="XRLabel" LocationFloat="211, 0" SizeF="90,14" TextAlignment="TopRight" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel3">
+                        <DataBindings>
+                          <Item1 Ref="503" FormatString="{0:$0.00}" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.MontoPDO" />
+                        </DataBindings>
+                        <StylePriority Ref="504" UseFont="false" UseTextAlignment="false" />
+                      </Item1>
+                      <Item2 Ref="505" Name="xrLabel2" ControlType="XRLabel" LocationFloat="10, 0" SizeF="188,14" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel2">
+                        <DataBindings>
+                          <Item1 Ref="506" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.DescConcepto" />
+                        </DataBindings>
+                        <StylePriority Ref="507" UseFont="false" />
+                      </Item2>
+                      <Item3 Ref="508" Name="xrLabel1" ControlType="XRLabel" LocationFloat="318.125, 0" SizeF="56.25,14" Visible="false" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel1">
+                        <DataBindings>
+                          <Item1 Ref="509" PropertyName="Text" DataMember="vwPercepcionesEmpleadosSA.IdPDOHeader" />
+                        </DataBindings>
+                        <StylePriority Ref="510" UseFont="false" />
+                      </Item3>
+                    </Controls>
+                  </Item1>
+                  <Item2 Ref="511" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="28.25" />
+                  <Item3 Ref="512" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="10.41668" />
+                </Bands>
+              </ReportSource>
+            </Item51>
+            <Item52 Ref="513" Name="xrLabel166" ControlType="XRLabel" LocationFloat="435.83, 190.0001" SizeF="354.17,17.99998" TextAlignment="TopCenter" BorderWidth="2" Borders="Bottom" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="DEDUCCIONES">
+              <StylePriority Ref="514" UseBorderWidth="false" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item52>
+            <Item53 Ref="515" Name="xrLabel181" ControlType="XRLabel" LocationFloat="9.999974, 190.0001" SizeF="354.1668,17.99998" TextAlignment="TopCenter" BorderWidth="2" Borders="Bottom" Font="Arial, 8pt, style=Bold" Padding="2,2,0,0,100" Text="PERCEPCIONES">
+              <StylePriority Ref="516" UseBorderWidth="false" UseFont="false" UseTextAlignment="false" UseBorders="false" />
+            </Item53>
+            <Item54 Ref="517" Name="xrLabel180" ControlType="XRLabel" LocationFloat="372.2656, 341.2501" SizeF="38.54166,23.00003" TextAlignment="TopRight" Visible="false" Font="Arial, 8pt, style=Bold, Italic" Padding="2,2,0,0,100" Text="[vwRecibosEmpleadosHeader.IdPDOHeader]">
+              <DataBindings>
+                <Item1 Ref="518" PropertyName="Text" DataMember="vwRecibosEmpleadosHeader.IdPDOHeader" />
+              </DataBindings>
+              <StylePriority Ref="519" UseFont="false" UseTextAlignment="false" />
+            </Item54>
+          </Controls>
+        </Item1>
+      </Bands>
+    </Item6>
+  </Bands>
+  <ObjectStorage>
+    <Item1 Ref="4" Content="System.Int32" Type="System.Type" />
+    <Item2 Ref="8" Content="System.Int16" Type="System.Type" />
+    <Item3 Ref="143" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSet" />
+    <Item4 Ref="144" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSetTableAdapters.vwDeduccionesEmpleadoSATableAdapter" />
+    <Item5 Ref="161" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSet" />
+    <Item6 Ref="162" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSetTableAdapters.vwPercepcionesEmpleadosSATableAdapter" />
+    <Item7 Ref="309" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSet" />
+    <Item8 Ref="310" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSetTableAdapters.vwDeduccionesEmpleadoSATableAdapter" />
+    <Item9 Ref="327" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSet" />
+    <Item10 Ref="328" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSetTableAdapters.vwPercepcionesEmpleadosSATableAdapter" />
+    <Item11 Ref="479" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSet" />
+    <Item12 Ref="480" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSetTableAdapters.vwDeduccionesEmpleadoSATableAdapter" />
+    <Item13 Ref="497" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSet" />
+    <Item14 Ref="498" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSetTableAdapters.vwPercepcionesEmpleadosSATableAdapter" />
+    <Item15 Ref="0" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSet" />
+    <Item16 Ref="1" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPODataSetTableAdapters.vwRecibosEmpleadosHeaderTableAdapter" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

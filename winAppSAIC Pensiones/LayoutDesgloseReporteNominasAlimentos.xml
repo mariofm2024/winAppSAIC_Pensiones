@@ -1,0 +1,546 @@
+﻿<XtraSerializer version="1.0" application="View">
+  <property name="#LayoutVersion" />
+  <property name="BestFitMaxRowCount">-1</property>
+  <property name="PreviewLineCount">-1</property>
+  <property name="HorzScrollStep">3</property>
+  <property name="FocusRectStyle">CellFocus</property>
+  <property name="ScrollStyle">LiveVertScroll, LiveHorzScroll</property>
+  <property name="PreviewIndent">-1</property>
+  <property name="PreviewFieldName" />
+  <property name="VertScrollTipFieldName" />
+  <property name="ChildGridLevelName" />
+  <property name="LevelIndent">-1</property>
+  <property name="NewItemRowText" />
+  <property name="GroupPanelText" />
+  <property name="SynchronizeClones">true</property>
+  <property name="BorderStyle">Default</property>
+  <property name="ViewCaption" />
+  <property name="DetailHeight">350</property>
+  <property name="Name">gridView1</property>
+  <property name="DetailTabHeaderLocation">Top</property>
+  <property name="ActiveFilterEnabled">true</property>
+  <property name="Columns" iskey="true" value="22">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">250</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colNombreEmpleado</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">NombreEmpleado</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">No. de Asociados: {0:N0}</property>
+          <property name="SummaryType">Count</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">NombreEmpleado</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">160</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">RFC</property>
+      <property name="Name">colRFCEmpleado</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">RFCEmpleado</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="VisibleIndex">2</property>
+      <property name="Visible">true</property>
+      <property name="Width">160</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colCURP</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">CURP</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="VisibleIndex">3</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colSueldoBruto</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">SueldoBruto</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">SueldoBruto</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="VisibleIndex">4</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="ColumnEditName" />
+      <property name="Name">colVales</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">Vales</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Vales</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colPréstamoFonacot</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+      </property>
+      <property name="FieldName">Préstamo Fonacot</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Préstamo Fonacot</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="VisibleIndex">6</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colInfonavit</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+      </property>
+      <property name="FieldName">Infonavit</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Infonavit</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">110</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colPensiónAlimenticia</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+      </property>
+      <property name="FieldName">Pensión Alimenticia</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Pensión Alimenticia</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="VisibleIndex">8</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colPréstamo</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">Préstamo</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Préstamo</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colAnticipoNómina</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">Anticipo Nómina</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Anticipo Nómina</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="VisibleIndex">10</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colTotalAlimentosBruto</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">TotalAlimentosBruto</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalAlimentosBruto</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="VisibleIndex">11</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colPréstamoAgna1</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">Préstamo Agna 1</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Préstamo Agna 1</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="VisibleIndex">12</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colPréstamoAgna2</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">Préstamo Agna 2</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">Préstamo Agna 2</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="VisibleIndex">13</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colTotalAlimentosNeto</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">TotalAlimentosNeto</property>
+      <property name="Summary" iskey="true" value="1">
+        <property name="Item1" isnull="true" iskey="true">
+          <property name="DisplayFormat">{0:C2}</property>
+          <property name="SummaryType">Sum</property>
+          <property name="Tag" isnull="true" />
+          <property name="FieldName">TotalAlimentosNeto</property>
+        </property>
+      </property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="VisibleIndex">14</property>
+      <property name="Visible">true</property>
+      <property name="DisplayFormat" isnull="true" iskey="true">
+        <property name="FormatString">C2</property>
+        <property name="FormatType">Numeric</property>
+      </property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colTipoCambio</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">TipoCambio</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="VisibleIndex">15</property>
+      <property name="Visible">true</property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Moneda</property>
+      <property name="Name">colIdMoneda</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">IdMoneda</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="VisibleIndex">16</property>
+      <property name="Visible">true</property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colTipoPago</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">TipoPago</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="VisibleIndex">17</property>
+      <property name="Visible">true</property>
+      <property name="Width">100</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colBancoDestino</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowShowHide">false</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">BancoDestino</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="VisibleIndex">18</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colNoRecibo</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+        <property name="AllowGroup">False</property>
+        <property name="AllowMove">false</property>
+      </property>
+      <property name="FieldName">NoRecibo</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="VisibleIndex">19</property>
+      <property name="Visible">true</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Tipo Nómina</property>
+      <property name="Name">colDescTipoPeriodoNomina</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">DescTipoPeriodoNomina</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="VisibleIndex">20</property>
+      <property name="Visible">true</property>
+      <property name="Width">160</property>
+      <property name="ColumnEditName" />
+      <property name="Name">colPeriodoPago</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">PeriodoPago</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="VisibleIndex">21</property>
+      <property name="Visible">true</property>
+      <property name="Width">250</property>
+      <property name="ColumnEditName" />
+      <property name="Caption">Sociedad Civil</property>
+      <property name="Name">colRazonSocialTenedora</property>
+      <property name="OptionsColumn" isnull="true" iskey="true">
+        <property name="ReadOnly">true</property>
+        <property name="FixedWidth">true</property>
+        <property name="AllowEdit">false</property>
+      </property>
+      <property name="FieldName">RazonSocialTenedora</property>
+    </property>
+  </property>
+  <property name="ShowButtonMode">ShowForFocusedCell</property>
+  <property name="ViewCaptionHeight">-1</property>
+  <property name="Appearance" isnull="true" iskey="true">
+    <property name="FooterPanel" iskey="true" value="FooterPanel">
+      <property name="Font">Tahoma, 8.25pt, style=Bold</property>
+      <property name="Options" isnull="true" iskey="true">
+        <property name="UseFont">true</property>
+      </property>
+    </property>
+  </property>
+  <property name="IndicatorWidth">-1</property>
+  <property name="FixedLineWidth">2</property>
+  <property name="OptionsPrint" isnull="true" iskey="true">
+    <property name="AutoWidth">false</property>
+  </property>
+  <property name="OptionsBehavior" isnull="true" iskey="true">
+    <property name="AllowAddRows">False</property>
+    <property name="AllowDeleteRows">False</property>
+  </property>
+  <property name="OptionsView" isnull="true" iskey="true">
+    <property name="ShowFooter">true</property>
+    <property name="ColumnAutoWidth">false</property>
+  </property>
+  <property name="GroupRowHeight">-1</property>
+  <property name="VertScrollVisibility">Auto</property>
+  <property name="GroupFormat">{0}: [#image]{1} {2}</property>
+  <property name="ColumnPanelRowHeight">-1</property>
+  <property name="HorzScrollVisibility">Auto</property>
+  <property name="FooterPanelHeight">-1</property>
+  <property name="RowSeparatorHeight">0</property>
+  <property name="RowHeight">-1</property>
+  <property name="ActiveFilterString" />
+  <property name="FormatConditions" iskey="true" value="0" />
+  <property name="SortInfo">~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF1EZXZFeHByZXNzLlh0cmFHcmlkLnYxMy4xLCBWZXJzaW9uPTEzLjEuNi4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI4OGQxNzU0ZDcwMGU0OWEFAQAAADhEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvQ29sbGVjdGlvbgQAAAAKZ3JvdXBDb3VudAVjbG9uZQ9jbG9uZUdyb3VwQ291bnQTQ29sbGVjdGlvbkJhc2UrbGlzdAADAAMIsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjEzLjEsIFZlcnNpb249MTMuMS42LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dCBxTeXN0ZW0uQ29sbGVjdGlvbnMuQXJyYXlMaXN0AgAAAAAAAAAJAwAAAAAAAAAJBAAAAAQDAAAAsgFTeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW0RldkV4cHJlc3MuWHRyYUdyaWQuQ29sdW1ucy5HcmlkQ29sdW1uU29ydEluZm8sIERldkV4cHJlc3MuWHRyYUdyaWQudjEzLjEsIFZlcnNpb249MTMuMS42LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAwRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb1tdAgAAAAgICQUAAAAAAAAAAAAAAAQEAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQYAAAABAAAABAAAAAcFAAAAAAEAAAAAAAAABC5EZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvAgAAABAGAAAABAAAAAkHAAAADQMMCAAAABlEZXZFeHByZXNzLlh0cmFHcmlkLnYxMy4xBQcAAAAuRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbwIAAAAJU29ydE9yZGVyCkNvbHVtbk5hbWUAAQgIAAAAAQAAAAYJAAAAC2NvbE5vUmVjaWJvCw==</property>
+  <property name="GroupSummary" iskey="true" value="0" />
+  <property name="GroupSummarySortInfoState" />
+  <property name="FindFilterText" />
+  <property name="FindPanelVisible">false</property>
+</XtraSerializer>

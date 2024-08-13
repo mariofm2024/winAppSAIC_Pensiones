@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbSAICBPOModelStoreContainer" CdmEntityContainer="dbSAICBPOEntities">
+    <EntitySetMapping Name="AutorizacionNomina">
+      <EntityTypeMapping TypeName="dbSAICBPOModel.AutorizacionNomina">
+        <MappingFragment StoreEntitySet="AutorizacionNomina">
+          <ScalarProperty Name="IdAutorizacionNomina" ColumnName="IdAutorizacionNomina" />
+          <ScalarProperty Name="IdPDOHeaderOrigen" ColumnName="IdPDOHeaderOrigen" />
+          <ScalarProperty Name="IdTenedora" ColumnName="IdTenedora" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="AnoPeriodoInicio" ColumnName="AnoPeriodoInicio" />
+          <ScalarProperty Name="MesPeriodoInicio" ColumnName="MesPeriodoInicio" />
+          <ScalarProperty Name="DiaPeriodoInicio" ColumnName="DiaPeriodoInicio" />
+          <ScalarProperty Name="SemanaPeriodoInicio" ColumnName="SemanaPeriodoInicio" />
+          <ScalarProperty Name="AnoPeriodoFin" ColumnName="AnoPeriodoFin" />
+          <ScalarProperty Name="MesPeriodoFin" ColumnName="MesPeriodoFin" />
+          <ScalarProperty Name="DiaPeriodoFin" ColumnName="DiaPeriodoFin" />
+          <ScalarProperty Name="SemanaPeriodoFin" ColumnName="SemanaPeriodoFin" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="IdTipoPeriodoNomina" ColumnName="IdTipoPeriodoNomina" />
+          <ScalarProperty Name="IdTipoSalario" ColumnName="IdTipoSalario" />
+          <ScalarProperty Name="IdTipoMovimientoOrigen" ColumnName="IdTipoMovimientoOrigen" />
+          <ScalarProperty Name="IdTipoMovimientoReal" ColumnName="IdTipoMovimientoReal" />
+          <ScalarProperty Name="IdOperador" ColumnName="IdOperador" />
+          <ScalarProperty Name="EstatusBorrado" ColumnName="EstatusBorrado" />
+          <ScalarProperty Name="EstatusNominaCerrada" ColumnName="EstatusNominaCerrada" />
+          <ScalarProperty Name="EstatusNominaPagada" ColumnName="EstatusNominaPagada" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="UsuarioCreacion" ColumnName="UsuarioCreacion" />
+          <ScalarProperty Name="UsuarioModificacion" ColumnName="UsuarioModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDODetailAhorro">
+      <EntityTypeMapping TypeName="dbSAICBPOModel.PDODetailAhorro">
+        <MappingFragment StoreEntitySet="PDODetailAhorro">
+          <ScalarProperty Name="IdPDODetailAhorro" ColumnName="IdPDODetailAhorro" />
+          <ScalarProperty Name="IdPDOHeader" ColumnName="IdPDOHeader" />
+          <ScalarProperty Name="IdConcepto" ColumnName="IdConcepto" />
+          <ScalarProperty Name="MontoPDO" ColumnName="MontoPDO" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="UsuarioCreacion" ColumnName="UsuarioCreacion" />
+          <ScalarProperty Name="UsuarioModificacion" ColumnName="UsuarioModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDODetailSA">
+      <EntityTypeMapping TypeName="dbSAICBPOModel.PDODetailSA">
+        <MappingFragment StoreEntitySet="PDODetailSA">
+          <ScalarProperty Name="IdPDODetail" ColumnName="IdPDODetail" />
+          <ScalarProperty Name="IdPDOHeader" ColumnName="IdPDOHeader" />
+          <ScalarProperty Name="IdConcepto" ColumnName="IdConcepto" />
+          <ScalarProperty Name="MontoPDO" ColumnName="MontoPDO" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="UsuarioCreacion" ColumnName="UsuarioCreacion" />
+          <ScalarProperty Name="UsuarioModificacion" ColumnName="UsuarioModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDODetailSC">
+      <EntityTypeMapping TypeName="dbSAICBPOModel.PDODetailSC">
+        <MappingFragment StoreEntitySet="PDODetailSC">
+          <ScalarProperty Name="IdPDODetail" ColumnName="IdPDODetail" />
+          <ScalarProperty Name="IdPDOHeader" ColumnName="IdPDOHeader" />
+          <ScalarProperty Name="IdConcepto" ColumnName="IdConcepto" />
+          <ScalarProperty Name="MontoPDO" ColumnName="MontoPDO" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="UsuarioCreacion" ColumnName="UsuarioCreacion" />
+          <ScalarProperty Name="UsuarioModificacion" ColumnName="UsuarioModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDOHeaderAhorro">
+      <EntityTypeMapping TypeName="dbSAICBPOModel.PDOHeaderAhorro">
+        <MappingFragment StoreEntitySet="PDOHeaderAhorro">
+          <ScalarProperty Name="IdPDOHeader" ColumnName="IdPDOHeader" />
+          <ScalarProperty Name="IdTenedora" ColumnName="IdTenedora" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="AnoPeriodoInicio" ColumnName="AnoPeriodoInicio" />
+          <ScalarProperty Name="MesPeriodoInicio" ColumnName="MesPeriodoInicio" />
+          <ScalarProperty Name="DiaPeriodoInicio" ColumnName="DiaPeriodoInicio" />
+          <ScalarProperty Name="SemanaPeriodoInicio" ColumnName="SemanaPeriodoInicio" />
+          <ScalarProperty Name="AnoPeriodoFin" ColumnName="AnoPeriodoFin" />
+          <ScalarProperty Name="MesPeriodoFin" ColumnName="MesPeriodoFin" />
+          <ScalarProperty Name="DiaPeriodoFin" ColumnName="DiaPeriodoFin" />
+          <ScalarProperty Name="SemanaPeriodoFin" ColumnName="SemanaPeriodoFin" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="IdTipoPeriodoNomina" ColumnName="IdTipoPeriodoNomina" />
+          <ScalarProperty Name="IdTipoSalario" ColumnName="IdTipoSalario" />
+          <ScalarProperty Name="LeyendaPeriodo" ColumnName="LeyendaPeriodo" />
+          <ScalarProperty Name="IdTipoMovimiento" ColumnName="IdTipoMovimiento" />
+          <ScalarProperty Name="NoRecibo" ColumnName="NoRecibo" />
+          <ScalarProperty Name="NoEmpleado" ColumnName="NoEmpleado" />
+          <ScalarProperty Name="NombreEmpleado" ColumnName="NombreEmpleado" />
+          <ScalarProperty Name="NSS" ColumnName="NSS" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="CURP" ColumnName="CURP" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="IdOperador" ColumnName="IdOperador" />
+          <ScalarProperty Name="EstatusBorrado" ColumnName="EstatusBorrado" />
+          <ScalarProperty Name="EstatusNominaCerrada" ColumnName="EstatusNominaCerrada" />
+          <ScalarProperty Name="EstatusNominaPagada" ColumnName="EstatusNominaPagada" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="UsuarioCreacion" ColumnName="UsuarioCreacion" />
+          <ScalarProperty Name="UsuarioModificacion" ColumnName="UsuarioModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDOHeaderSA">
+      <EntityTypeMapping TypeName="dbSAICBPOModel.PDOHeaderSA">
+        <MappingFragment StoreEntitySet="PDOHeaderSA">
+          <ScalarProperty Name="IdPDOHeader" ColumnName="IdPDOHeader" />
+          <ScalarProperty Name="IdTenedora" ColumnName="IdTenedora" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="AnoPeriodoInicio" ColumnName="AnoPeriodoInicio" />
+          <ScalarProperty Name="MesPeriodoInicio" ColumnName="MesPeriodoInicio" />
+          <ScalarProperty Name="DiaPeriodoInicio" ColumnName="DiaPeriodoInicio" />
+          <ScalarProperty Name="SemanaPeriodoInicio" ColumnName="SemanaPeriodoInicio" />
+          <ScalarProperty Name="AnoPeriodoFin" ColumnName="AnoPeriodoFin" />
+          <ScalarProperty Name="MesPeriodoFin" ColumnName="MesPeriodoFin" />
+          <ScalarProperty Name="DiaPeriodoFin" ColumnName="DiaPeriodoFin" />
+          <ScalarProperty Name="SemanaPeriodoFin" ColumnName="SemanaPeriodoFin" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="IdTipoPeriodoNomina" ColumnName="IdTipoPeriodoNomina" />
+          <ScalarProperty Name="IdTipoSalario" ColumnName="IdTipoSalario" />
+          <ScalarProperty Name="LeyendaPeriodo" ColumnName="LeyendaPeriodo" />
+          <ScalarProperty Name="IdTipoMovimiento" ColumnName="IdTipoMovimiento" />
+          <ScalarProperty Name="NoRecibo" ColumnName="NoRecibo" />
+          <ScalarProperty Name="NoEmpleado" ColumnName="NoEmpleado" />
+          <ScalarProperty Name="NombreEmpleado" ColumnName="NombreEmpleado" />
+          <ScalarProperty Name="NSS" ColumnName="NSS" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="CURP" ColumnName="CURP" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+          <ScalarProperty Name="TipoPago" ColumnName="TipoPago" />
+          <ScalarProperty Name="NoCuentaBanco" ColumnName="NoCuentaBanco" />
+          <ScalarProperty Name="NoSucursalBanco" ColumnName="NoSucursalBanco" />
+          <ScalarProperty Name="DescBanco" ColumnName="DescBanco" />
+          <ScalarProperty Name="DiasJornada" ColumnName="DiasJornada" />
+          <ScalarProperty Name="SD" ColumnName="SD" />
+          <ScalarProperty Name="SDI" ColumnName="SDI" />
+          <ScalarProperty Name="DiasPagar" ColumnName="DiasPagar" />
+          <ScalarProperty Name="MontoTotalPercepciones" ColumnName="MontoTotalPercepciones" />
+          <ScalarProperty Name="MontoTotalDeducciones" ColumnName="MontoTotalDeducciones" />
+          <ScalarProperty Name="MontoNetoPagar" ColumnName="MontoNetoPagar" />
+          <ScalarProperty Name="ImporteConLetra" ColumnName="ImporteConLetra" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="IdOperador" ColumnName="IdOperador" />
+          <ScalarProperty Name="EstatusBorrado" ColumnName="EstatusBorrado" />
+          <ScalarProperty Name="EstatusNominaCerrada" ColumnName="EstatusNominaCerrada" />
+          <ScalarProperty Name="EstatusNominaPagada" ColumnName="EstatusNominaPagada" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="UsuarioCreacion" ColumnName="UsuarioCreacion" />
+          <ScalarProperty Name="UsuarioModificacion" ColumnName="UsuarioModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PDOHeaderSC">
+      <EntityTypeMapping TypeName="dbSAICBPOModel.PDOHeaderSC">
+        <MappingFragment StoreEntitySet="PDOHeaderSC">
+          <ScalarProperty Name="IdPDOHeader" ColumnName="IdPDOHeader" />
+          <ScalarProperty Name="IdTenedora" ColumnName="IdTenedora" />
+          <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
+          <ScalarProperty Name="AnoPeriodoInicio" ColumnName="AnoPeriodoInicio" />
+          <ScalarProperty Name="MesPeriodoInicio" ColumnName="MesPeriodoInicio" />
+          <ScalarProperty Name="DiaPeriodoInicio" ColumnName="DiaPeriodoInicio" />
+          <ScalarProperty Name="SemanaPeriodoInicio" ColumnName="SemanaPeriodoInicio" />
+          <ScalarProperty Name="AnoPeriodoFin" ColumnName="AnoPeriodoFin" />
+          <ScalarProperty Name="MesPeriodoFin" ColumnName="MesPeriodoFin" />
+          <ScalarProperty Name="DiaPeriodoFin" ColumnName="DiaPeriodoFin" />
+          <ScalarProperty Name="SemanaPeriodoFin" ColumnName="SemanaPeriodoFin" />
+          <ScalarProperty Name="FechaInicio" ColumnName="FechaInicio" />
+          <ScalarProperty Name="FechaFin" ColumnName="FechaFin" />
+          <ScalarProperty Name="IdTipoPeriodoNomina" ColumnName="IdTipoPeriodoNomina" />
+          <ScalarProperty Name="IdTipoSalario" ColumnName="IdTipoSalario" />
+          <ScalarProperty Name="LeyendaPeriodo" ColumnName="LeyendaPeriodo" />
+          <ScalarProperty Name="IdTipoMovimiento" ColumnName="IdTipoMovimiento" />
+          <ScalarProperty Name="NoRecibo" ColumnName="NoRecibo" />
+          <ScalarProperty Name="NoEmpleado" ColumnName="NoEmpleado" />
+          <ScalarProperty Name="NombreEmpleado" ColumnName="NombreEmpleado" />
+          <ScalarProperty Name="NSS" ColumnName="NSS" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="CURP" ColumnName="CURP" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+          <ScalarProperty Name="TipoPago" ColumnName="TipoPago" />
+          <ScalarProperty Name="NoCuentaBanco" ColumnName="NoCuentaBanco" />
+          <ScalarProperty Name="NoSucursalBanco" ColumnName="NoSucursalBanco" />
+          <ScalarProperty Name="DescBanco" ColumnName="DescBanco" />
+          <ScalarProperty Name="DiasJornada" ColumnName="DiasJornada" />
+          <ScalarProperty Name="SD" ColumnName="SD" />
+          <ScalarProperty Name="SDI" ColumnName="SDI" />
+          <ScalarProperty Name="DiasPagar" ColumnName="DiasPagar" />
+          <ScalarProperty Name="MontoTotalPercepcionesSA" ColumnName="MontoTotalPercepcionesSA" />
+          <ScalarProperty Name="MontoTotalDeduccionesSA" ColumnName="MontoTotalDeduccionesSA" />
+          <ScalarProperty Name="MontoNetoPagarSA" ColumnName="MontoNetoPagarSA" />
+          <ScalarProperty Name="SueldoBruto" ColumnName="SueldoBruto" />
+          <ScalarProperty Name="TotalAlimentosBruto" ColumnName="TotalAlimentosBruto" />
+          <ScalarProperty Name="TotalAlimentosNeto" ColumnName="TotalAlimentosNeto" />
+          <ScalarProperty Name="ImporteConLetra" ColumnName="ImporteConLetra" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="IdOperador" ColumnName="IdOperador" />
+          <ScalarProperty Name="EstatusBorrado" ColumnName="EstatusBorrado" />
+          <ScalarProperty Name="EstatusNominaCerrada" ColumnName="EstatusNominaCerrada" />
+          <ScalarProperty Name="EstatusNominaPagada" ColumnName="EstatusNominaPagada" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="UsuarioCreacion" ColumnName="UsuarioCreacion" />
+          <ScalarProperty Name="UsuarioModificacion" ColumnName="UsuarioModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

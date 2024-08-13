@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbSAICBPOValidacionDataSet" targetNamespace="http://tempuri.org/dbSAICBPOValidacionDataSet.xsd" xmlns:mstns="http://tempuri.org/dbSAICBPOValidacionDataSet.xsd" xmlns="http://tempuri.org/dbSAICBPOValidacionDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="stpSelEstatusNominaContabilizadaTableAdapter" GeneratorFunctionsComponentClassName="stpSelEstatusNominaContabilizadaTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="stpSelEstatusNominaContabilizadaTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbSAICBPOConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbSAICBPOConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.winAppSAIC.Properties.Settings.GlobalReference.Default.dbSAICBPOConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteCargaRecibosSATableAdapter" GeneratorDataComponentClassName="vwReporteCargaRecibosSATableAdapter" Name="vwReporteCargaRecibosSA" UserDataComponentName="vwReporteCargaRecibosSATableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO.dbo.vwReporteCargaRecibosSA" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        NombreComercial, RazonSocial, TipoNomina, FechaInicio, FechaFin, Operador
+FROM            vwReporteCargaRecibosSA</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NombreComercial" DataSetColumn="NombreComercial" />
+              <Mapping SourceColumn="RazonSocial" DataSetColumn="RazonSocial" />
+              <Mapping SourceColumn="TipoNomina" DataSetColumn="TipoNomina" />
+              <Mapping SourceColumn="FechaInicio" DataSetColumn="FechaInicio" />
+              <Mapping SourceColumn="FechaFin" DataSetColumn="FechaFin" />
+              <Mapping SourceColumn="Operador" DataSetColumn="Operador" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwReporteCargaRecibosSCTableAdapter" GeneratorDataComponentClassName="vwReporteCargaRecibosSCTableAdapter" Name="vwReporteCargaRecibosSC" UserDataComponentName="vwReporteCargaRecibosSCTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO.dbo.vwReporteCargaRecibosSC" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        NombreComercial, RazonSocial, TipoNomina, FechaInicio, FechaFin, Operador
+FROM            vwReporteCargaRecibosSC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NombreComercial" DataSetColumn="NombreComercial" />
+              <Mapping SourceColumn="RazonSocial" DataSetColumn="RazonSocial" />
+              <Mapping SourceColumn="TipoNomina" DataSetColumn="TipoNomina" />
+              <Mapping SourceColumn="FechaInicio" DataSetColumn="FechaInicio" />
+              <Mapping SourceColumn="FechaFin" DataSetColumn="FechaFin" />
+              <Mapping SourceColumn="Operador" DataSetColumn="Operador" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stpSelInfoBancoCuentasLayoutTableAdapter" GeneratorDataComponentClassName="stpSelInfoBancoCuentasLayoutTableAdapter" Name="stpSelInfoBancoCuentasLayout" UserDataComponentName="stpSelInfoBancoCuentasLayoutTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO_Test.dbo.stpSelInfoBancoCuentasLayout" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.stpSelInfoBancoCuentasLayout</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@pIdTenedora" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@pDescBanco" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdTenedora" DataSetColumn="IdTenedora" />
+              <Mapping SourceColumn="RazonSocial" DataSetColumn="RazonSocial" />
+              <Mapping SourceColumn="IdBanco" DataSetColumn="IdBanco" />
+              <Mapping SourceColumn="NombreBanco" DataSetColumn="NombreBanco" />
+              <Mapping SourceColumn="IdMoneda" DataSetColumn="IdMoneda" />
+              <Mapping SourceColumn="NoCliente" DataSetColumn="NoCliente" />
+              <Mapping SourceColumn="NoCaracteresNoCliente" DataSetColumn="NoCaracteresNoCliente" />
+              <Mapping SourceColumn="AlineacionNoCliente" DataSetColumn="AlineacionNoCliente" />
+              <Mapping SourceColumn="NoSucursal" DataSetColumn="NoSucursal" />
+              <Mapping SourceColumn="NoCaracteresNoSucursal" DataSetColumn="NoCaracteresNoSucursal" />
+              <Mapping SourceColumn="AlineacionNoSucursal" DataSetColumn="AlineacionNoSucursal" />
+              <Mapping SourceColumn="NoCuenta" DataSetColumn="NoCuenta" />
+              <Mapping SourceColumn="NoCaracteresNoCuenta" DataSetColumn="NoCaracteresNoCuenta" />
+              <Mapping SourceColumn="AlineacionNoCuenta" DataSetColumn="AlineacionNoCuenta" />
+              <Mapping SourceColumn="NoCLABE" DataSetColumn="NoCLABE" />
+              <Mapping SourceColumn="NoCaracteresNoCLABE" DataSetColumn="NoCaracteresNoCLABE" />
+              <Mapping SourceColumn="AlineacionNoCLABE" DataSetColumn="AlineacionNoCLABE" />
+              <Mapping SourceColumn="RefNumerica" DataSetColumn="RefNumerica" />
+              <Mapping SourceColumn="NoCaracteresRefNumerica" DataSetColumn="NoCaracteresRefNumerica" />
+              <Mapping SourceColumn="AlineacionRefNumerica" DataSetColumn="AlineacionRefNumerica" />
+              <Mapping SourceColumn="RefAlfanumerica" DataSetColumn="RefAlfanumerica" />
+              <Mapping SourceColumn="NoCaracteresRefAlfanumerica" DataSetColumn="NoCaracteresRefAlfanumerica" />
+              <Mapping SourceColumn="AlineacionRefAlfanumerica" DataSetColumn="AlineacionRefAlfanumerica" />
+              <Mapping SourceColumn="CuentaContable" DataSetColumn="CuentaContable" />
+              <Mapping SourceColumn="NoCaracteresRazonSocial" DataSetColumn="NoCaracteresRazonSocial" />
+              <Mapping SourceColumn="AlineacionRazonSocial" DataSetColumn="AlineacionRazonSocial" />
+              <Mapping SourceColumn="IdEstatus" DataSetColumn="IdEstatus" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaTableAdapter" GeneratorDataComponentClassName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaTableAdapter" Name="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNomina" UserDataComponentName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO_MX.dbo.stpSelValidarLoteCargaNominaEnSolicitudCancelacionNomina" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.stpSelValidarLoteCargaNominaEnSolicitudCancelacionNomina</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@pIdLoteCargaNomina" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="InputOutput" ParameterName="@pIdSolicitudCancelacionNomina" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bit" DbType="Boolean" Direction="InputOutput" ParameterName="@pEstatusCancelacionNomina" Precision="1" ProviderType="Bit" Scale="0" Size="1" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stpSelValidarExistenciaNSSTableAdapter" GeneratorDataComponentClassName="stpSelValidarExistenciaNSSTableAdapter" Name="stpSelValidarExistenciaNSS" UserDataComponentName="stpSelValidarExistenciaNSSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO_MX20140725.dbo.stpSelValidarExistenciaNSS" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.stpSelValidarExistenciaNSS</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@pNSS" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdEmpleado" DataSetColumn="IdEmpleado" />
+              <Mapping SourceColumn="NombreEmpleadoCompleto" DataSetColumn="NombreEmpleadoCompleto" />
+              <Mapping SourceColumn="NSS" DataSetColumn="NSS" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stpSelParametroTableAdapter" GeneratorDataComponentClassName="stpSelParametroTableAdapter" Name="stpSelParametro" UserDataComponentName="stpSelParametroTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO_MX20140725.dbo.stpSelParametro" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.stpSelParametro</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@pDescParametro" Precision="0" ProviderType="VarChar" Scale="0" Size="100" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ValorParametro" DataSetColumn="ValorParametro" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stpSelValidarExistenciaRFCTableAdapter" GeneratorDataComponentClassName="stpSelValidarExistenciaRFCTableAdapter" Name="stpSelValidarExistenciaRFC" UserDataComponentName="stpSelValidarExistenciaRFCTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO_PENSION_MX_20180301.dbo.stpSelValidarExistenciaRFC" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.stpSelValidarExistenciaRFC</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@pRFC" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdEmpleado" DataSetColumn="IdEmpleado" />
+              <Mapping SourceColumn="NombreEmpleadoCompleto" DataSetColumn="NombreEmpleadoCompleto" />
+              <Mapping SourceColumn="RFC" DataSetColumn="RFC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="stpSelValidarExistenciaCURPTableAdapter" GeneratorDataComponentClassName="stpSelValidarExistenciaCURPTableAdapter" Name="stpSelValidarExistenciaCURP" UserDataComponentName="stpSelValidarExistenciaCURPTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO_PENSION_MX_20180301.dbo.stpSelValidarExistenciaCURP" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                    <CommandText>dbo.stpSelValidarExistenciaCURP</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="varchar" DbType="AnsiString" Direction="Input" ParameterName="@pCURP" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="IdEmpleado" DataSetColumn="IdEmpleado" />
+              <Mapping SourceColumn="NombreEmpleadoCompleto" DataSetColumn="NombreEmpleadoCompleto" />
+              <Mapping SourceColumn="CURP" DataSetColumn="CURP" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectName="dbSAICBPO_MX.dbo.stpSelEstatusNominaContabilizada" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="ObtenerEstatusNominaContabilizada" MethodsParameterType="CLR" Modifier="Public" Name="ObtenerEstatusNominaContabilizada" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="ObtenerEstatusNominaContabilizada">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.stpSelEstatusNominaContabilizada</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="int" DbType="Int32" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Int" Scale="0" Size="4" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="bigint" DbType="Int64" Direction="Input" ParameterName="@pIdLoteCargaNomina" Precision="19" ProviderType="BigInt" Scale="0" Size="8" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="ObtenerFechaServidor" MethodsParameterType="CLR" Modifier="Public" Name="ObtenerFechaServidor" QueryType="Scalar" ScalarCallRetval="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="ObtenerFechaServidor">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>SELECT        GETDATE() AS Expr1</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="dbSAICBPOConnectionString (Settings)" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="ObtenerEdadEmpleado" MethodsParameterType="CLR" Modifier="Public" Name="ObtenerEdadEmpleado" QueryType="Scalar" ScalarCallRetval="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="ObtenerEdadEmpleado">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>SELECT        dbo.fnObtenerEdad(dbo.fnObtenerFechaNacimiento(@pCurp)) AS Expr1</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="false" AutogeneratedName="pCurp" ColumnName="" DataSourceName="" DataTypeServer="unknown" DbType="AnsiString" Direction="Input" ParameterName="@pCurp" Precision="0" Scale="0" Size="1024" SourceColumn="" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbSAICBPOValidacionDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dbSAICBPOValidacionDataSet" msprop:Generator_UserDSName="dbSAICBPOValidacionDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vwReporteCargaRecibosSA" msprop:Generator_TableClassName="vwReporteCargaRecibosSADataTable" msprop:Generator_TableVarName="tablevwReporteCargaRecibosSA" msprop:Generator_TablePropName="vwReporteCargaRecibosSA" msprop:Generator_RowDeletingName="vwReporteCargaRecibosSARowDeleting" msprop:Generator_RowChangingName="vwReporteCargaRecibosSARowChanging" msprop:Generator_RowEvHandlerName="vwReporteCargaRecibosSARowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteCargaRecibosSARowDeleted" msprop:Generator_UserTableName="vwReporteCargaRecibosSA" msprop:Generator_RowChangedName="vwReporteCargaRecibosSARowChanged" msprop:Generator_RowEvArgName="vwReporteCargaRecibosSARowChangeEvent" msprop:Generator_RowClassName="vwReporteCargaRecibosSARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NombreComercial" msprop:Generator_ColumnVarNameInTable="columnNombreComercial" msprop:Generator_ColumnPropNameInRow="NombreComercial" msprop:Generator_ColumnPropNameInTable="NombreComercialColumn" msprop:Generator_UserColumnName="NombreComercial">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RazonSocial" msprop:Generator_ColumnVarNameInTable="columnRazonSocial" msprop:Generator_ColumnPropNameInRow="RazonSocial" msprop:Generator_ColumnPropNameInTable="RazonSocialColumn" msprop:Generator_UserColumnName="RazonSocial">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoNomina" msprop:Generator_ColumnVarNameInTable="columnTipoNomina" msprop:Generator_ColumnPropNameInRow="TipoNomina" msprop:Generator_ColumnPropNameInTable="TipoNominaColumn" msprop:Generator_UserColumnName="TipoNomina">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaInicio" msprop:Generator_ColumnVarNameInTable="columnFechaInicio" msprop:Generator_ColumnPropNameInRow="FechaInicio" msprop:Generator_ColumnPropNameInTable="FechaInicioColumn" msprop:Generator_UserColumnName="FechaInicio" type="xs:dateTime" />
+              <xs:element name="FechaFin" msprop:Generator_ColumnVarNameInTable="columnFechaFin" msprop:Generator_ColumnPropNameInRow="FechaFin" msprop:Generator_ColumnPropNameInTable="FechaFinColumn" msprop:Generator_UserColumnName="FechaFin" type="xs:dateTime" />
+              <xs:element name="Operador" msprop:Generator_ColumnVarNameInTable="columnOperador" msprop:Generator_ColumnPropNameInRow="Operador" msprop:Generator_ColumnPropNameInTable="OperadorColumn" msprop:Generator_UserColumnName="Operador">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="vwReporteCargaRecibosSC" msprop:Generator_TableClassName="vwReporteCargaRecibosSCDataTable" msprop:Generator_TableVarName="tablevwReporteCargaRecibosSC" msprop:Generator_TablePropName="vwReporteCargaRecibosSC" msprop:Generator_RowDeletingName="vwReporteCargaRecibosSCRowDeleting" msprop:Generator_RowChangingName="vwReporteCargaRecibosSCRowChanging" msprop:Generator_RowEvHandlerName="vwReporteCargaRecibosSCRowChangeEventHandler" msprop:Generator_RowDeletedName="vwReporteCargaRecibosSCRowDeleted" msprop:Generator_UserTableName="vwReporteCargaRecibosSC" msprop:Generator_RowChangedName="vwReporteCargaRecibosSCRowChanged" msprop:Generator_RowEvArgName="vwReporteCargaRecibosSCRowChangeEvent" msprop:Generator_RowClassName="vwReporteCargaRecibosSCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NombreComercial" msprop:Generator_ColumnVarNameInTable="columnNombreComercial" msprop:Generator_ColumnPropNameInRow="NombreComercial" msprop:Generator_ColumnPropNameInTable="NombreComercialColumn" msprop:Generator_UserColumnName="NombreComercial">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RazonSocial" msprop:Generator_ColumnVarNameInTable="columnRazonSocial" msprop:Generator_ColumnPropNameInRow="RazonSocial" msprop:Generator_ColumnPropNameInTable="RazonSocialColumn" msprop:Generator_UserColumnName="RazonSocial">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TipoNomina" msprop:Generator_ColumnVarNameInTable="columnTipoNomina" msprop:Generator_ColumnPropNameInRow="TipoNomina" msprop:Generator_ColumnPropNameInTable="TipoNominaColumn" msprop:Generator_UserColumnName="TipoNomina">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FechaInicio" msprop:Generator_ColumnVarNameInTable="columnFechaInicio" msprop:Generator_ColumnPropNameInRow="FechaInicio" msprop:Generator_ColumnPropNameInTable="FechaInicioColumn" msprop:Generator_UserColumnName="FechaInicio" type="xs:dateTime" />
+              <xs:element name="FechaFin" msprop:Generator_ColumnVarNameInTable="columnFechaFin" msprop:Generator_ColumnPropNameInRow="FechaFin" msprop:Generator_ColumnPropNameInTable="FechaFinColumn" msprop:Generator_UserColumnName="FechaFin" type="xs:dateTime" />
+              <xs:element name="Operador" msprop:Generator_ColumnVarNameInTable="columnOperador" msprop:Generator_ColumnPropNameInRow="Operador" msprop:Generator_ColumnPropNameInTable="OperadorColumn" msprop:Generator_UserColumnName="Operador">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stpSelInfoBancoCuentasLayout" msprop:Generator_TableClassName="stpSelInfoBancoCuentasLayoutDataTable" msprop:Generator_TableVarName="tablestpSelInfoBancoCuentasLayout" msprop:Generator_TablePropName="stpSelInfoBancoCuentasLayout" msprop:Generator_RowDeletingName="stpSelInfoBancoCuentasLayoutRowDeleting" msprop:Generator_RowChangingName="stpSelInfoBancoCuentasLayoutRowChanging" msprop:Generator_RowEvHandlerName="stpSelInfoBancoCuentasLayoutRowChangeEventHandler" msprop:Generator_RowDeletedName="stpSelInfoBancoCuentasLayoutRowDeleted" msprop:Generator_UserTableName="stpSelInfoBancoCuentasLayout" msprop:Generator_RowChangedName="stpSelInfoBancoCuentasLayoutRowChanged" msprop:Generator_RowEvArgName="stpSelInfoBancoCuentasLayoutRowChangeEvent" msprop:Generator_RowClassName="stpSelInfoBancoCuentasLayoutRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdTenedora" msprop:Generator_ColumnVarNameInTable="columnIdTenedora" msprop:Generator_ColumnPropNameInRow="IdTenedora" msprop:Generator_ColumnPropNameInTable="IdTenedoraColumn" msprop:Generator_UserColumnName="IdTenedora" type="xs:int" />
+              <xs:element name="RazonSocial" msprop:Generator_ColumnVarNameInTable="columnRazonSocial" msprop:Generator_ColumnPropNameInRow="RazonSocial" msprop:Generator_ColumnPropNameInTable="RazonSocialColumn" msprop:Generator_UserColumnName="RazonSocial">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdBanco" msprop:Generator_ColumnVarNameInTable="columnIdBanco" msprop:Generator_ColumnPropNameInRow="IdBanco" msprop:Generator_ColumnPropNameInTable="IdBancoColumn" msprop:Generator_UserColumnName="IdBanco" type="xs:unsignedByte" />
+              <xs:element name="NombreBanco" msprop:Generator_ColumnVarNameInTable="columnNombreBanco" msprop:Generator_ColumnPropNameInRow="NombreBanco" msprop:Generator_ColumnPropNameInTable="NombreBancoColumn" msprop:Generator_UserColumnName="NombreBanco">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdMoneda" msprop:Generator_ColumnVarNameInTable="columnIdMoneda" msprop:Generator_ColumnPropNameInRow="IdMoneda" msprop:Generator_ColumnPropNameInTable="IdMonedaColumn" msprop:Generator_UserColumnName="IdMoneda">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCliente" msprop:Generator_ColumnVarNameInTable="columnNoCliente" msprop:Generator_ColumnPropNameInRow="NoCliente" msprop:Generator_ColumnPropNameInTable="NoClienteColumn" msprop:Generator_UserColumnName="NoCliente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCaracteresNoCliente" msprop:Generator_ColumnVarNameInTable="columnNoCaracteresNoCliente" msprop:Generator_ColumnPropNameInRow="NoCaracteresNoCliente" msprop:Generator_ColumnPropNameInTable="NoCaracteresNoClienteColumn" msprop:Generator_UserColumnName="NoCaracteresNoCliente" type="xs:unsignedByte" />
+              <xs:element name="AlineacionNoCliente" msprop:Generator_ColumnVarNameInTable="columnAlineacionNoCliente" msprop:Generator_ColumnPropNameInRow="AlineacionNoCliente" msprop:Generator_ColumnPropNameInTable="AlineacionNoClienteColumn" msprop:Generator_UserColumnName="AlineacionNoCliente">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoSucursal" msprop:Generator_ColumnVarNameInTable="columnNoSucursal" msprop:Generator_ColumnPropNameInRow="NoSucursal" msprop:Generator_ColumnPropNameInTable="NoSucursalColumn" msprop:Generator_UserColumnName="NoSucursal">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCaracteresNoSucursal" msprop:Generator_ColumnVarNameInTable="columnNoCaracteresNoSucursal" msprop:Generator_ColumnPropNameInRow="NoCaracteresNoSucursal" msprop:Generator_ColumnPropNameInTable="NoCaracteresNoSucursalColumn" msprop:Generator_UserColumnName="NoCaracteresNoSucursal" type="xs:unsignedByte" />
+              <xs:element name="AlineacionNoSucursal" msprop:Generator_ColumnVarNameInTable="columnAlineacionNoSucursal" msprop:Generator_ColumnPropNameInRow="AlineacionNoSucursal" msprop:Generator_ColumnPropNameInTable="AlineacionNoSucursalColumn" msprop:Generator_UserColumnName="AlineacionNoSucursal">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCuenta" msprop:Generator_ColumnVarNameInTable="columnNoCuenta" msprop:Generator_ColumnPropNameInRow="NoCuenta" msprop:Generator_ColumnPropNameInTable="NoCuentaColumn" msprop:Generator_UserColumnName="NoCuenta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCaracteresNoCuenta" msprop:Generator_ColumnVarNameInTable="columnNoCaracteresNoCuenta" msprop:Generator_ColumnPropNameInRow="NoCaracteresNoCuenta" msprop:Generator_ColumnPropNameInTable="NoCaracteresNoCuentaColumn" msprop:Generator_UserColumnName="NoCaracteresNoCuenta" type="xs:unsignedByte" />
+              <xs:element name="AlineacionNoCuenta" msprop:Generator_ColumnVarNameInTable="columnAlineacionNoCuenta" msprop:Generator_ColumnPropNameInRow="AlineacionNoCuenta" msprop:Generator_ColumnPropNameInTable="AlineacionNoCuentaColumn" msprop:Generator_UserColumnName="AlineacionNoCuenta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCLABE" msprop:Generator_ColumnVarNameInTable="columnNoCLABE" msprop:Generator_ColumnPropNameInRow="NoCLABE" msprop:Generator_ColumnPropNameInTable="NoCLABEColumn" msprop:Generator_UserColumnName="NoCLABE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCaracteresNoCLABE" msprop:Generator_ColumnVarNameInTable="columnNoCaracteresNoCLABE" msprop:Generator_ColumnPropNameInRow="NoCaracteresNoCLABE" msprop:Generator_ColumnPropNameInTable="NoCaracteresNoCLABEColumn" msprop:Generator_UserColumnName="NoCaracteresNoCLABE" type="xs:unsignedByte" />
+              <xs:element name="AlineacionNoCLABE" msprop:Generator_ColumnVarNameInTable="columnAlineacionNoCLABE" msprop:Generator_ColumnPropNameInRow="AlineacionNoCLABE" msprop:Generator_ColumnPropNameInTable="AlineacionNoCLABEColumn" msprop:Generator_UserColumnName="AlineacionNoCLABE">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RefNumerica" msprop:Generator_ColumnVarNameInTable="columnRefNumerica" msprop:Generator_ColumnPropNameInRow="RefNumerica" msprop:Generator_ColumnPropNameInTable="RefNumericaColumn" msprop:Generator_UserColumnName="RefNumerica">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCaracteresRefNumerica" msprop:Generator_ColumnVarNameInTable="columnNoCaracteresRefNumerica" msprop:Generator_ColumnPropNameInRow="NoCaracteresRefNumerica" msprop:Generator_ColumnPropNameInTable="NoCaracteresRefNumericaColumn" msprop:Generator_UserColumnName="NoCaracteresRefNumerica" type="xs:unsignedByte" />
+              <xs:element name="AlineacionRefNumerica" msprop:Generator_ColumnVarNameInTable="columnAlineacionRefNumerica" msprop:Generator_ColumnPropNameInRow="AlineacionRefNumerica" msprop:Generator_ColumnPropNameInTable="AlineacionRefNumericaColumn" msprop:Generator_UserColumnName="AlineacionRefNumerica">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RefAlfanumerica" msprop:Generator_ColumnVarNameInTable="columnRefAlfanumerica" msprop:Generator_ColumnPropNameInRow="RefAlfanumerica" msprop:Generator_ColumnPropNameInTable="RefAlfanumericaColumn" msprop:Generator_UserColumnName="RefAlfanumerica">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCaracteresRefAlfanumerica" msprop:Generator_ColumnVarNameInTable="columnNoCaracteresRefAlfanumerica" msprop:Generator_ColumnPropNameInRow="NoCaracteresRefAlfanumerica" msprop:Generator_ColumnPropNameInTable="NoCaracteresRefAlfanumericaColumn" msprop:Generator_UserColumnName="NoCaracteresRefAlfanumerica" type="xs:unsignedByte" />
+              <xs:element name="AlineacionRefAlfanumerica" msprop:Generator_ColumnVarNameInTable="columnAlineacionRefAlfanumerica" msprop:Generator_ColumnPropNameInRow="AlineacionRefAlfanumerica" msprop:Generator_ColumnPropNameInTable="AlineacionRefAlfanumericaColumn" msprop:Generator_UserColumnName="AlineacionRefAlfanumerica">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CuentaContable" msprop:Generator_ColumnVarNameInTable="columnCuentaContable" msprop:Generator_ColumnPropNameInRow="CuentaContable" msprop:Generator_ColumnPropNameInTable="CuentaContableColumn" msprop:Generator_UserColumnName="CuentaContable">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoCaracteresRazonSocial" msprop:Generator_ColumnVarNameInTable="columnNoCaracteresRazonSocial" msprop:Generator_ColumnPropNameInRow="NoCaracteresRazonSocial" msprop:Generator_ColumnPropNameInTable="NoCaracteresRazonSocialColumn" msprop:Generator_UserColumnName="NoCaracteresRazonSocial" type="xs:unsignedByte" />
+              <xs:element name="AlineacionRazonSocial" msprop:Generator_ColumnVarNameInTable="columnAlineacionRazonSocial" msprop:Generator_ColumnPropNameInRow="AlineacionRazonSocial" msprop:Generator_ColumnPropNameInTable="AlineacionRazonSocialColumn" msprop:Generator_UserColumnName="AlineacionRazonSocial">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IdEstatus" msprop:Generator_ColumnVarNameInTable="columnIdEstatus" msprop:Generator_ColumnPropNameInRow="IdEstatus" msprop:Generator_ColumnPropNameInTable="IdEstatusColumn" msprop:Generator_UserColumnName="IdEstatus" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNomina" msprop:Generator_TableClassName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaDataTable" msprop:Generator_TableVarName="tablestpSelValidarLoteCargaNominaEnSolicitudCancelacionNomina" msprop:Generator_RowChangedName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaRowChanged" msprop:Generator_TablePropName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNomina" msprop:Generator_RowDeletingName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaRowDeleting" msprop:Generator_RowChangingName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaRowChanging" msprop:Generator_RowEvHandlerName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaRowChangeEventHandler" msprop:Generator_RowDeletedName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaRowDeleted" msprop:Generator_RowClassName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaRow" msprop:Generator_UserTableName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNomina" msprop:Generator_RowEvArgName="stpSelValidarLoteCargaNominaEnSolicitudCancelacionNominaRowChangeEvent">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stpSelValidarExistenciaNSS" msprop:Generator_TableClassName="stpSelValidarExistenciaNSSDataTable" msprop:Generator_TableVarName="tablestpSelValidarExistenciaNSS" msprop:Generator_TablePropName="stpSelValidarExistenciaNSS" msprop:Generator_RowDeletingName="stpSelValidarExistenciaNSSRowDeleting" msprop:Generator_RowChangingName="stpSelValidarExistenciaNSSRowChanging" msprop:Generator_RowEvHandlerName="stpSelValidarExistenciaNSSRowChangeEventHandler" msprop:Generator_RowDeletedName="stpSelValidarExistenciaNSSRowDeleted" msprop:Generator_UserTableName="stpSelValidarExistenciaNSS" msprop:Generator_RowChangedName="stpSelValidarExistenciaNSSRowChanged" msprop:Generator_RowEvArgName="stpSelValidarExistenciaNSSRowChangeEvent" msprop:Generator_RowClassName="stpSelValidarExistenciaNSSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdEmpleado" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdEmpleado" msprop:Generator_ColumnPropNameInRow="IdEmpleado" msprop:Generator_ColumnPropNameInTable="IdEmpleadoColumn" msprop:Generator_UserColumnName="IdEmpleado" type="xs:int" />
+              <xs:element name="NombreEmpleadoCompleto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreEmpleadoCompleto" msprop:Generator_ColumnPropNameInRow="NombreEmpleadoCompleto" msprop:Generator_ColumnPropNameInTable="NombreEmpleadoCompletoColumn" msprop:Generator_UserColumnName="NombreEmpleadoCompleto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="302" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NSS" msprop:Generator_ColumnVarNameInTable="columnNSS" msprop:Generator_ColumnPropNameInRow="NSS" msprop:Generator_ColumnPropNameInTable="NSSColumn" msprop:Generator_UserColumnName="NSS">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stpSelParametro" msprop:Generator_TableClassName="stpSelParametroDataTable" msprop:Generator_TableVarName="tablestpSelParametro" msprop:Generator_RowChangedName="stpSelParametroRowChanged" msprop:Generator_TablePropName="stpSelParametro" msprop:Generator_RowDeletingName="stpSelParametroRowDeleting" msprop:Generator_RowChangingName="stpSelParametroRowChanging" msprop:Generator_RowEvHandlerName="stpSelParametroRowChangeEventHandler" msprop:Generator_RowDeletedName="stpSelParametroRowDeleted" msprop:Generator_RowClassName="stpSelParametroRow" msprop:Generator_UserTableName="stpSelParametro" msprop:Generator_RowEvArgName="stpSelParametroRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ValorParametro" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnValorParametro" msprop:Generator_ColumnPropNameInRow="ValorParametro" msprop:Generator_ColumnPropNameInTable="ValorParametroColumn" msprop:Generator_UserColumnName="ValorParametro" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stpSelValidarExistenciaRFC" msprop:Generator_TableClassName="stpSelValidarExistenciaRFCDataTable" msprop:Generator_TableVarName="tablestpSelValidarExistenciaRFC" msprop:Generator_TablePropName="stpSelValidarExistenciaRFC" msprop:Generator_RowDeletingName="stpSelValidarExistenciaRFCRowDeleting" msprop:Generator_RowChangingName="stpSelValidarExistenciaRFCRowChanging" msprop:Generator_RowEvHandlerName="stpSelValidarExistenciaRFCRowChangeEventHandler" msprop:Generator_RowDeletedName="stpSelValidarExistenciaRFCRowDeleted" msprop:Generator_UserTableName="stpSelValidarExistenciaRFC" msprop:Generator_RowChangedName="stpSelValidarExistenciaRFCRowChanged" msprop:Generator_RowEvArgName="stpSelValidarExistenciaRFCRowChangeEvent" msprop:Generator_RowClassName="stpSelValidarExistenciaRFCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdEmpleado" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdEmpleado" msprop:Generator_ColumnPropNameInRow="IdEmpleado" msprop:Generator_ColumnPropNameInTable="IdEmpleadoColumn" msprop:Generator_UserColumnName="IdEmpleado" type="xs:int" />
+              <xs:element name="NombreEmpleadoCompleto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreEmpleadoCompleto" msprop:Generator_ColumnPropNameInRow="NombreEmpleadoCompleto" msprop:Generator_ColumnPropNameInTable="NombreEmpleadoCompletoColumn" msprop:Generator_UserColumnName="NombreEmpleadoCompleto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="302" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RFC" msprop:Generator_ColumnVarNameInTable="columnRFC" msprop:Generator_ColumnPropNameInRow="RFC" msprop:Generator_ColumnPropNameInTable="RFCColumn" msprop:Generator_UserColumnName="RFC">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="stpSelValidarExistenciaCURP" msprop:Generator_TableClassName="stpSelValidarExistenciaCURPDataTable" msprop:Generator_TableVarName="tablestpSelValidarExistenciaCURP" msprop:Generator_TablePropName="stpSelValidarExistenciaCURP" msprop:Generator_RowDeletingName="stpSelValidarExistenciaCURPRowDeleting" msprop:Generator_RowChangingName="stpSelValidarExistenciaCURPRowChanging" msprop:Generator_RowEvHandlerName="stpSelValidarExistenciaCURPRowChangeEventHandler" msprop:Generator_RowDeletedName="stpSelValidarExistenciaCURPRowDeleted" msprop:Generator_UserTableName="stpSelValidarExistenciaCURP" msprop:Generator_RowChangedName="stpSelValidarExistenciaCURPRowChanged" msprop:Generator_RowEvArgName="stpSelValidarExistenciaCURPRowChangeEvent" msprop:Generator_RowClassName="stpSelValidarExistenciaCURPRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdEmpleado" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnIdEmpleado" msprop:Generator_ColumnPropNameInRow="IdEmpleado" msprop:Generator_ColumnPropNameInTable="IdEmpleadoColumn" msprop:Generator_UserColumnName="IdEmpleado" type="xs:int" />
+              <xs:element name="NombreEmpleadoCompleto" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombreEmpleadoCompleto" msprop:Generator_ColumnPropNameInRow="NombreEmpleadoCompleto" msprop:Generator_ColumnPropNameInTable="NombreEmpleadoCompletoColumn" msprop:Generator_UserColumnName="NombreEmpleadoCompleto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="302" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CURP" msprop:Generator_ColumnVarNameInTable="columnCURP" msprop:Generator_ColumnPropNameInRow="CURP" msprop:Generator_ColumnPropNameInTable="CURPColumn" msprop:Generator_UserColumnName="CURP">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:stpSelValidarExistenciaNSS" />
+      <xs:field xpath="mstns:IdEmpleado" />
+    </xs:unique>
+    <xs:unique name="stpSelValidarExistenciaRFC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:stpSelValidarExistenciaRFC" />
+      <xs:field xpath="mstns:IdEmpleado" />
+    </xs:unique>
+    <xs:unique name="stpSelValidarExistenciaCURP_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:stpSelValidarExistenciaCURP" />
+      <xs:field xpath="mstns:IdEmpleado" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

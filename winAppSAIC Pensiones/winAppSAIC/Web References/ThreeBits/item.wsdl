@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="urn:wservicewsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="urn:wservicewsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:wservicewsdl">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="RespuestaNET">
+        <xsd:all>
+          <xsd:element name="cfdi" type="xsd:string" />
+          <xsd:element name="png" type="xsd:string" />
+          <xsd:element name="idpac" type="xsd:int" />
+          <xsd:element name="pac" type="xsd:int" />
+          <xsd:element name="produccion" type="xsd:string" />
+          <xsd:element name="codigo_mf_numero" type="xsd:int" />
+          <xsd:element name="codigo_mf_texto" type="xsd:string" />
+          <xsd:element name="mensaje_original_pac_json" type="xsd:string" />
+          <xsd:element name="cancelada" type="xsd:string" />
+          <xsd:element name="saldo" type="xsd:int" />
+          <xsd:element name="uuid" type="xsd:string" />
+          <xsd:element name="servidor" type="xsd:string" />
+          <xsd:element name="ejecucion" type="xsd:float" />
+          <xsd:element name="debug" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="saldoResponse">
+        <xsd:all>
+          <xsd:element name="saldoResult" type="xsd:string" />
+          <xsd:element name="saldo" type="xsd:int" />
+        </xsd:all>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="timbrarRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+    <wsdl:part name="produccion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbrarResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="timbrarNETRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+    <wsdl:part name="produccion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbrarNETResponse">
+    <wsdl:part name="return" type="tns:RespuestaNET" />
+  </wsdl:message>
+  <wsdl:message name="timbrar64Request">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+    <wsdl:part name="produccion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbrar64Response">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="retencionRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+    <wsdl:part name="produccion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="retencionResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="saldoRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="saldoResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="saldoNETRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="saldoNETResponse">
+    <wsdl:part name="return" type="tns:saldoResponse" />
+  </wsdl:message>
+  <wsdl:message name="cancelarRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="uuid" type="xsd:string" />
+    <wsdl:part name="cer" type="xsd:string" />
+    <wsdl:part name="key" type="xsd:string" />
+    <wsdl:part name="pass_cer" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="generar_pemRequest">
+    <wsdl:part name="cer_base64" type="xsd:string" />
+    <wsdl:part name="key_base64" type="xsd:string" />
+    <wsdl:part name="pass_base64" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="generar_pemResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="respaldo_masivoRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="respaldo_base64" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="respaldo_masivoResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="ticketRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="ticket" type="xsd:string" />
+    <wsdl:part name="produccion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ticketResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="ticket_reporteRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="tipo" type="xsd:string" />
+    <wsdl:part name="fecha_inicial" type="xsd:string" />
+    <wsdl:part name="fecha_final" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ticket_reporteResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="ticket_cancelaRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="codigo" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="ticket_cancelaResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="factura_reporteRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="mes" type="xsd:string" />
+    <wsdl:part name="ano" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="factura_reporteResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="factura_recupera_respaldoRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="referencia" type="xsd:string" />
+    <wsdl:part name="uuid" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="factura_recupera_respaldoResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="genera_dotnetRequest">
+    <wsdl:part name="empresa" type="xsd:string" />
+    <wsdl:part name="pwd" type="xsd:string" />
+    <wsdl:part name="fe_xml" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="genera_dotnetResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="genera_ut8Request">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="genera_ut8Response">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="acuseSATRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="pwd" type="xsd:string" />
+    <wsdl:part name="uuid" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="acuseSATResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="cancela_ut8Request">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="pwd" type="xsd:string" />
+    <wsdl:part name="xml_in" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="cancela_ut8Response">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="timbradoMICROSIPRequest">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="tipo" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+    <wsdl:part name="produccion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbradoMICROSIPResponse">
+    <wsdl:part name="return" type="xsd:Array" />
+  </wsdl:message>
+  <wsdl:message name="timbrar33b64Request">
+    <wsdl:part name="rfc" type="xsd:string" />
+    <wsdl:part name="clave" type="xsd:string" />
+    <wsdl:part name="xml" type="xsd:string" />
+    <wsdl:part name="produccion" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="timbrar33b64Response">
+    <wsdl:part name="return" type="tns:RespuestaNET" />
+  </wsdl:message>
+  <wsdl:portType name="wservicePortType">
+    <wsdl:operation name="timbrar">
+      <documentation>Web service de Timbrado CFDi (XML ISO-8859-1)</documentation>
+      <wsdl:input message="tns:timbrarRequest" />
+      <wsdl:output message="tns:timbrarResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="timbrarNET">
+      <documentation>Web service de Timbrado CFDi UTF8 + Base64</documentation>
+      <wsdl:input message="tns:timbrarNETRequest" />
+      <wsdl:output message="tns:timbrarNETResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="timbrar64">
+      <documentation>Web service de Timbrado CFDi UTF8 + Base64</documentation>
+      <wsdl:input message="tns:timbrar64Request" />
+      <wsdl:output message="tns:timbrar64Response" />
+    </wsdl:operation>
+    <wsdl:operation name="retencion">
+      <documentation>Web service de Timbrado de Retenciones (XML ISO-8859-1)</documentation>
+      <wsdl:input message="tns:retencionRequest" />
+      <wsdl:output message="tns:retencionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="saldo">
+      <documentation>Consulta de SALDO</documentation>
+      <wsdl:input message="tns:saldoRequest" />
+      <wsdl:output message="tns:saldoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="saldoNET">
+      <documentation>Consulta de SALDO</documentation>
+      <wsdl:input message="tns:saldoNETRequest" />
+      <wsdl:output message="tns:saldoNETResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelar">
+      <documentation>Cancelar Factura CFDi</documentation>
+      <wsdl:input message="tns:cancelarRequest" />
+      <wsdl:output message="tns:cancelarResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="generar_pem">
+      <documentation>Genera archivos PEM para servidores restringidos</documentation>
+      <wsdl:input message="tns:generar_pemRequest" />
+      <wsdl:output message="tns:generar_pemResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="respaldo_masivo">
+      <documentation>Respaldo portal descarga masiva</documentation>
+      <wsdl:input message="tns:respaldo_masivoRequest" />
+      <wsdl:output message="tns:respaldo_masivoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ticket">
+      <documentation>Registro de Tickets, autofacturacion</documentation>
+      <wsdl:input message="tns:ticketRequest" />
+      <wsdl:output message="tns:ticketResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ticket_reporte">
+      <documentation>Reporte y Estado de los tickets facturados</documentation>
+      <wsdl:input message="tns:ticket_reporteRequest" />
+      <wsdl:output message="tns:ticket_reporteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ticket_cancela">
+      <documentation>Reporte y Estado de los tickets facturados</documentation>
+      <wsdl:input message="tns:ticket_cancelaRequest" />
+      <wsdl:output message="tns:ticket_cancelaResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="factura_reporte">
+      <documentation>Reporte Facturas emitidas</documentation>
+      <wsdl:input message="tns:factura_reporteRequest" />
+      <wsdl:output message="tns:factura_reporteResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="factura_recupera_respaldo">
+      <documentation>Descarga factura emitida</documentation>
+      <wsdl:input message="tns:factura_recupera_respaldoRequest" />
+      <wsdl:output message="tns:factura_recupera_respaldoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="genera_dotnet">
+      <documentation>Web service de Timbrado Microsip CFDi</documentation>
+      <wsdl:input message="tns:genera_dotnetRequest" />
+      <wsdl:output message="tns:genera_dotnetResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="genera_ut8">
+      <documentation>Web service de Timbrado Microsip CFDi</documentation>
+      <wsdl:input message="tns:genera_ut8Request" />
+      <wsdl:output message="tns:genera_ut8Response" />
+    </wsdl:operation>
+    <wsdl:operation name="acuseSAT">
+      <documentation>uso interno </documentation>
+      <wsdl:input message="tns:acuseSATRequest" />
+      <wsdl:output message="tns:acuseSATResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cancela_ut8">
+      <documentation>uso interno </documentation>
+      <wsdl:input message="tns:cancela_ut8Request" />
+      <wsdl:output message="tns:cancela_ut8Response" />
+    </wsdl:operation>
+    <wsdl:operation name="timbradoMICROSIP">
+      <documentation>Timbrado Microsip </documentation>
+      <wsdl:input message="tns:timbradoMICROSIPRequest" />
+      <wsdl:output message="tns:timbradoMICROSIPResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="timbrar33b64">
+      <documentation>Timbrar CFDi 3.3 (XML UTF-8 + Base64)</documentation>
+      <wsdl:input message="tns:timbrar33b64Request" />
+      <wsdl:output message="tns:timbrar33b64Response" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wserviceBinding" type="tns:wservicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="timbrar">
+      <soap:operation soapAction="urn:wservicewsdl#timbrar" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timbrarNET">
+      <soap:operation soapAction="urn:wservicewsdl#timbrar" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timbrar64">
+      <soap:operation soapAction="urn:wservicewsdl#timbrar64" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retencion">
+      <soap:operation soapAction="urn:wservicewsdl#timbrar" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saldo">
+      <soap:operation soapAction="urn:wservicewsdl#saldo" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="saldoNET">
+      <soap:operation soapAction="urn:wservicewsdl#saldoNET" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelar">
+      <soap:operation soapAction="urn:wservicewsdl#cancelar" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="generar_pem">
+      <soap:operation soapAction="urn:wservicewsdl#generar_pem" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="respaldo_masivo">
+      <soap:operation soapAction="urn:wservicewsdl#ticket" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ticket">
+      <soap:operation soapAction="urn:wservicewsdl#ticket" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ticket_reporte">
+      <soap:operation soapAction="urn:wservicewsdl#ticket_reporte" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ticket_cancela">
+      <soap:operation soapAction="urn:wservicewsdl#ticket_reporte" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="factura_reporte">
+      <soap:operation soapAction="urn:wservicewsdl#factura_reporte" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="factura_recupera_respaldo">
+      <soap:operation soapAction="urn:wservicewsdl#factura_respaldo" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="genera_dotnet">
+      <soap:operation soapAction="urn:wservicewsdl#genera_dotnet" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="genera_ut8">
+      <soap:operation soapAction="urn:wservicewsdl#genera_ut8" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="acuseSAT">
+      <soap:operation soapAction="urn:wservicewsdl#acuseSAT" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancela_ut8">
+      <soap:operation soapAction="urn:wservicewsdl#cancela_ut8" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timbradoMICROSIP">
+      <soap:operation soapAction="urn:wservicewsdl#timbradoMicrosip" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="timbrar33b64">
+      <soap:operation soapAction="urn:wservicewsdl#timbrar33b64" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:wservicewsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wservice">
+    <wsdl:port name="wservicePort" binding="tns:wserviceBinding">
+      <soap:address location="http://ws.facturacionmexico.com.mx/pac/index.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

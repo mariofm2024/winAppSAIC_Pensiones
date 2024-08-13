@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbSAICBPO_MXModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="dbSAICBPO_MXEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="stpSelFolioLoteCargaNominaSACFDI" ReturnType="Collection(dbSAICBPO_MXModel.stpSelFolioLoteCargaNominaSACFDI_Result)" />
+  </EntityContainer>
+  <ComplexType Name="stpSelFolioLoteCargaNominaSACFDI_Result">
+    <Property Type="Int64" Name="IdLoteCargaNomina" Nullable="false" />
+    <Property Type="String" Name="FolioLoteCargaNomina" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="IdTenedora" Nullable="false" />
+    <Property Type="String" Name="Tenedora" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="RFC" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="Cliente" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="Operador" Nullable="false" MaxLength="255" />
+    <Property Type="Boolean" Name="EstatusBorrado" Nullable="false" />
+    <Property Type="Boolean" Name="EstatusNominaCerrada" Nullable="false" />
+  </ComplexType>
+</Schema>

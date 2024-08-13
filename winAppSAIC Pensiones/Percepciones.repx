@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="13.2.7.0" Ref="2" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="Percepciones" DataAdapter="#Ref-1" DataSource="#Ref-0" DataMember="stpSelPercepcionesRecibosEmpleadosSA" Version="13.2" PageHeight="1100" PageWidth="850" Margins="12, 100, 28, 10">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="14">
+      <Controls>
+        <Item1 Ref="4" Name="xrLabel3" ControlType="XRLabel" SizeF="90,14" LocationFloat="211, 0" Font="Arial, 8pt" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel3">
+          <DataBindings>
+            <Item1 Ref="5" FormatString="{0:$0.00}" PropertyName="Text" DataMember="stpSelPercepcionesRecibosEmpleadosSA.MontoPDO" />
+          </DataBindings>
+          <StylePriority Ref="6" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="7" Name="xrLabel2" ControlType="XRLabel" SizeF="188,14" LocationFloat="10, 0" Font="Arial, 8pt" Padding="2,2,0,0,100" Text="xrLabel2">
+          <DataBindings>
+            <Item1 Ref="8" PropertyName="Text" DataMember="stpSelPercepcionesRecibosEmpleadosSA.DescConcepto" />
+          </DataBindings>
+          <StylePriority Ref="9" UseFont="false" />
+        </Item2>
+        <Item3 Ref="10" Name="xrLabel1" ControlType="XRLabel" SizeF="56.25,14" LocationFloat="318.125, 0" Font="Arial, 8pt" Padding="2,2,0,0,100" Visible="false" Text="xrLabel1">
+          <DataBindings>
+            <Item1 Ref="11" PropertyName="Text" DataMember="stpSelPercepcionesRecibosEmpleadosSA.IdPDOHeader" />
+          </DataBindings>
+          <StylePriority Ref="12" UseFont="false" />
+        </Item3>
+      </Controls>
+    </Item1>
+    <Item2 Ref="13" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="28.25" />
+    <Item3 Ref="14" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="10.41668" />
+  </Bands>
+  <Parameters>
+    <Item1 Ref="17" Visible="false" Name="pIdPDOHeader" Type="#Ref-15" Value="#Ref-16" />
+  </Parameters>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="15" Content="System.Int32" Type="System.Type" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="16" Content="0" Type="System.Int32" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="1" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPOReportesDataSetTableAdapters.stpSelPercepcionesRecibosEmpleadosSATableAdapter" />
+    <Item4 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="0" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPOReportesDataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

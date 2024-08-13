@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85B3EDD7-CD7E-41D9-B4F9-798C99BAAB3D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>compCatalogosSAIC</RootNamespace>
+    <AssemblyName>compCatalogosSAIC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="ClienteBD.cs" />
+    <Compile Include="ClienteMatriz.cs" />
+    <Compile Include="ClienteMatrizBD.cs" />
+    <Compile Include="CuentaBancoCliente.cs" />
+    <Compile Include="DireccionEmpleado.cs" />
+    <Compile Include="DireccionEmpleadoBD.cs" />
+    <Compile Include="Empleado.cs" />
+    <Compile Include="EmpleadoBD.cs" />
+    <Compile Include="EmpleadoGenerico.cs" />
+    <Compile Include="FactConceptoTenedora.cs" />
+    <Compile Include="FactConceptoTenedoraBeneficiario.cs" />
+    <Compile Include="FactConceptoTenedoraBeneficiarioDB.cs" />
+    <Compile Include="FactConceptoTenedoraDB.cs" />
+    <Compile Include="FrontingCliente.cs" />
+    <Compile Include="FrontingClienteBD.cs" />
+    <Compile Include="InfoCuentaBanco.cs" />
+    <Compile Include="InfoCuentaBancoBD.cs" />
+    <Compile Include="InfoDetalleTransaccionBanco.cs" />
+    <Compile Include="InfoDetalleTransaccionBancoBD.cs" />
+    <Compile Include="InfoSolicitudChequeDetail.cs" />
+    <Compile Include="InfoSolicitudChequeDetailBD.cs" />
+    <Compile Include="InfoSolicitudChequeHeader.cs" />
+    <Compile Include="InfoSolicitudChequeHeaderBD.cs" />
+    <Compile Include="MatrizTenedora.cs" />
+    <Compile Include="Operador.cs" />
+    <Compile Include="OperadorBD.cs" />
+    <Compile Include="Poliza.cs" />
+    <Compile Include="PolizaBD.cs" />
+    <Compile Include="Promotor.cs" />
+    <Compile Include="PromotorDB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="compLibreriaSAIC.InfoDetalleLoteCargaNomina" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAABBBAAAAAIIAIEAQAQAAAAAABAAAAACAA=</HashCode>
+      <FileName>InfoDetalleLoteCargaNomina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoDetalleLoteCargaNominaBD" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfoDetalleLoteCargaNominaBD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoCierreNominaContable" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAEABIQAAAAQAAAAAAACAA=</HashCode>
+      <FileName>InfoCierreNominaContable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoDetalleCierreNominaContable" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAEIEABIQAAAAQAAAAAAACAA=</HashCode>
+      <FileName>InfoDetalleCierreNominaContable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoDetalleCierreNominaContableBD" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfoDetalleCierreNominaContableBD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoDetalleLoteCargaNominaCanceladoBD" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfoDetalleLoteCargaNominaCanceladoBD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoDetalleSolicitudCancelacionNomina" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>InfoDetalleSolicitudCancelacionNomina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoDetalleSolicitudCancelacionNominaBD" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InfoDetalleSolicitudCancelacionNominaBD.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="compLibreriaSAIC.InfoNominaBase" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIgAAAAAAAAAAAAAQAgAAAAAgAIIANAAgIAI=</HashCode>
+      <FileName>InfoNominaBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

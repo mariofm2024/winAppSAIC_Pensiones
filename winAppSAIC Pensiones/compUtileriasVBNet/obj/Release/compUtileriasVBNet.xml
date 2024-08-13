@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+compUtileriasVBNet
+</name>
+</assembly>
+<members>
+<member name="P:compUtileriasVBNet.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:compUtileriasVBNet.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:compUtileriasVBNet.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:compUtileriasVBNet.Convertidor.EliminarComasEnValoresNumericos(System.String)">
+	<summary>
+ Método que elimina las comas del valor numerico
+ </summary>
+	<param name="pNumero"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="13.2.9.0" Ref="2" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v13.2, Version=13.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="DeduccionesGravadoExento" DataAdapter="#Ref-1" DataSource="#Ref-0" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA" Version="13.2" PageHeight="1100" PageWidth="850" Margins="12, 37, 3, 10">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="13.75">
+      <Controls>
+        <Item1 Ref="4" Name="xrTable1" ControlType="XRTable" LocationFloat="0, 0" Font="Arial, 7pt" SizeF="370,13.75">
+          <Rows>
+            <Item1 Ref="5" ControlType="XRTableRow" Name="xrTableRow2" Weight="1">
+              <Cells>
+                <Item1 Ref="6" Name="xrTableCell6" ControlType="XRTableCell" TextAlignment="TopCenter" Weight="0.21857382681012263">
+                  <DataBindings>
+                    <Item1 Ref="7" PropertyName="Text" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA.ClaveConceptoCFDI" />
+                  </DataBindings>
+                  <StylePriority Ref="8" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="9" Name="xrTableCell7" ControlType="XRTableCell" TextAlignment="TopCenter" Weight="0.27990896084790751">
+                  <DataBindings>
+                    <Item1 Ref="10" PropertyName="Text" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA.CuentaContable" />
+                  </DataBindings>
+                  <StylePriority Ref="11" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="12" Name="xrTableCell8" ControlType="XRTableCell" Padding="5,0,0,0,100" Weight="1.1196358120729315">
+                  <DataBindings>
+                    <Item1 Ref="13" PropertyName="Text" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA.DescConcepto" />
+                  </DataBindings>
+                  <StylePriority Ref="14" UsePadding="false" />
+                </Item3>
+                <Item4 Ref="15" Name="xrTableCell9" ControlType="XRTableCell" TextAlignment="TopRight" Weight="0.48984069232633293">
+                  <DataBindings>
+                    <Item1 Ref="16" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA.MontoPDOGravado" />
+                  </DataBindings>
+                  <StylePriority Ref="17" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="18" Name="xrTableCell10" ControlType="XRTableCell" TextAlignment="TopRight" Weight="0.489840632455323">
+                  <DataBindings>
+                    <Item1 Ref="19" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA.MontoPDOExento" />
+                  </DataBindings>
+                  <StylePriority Ref="20" UseTextAlignment="false" />
+                </Item5>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="21" UseFont="false" />
+        </Item1>
+      </Controls>
+    </Item1>
+    <Item2 Ref="22" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="3.000005" />
+    <Item3 Ref="23" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="10" />
+    <Item4 Ref="24" ControlType="PageHeaderBand" Name="PageHeader" HeightF="27.5">
+      <Controls>
+        <Item1 Ref="25" Name="xrTable2" ControlType="XRTable" LocationFloat="0, 0" Font="Arial, 7pt" SizeF="370,27.5">
+          <Rows>
+            <Item1 Ref="26" ControlType="XRTableRow" Name="xrTableRow4" Weight="1">
+              <Cells>
+                <Item1 Ref="27" Name="xrTableCell18" ControlType="XRTableCell" TextAlignment="MiddleCenter" Font="Arial, 8pt, style=Bold" ForeColor="White" BackColor="Gray" Weight="2.5977999245126178" Text="DEDUCCIONES">
+                  <StylePriority Ref="28" UseFont="false" UseForeColor="false" UseBackColor="false" UseTextAlignment="false" />
+                </Item1>
+              </Cells>
+            </Item1>
+            <Item2 Ref="29" ControlType="XRTableRow" Name="xrTableRow3" Weight="1">
+              <Cells>
+                <Item1 Ref="30" Name="xrTableCell11" ControlType="XRTableCell" TextAlignment="TopCenter" Font="Arial, 7pt, style=Bold" Padding="0,0,0,0,100" Weight="0.21857382681012263" Text="Clave">
+                  <StylePriority Ref="31" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="32" Name="xrTableCell12" ControlType="XRTableCell" TextAlignment="TopCenter" Font="Arial, 7pt, style=Bold" Padding="0,0,0,0,100" Weight="0.27990896084790751" Text="C. Cont.">
+                  <StylePriority Ref="33" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="34" Name="xrTableCell13" ControlType="XRTableCell" Font="Arial, 7pt, style=Bold" Padding="5,0,0,0,100" Weight="1.1196358119971122" Text="Concepto">
+                  <StylePriority Ref="35" UseFont="false" UsePadding="false" />
+                </Item3>
+                <Item4 Ref="36" Name="xrTableCell14" ControlType="XRTableCell" TextAlignment="TopCenter" Font="Arial, 7pt, style=Bold" Padding="0,0,0,0,100" Weight="0.48984069240215239" Text="Gravado">
+                  <StylePriority Ref="37" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                </Item4>
+                <Item5 Ref="38" Name="xrTableCell15" ControlType="XRTableCell" TextAlignment="TopCenter" Font="Arial, 7pt, style=Bold" Padding="0,0,0,0,100" Weight="0.48984063245532294" Text="Exento">
+                  <StylePriority Ref="39" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                </Item5>
+              </Cells>
+            </Item2>
+          </Rows>
+          <StylePriority Ref="40" UseFont="false" />
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="41" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="13.75001">
+      <Controls>
+        <Item1 Ref="42" Name="xrTable3" ControlType="XRTable" LocationFloat="0, 0" Font="Arial, 7pt" SizeF="370,13.75">
+          <Rows>
+            <Item1 Ref="43" ControlType="XRTableRow" Name="xrTableRow1" Weight="1">
+              <Cells>
+                <Item1 Ref="44" Name="xrTableCell1" ControlType="XRTableCell" TextAlignment="TopCenter" Weight="0.21857382681012263">
+                  <StylePriority Ref="45" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="46" Name="xrTableCell3" ControlType="XRTableCell" TextAlignment="TopRight" Font="Arial, 7pt, style=Bold" Padding="5,5,0,0,100" Weight="1.3995448795839027" Text="Total Deducciones">
+                  <StylePriority Ref="47" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+                </Item2>
+                <Item3 Ref="48" Name="xrTableCell4" ControlType="XRTableCell" TextAlignment="TopRight" Font="Arial, 7pt, style=Bold" Weight="0.48984069240215244">
+                  <DataBindings>
+                    <Item1 Ref="49" PropertyName="Text" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA.MontoPDOGravado" />
+                  </DataBindings>
+                  <StylePriority Ref="50" UseFont="false" UseTextAlignment="false" />
+                  <Summary Ref="51" FormatString="{0:c2}" Running="Report" />
+                </Item3>
+                <Item4 Ref="52" Name="xrTableCell5" ControlType="XRTableCell" TextAlignment="TopRight" Font="Arial, 7pt, style=Bold" Weight="0.48984052571644005">
+                  <DataBindings>
+                    <Item1 Ref="53" PropertyName="Text" DataMember="stpSelDeduccionesGravadoExentoRecibosEmpleadosSA.MontoPDOExento" />
+                  </DataBindings>
+                  <StylePriority Ref="54" UseFont="false" UseTextAlignment="false" />
+                  <Summary Ref="55" FormatString="{0:c2}" Running="Report" />
+                </Item4>
+              </Cells>
+            </Item1>
+          </Rows>
+          <StylePriority Ref="56" UseFont="false" />
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <Parameters>
+    <Item1 Ref="59" Visible="false" Name="pIdPDOHeader" Type="#Ref-57" Value="#Ref-58" />
+    <Item2 Ref="62" Visible="false" Description="TipoMovimientoNomina" Name="pTipoMovimientoNomina" />
+  </Parameters>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="57" Content="System.Int32" Type="System.Type" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="58" Content="0" Type="System.Int32" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="1" Content="~Xtra#NULL" Type="winAppSAIC.NominaCFDI.dbSAICBPONominaCFDIDataSetTableAdapters.stpSelDeduccionesGravadoExentoRecibosEmpleadosSATableAdapter" />
+    <Item4 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="0" Content="~Xtra#NULL" Type="winAppSAIC.NominaCFDI.dbSAICBPONominaCFDIDataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

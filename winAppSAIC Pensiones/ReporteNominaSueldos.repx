@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="13.2.7.0" Ref="2" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v13.2, Version=13.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="ReporteNominaSueldos" DataAdapter="#Ref-1" DataSource="#Ref-0" DataMember="stpSelReporteNominaSueldosSA" Version="13.2" PageHeight="850" PageWidth="1100" Margins="23, 23, 159, 62" Landscape="true">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="19.95832">
+      <Controls>
+        <Item1 Ref="4" Name="xrLabel52" ControlType="XRLabel" SizeF="50.00006,19" LocationFloat="663.8966, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel52">
+          <DataBindings>
+            <Item1 Ref="5" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.ISR" />
+          </DataBindings>
+          <StylePriority Ref="6" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="7" Name="xrLabel48" ControlType="XRLabel" SizeF="55,19" LocationFloat="838.8966, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopRight">
+          <DataBindings>
+            <Item1 Ref="8" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.TotalOtrasDeducciones" />
+          </DataBindings>
+          <StylePriority Ref="9" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="10" Name="xrLabel1" ControlType="XRLabel" SizeF="60,19" LocationFloat="548.8965, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopRight">
+          <DataBindings>
+            <Item1 Ref="11" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.TotalOtrasPercepciones" />
+          </DataBindings>
+          <StylePriority Ref="12" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="13" Name="xrLabel19" ControlType="XRLabel" SizeF="45,19" LocationFloat="1008.897, 0" Font="Arial Narrow, 6pt" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel19">
+          <DataBindings>
+            <Item1 Ref="14" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.NoRecibo" />
+          </DataBindings>
+          <StylePriority Ref="15" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="16" Name="xrLabel18" ControlType="XRLabel" SizeF="60,19" LocationFloat="948.8966, 0" Font="Arial Narrow, 6pt, style=Bold" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel18">
+          <DataBindings>
+            <Item1 Ref="17" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.MontoNetoPagar" />
+          </DataBindings>
+          <StylePriority Ref="18" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="19" Name="xrLabel17" ControlType="XRLabel" SizeF="55,19" LocationFloat="893.8966, 0" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel17">
+          <DataBindings>
+            <Item1 Ref="20" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.MontoTotalDeducciones" />
+          </DataBindings>
+          <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="22" Name="xrLabel16" ControlType="XRLabel" SizeF="45,19" LocationFloat="793.8966, 0" Font="Arial Narrow, 6pt" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel16">
+          <DataBindings>
+            <Item1 Ref="23" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.Infonavit" />
+          </DataBindings>
+          <StylePriority Ref="24" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="25" Name="xrLabel15" ControlType="XRLabel" SizeF="40,19" LocationFloat="753.8966, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel15">
+          <DataBindings>
+            <Item1 Ref="26" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.RCV" />
+          </DataBindings>
+          <StylePriority Ref="27" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="28" Name="xrLabel14" ControlType="XRLabel" SizeF="40,19" LocationFloat="713.8966, 0" Font="Arial Narrow, 6pt" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel14">
+          <DataBindings>
+            <Item1 Ref="29" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.IMSS" />
+          </DataBindings>
+          <StylePriority Ref="30" UseFont="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="31" Name="xrLabel13" ControlType="XRLabel" SizeF="55,19" LocationFloat="608.8965, 0" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel13">
+          <DataBindings>
+            <Item1 Ref="32" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.MontoTotalPercepciones" />
+          </DataBindings>
+          <StylePriority Ref="33" UseFont="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="34" Name="xrLabel12" ControlType="XRLabel" SizeF="40,19" LocationFloat="508.8965, 0" Font="Arial Narrow, 6pt" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel12">
+          <DataBindings>
+            <Item1 Ref="35" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.Subsidio" />
+          </DataBindings>
+          <StylePriority Ref="36" UseFont="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="37" Name="xrLabel11" ControlType="XRLabel" SizeF="47.99823,19" LocationFloat="460.8983, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel11">
+          <DataBindings>
+            <Item1 Ref="38" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.Sueldo" />
+          </DataBindings>
+          <StylePriority Ref="39" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="40" Name="xrLabel10" ControlType="XRLabel" SizeF="28.92108,19" LocationFloat="431.9755, 0" Font="Arial Narrow, 6pt" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel10">
+          <DataBindings>
+            <Item1 Ref="41" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.DiasPagar" />
+          </DataBindings>
+          <StylePriority Ref="42" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="43" Name="xrLabel9" ControlType="XRLabel" SizeF="35,19" LocationFloat="396.9739, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel9">
+          <DataBindings>
+            <Item1 Ref="44" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.SDI" />
+          </DataBindings>
+          <StylePriority Ref="45" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="46" Name="xrLabel8" ControlType="XRLabel" SizeF="35,19" LocationFloat="361.9739, 0" Font="Arial Narrow, 6pt" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel8">
+          <DataBindings>
+            <Item1 Ref="47" FormatString="{0:c2}" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.SD" />
+          </DataBindings>
+          <StylePriority Ref="48" UseFont="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="49" Name="xrLabel6" ControlType="XRLabel" SizeF="65.46043,19" LocationFloat="207.915, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel6">
+          <DataBindings>
+            <Item1 Ref="50" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.RFCEmpleado" />
+          </DataBindings>
+          <StylePriority Ref="51" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="52" Name="xrLabel5" ControlType="XRLabel" SizeF="50,19" LocationFloat="157.915, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel5">
+          <DataBindings>
+            <Item1 Ref="53" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.NSS" />
+          </DataBindings>
+          <StylePriority Ref="54" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="55" Name="xrLabel4" ControlType="XRLabel" SizeF="157.91,19" LocationFloat="0, 0" Font="Arial Narrow, 6pt" Padding="2,2,0,0,100" Text="xrLabel4">
+          <DataBindings>
+            <Item1 Ref="56" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.NombreEmpleado" />
+          </DataBindings>
+          <StylePriority Ref="57" UseFont="false" />
+        </Item18>
+        <Item19 Ref="58" Name="xrLabel7" ControlType="XRLabel" SizeF="88.59647,19" LocationFloat="273.3772, 0" Font="Arial Narrow, 6pt" BackColor="White" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel7">
+          <DataBindings>
+            <Item1 Ref="59" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.CURP" />
+          </DataBindings>
+          <StylePriority Ref="60" UseFont="false" UseBackColor="false" UseTextAlignment="false" />
+        </Item19>
+      </Controls>
+    </Item1>
+    <Item2 Ref="61" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" Font="Arial Narrow, 8.25pt" HeightF="159.4509">
+      <Controls>
+        <Item1 Ref="62" Name="xrLabel53" ControlType="XRLabel" SizeF="50.00006,21" LocationFloat="663.8966, 137.1666" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="ISR">
+          <StylePriority Ref="63" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="64" Name="xrLabel51" ControlType="XRLabel" SizeF="300,21" LocationFloat="754, 69.00001" Font="Arial Narrow, 8pt, style=Bold" Padding="2,2,0,0,100" Visible="false" TextAlignment="TopRight" Text="xrLabel51">
+          <DataBindings>
+            <Item1 Ref="65" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.LeyendaOperador" />
+          </DataBindings>
+          <StylePriority Ref="66" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="67" Name="xrLabel23" ControlType="XRLabel" SizeF="55,33.5" LocationFloat="838.8966, 124.6666" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="OTRAS DEDUCCIONES">
+          <StylePriority Ref="68" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="69" Name="xrLabel22" ControlType="XRLabel" SizeF="60,33.49999" LocationFloat="548.8965, 124.6666" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="OTRAS PERCEPCIONES">
+          <StylePriority Ref="70" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="71" Name="xrLabel47" ControlType="XRLabel" SizeF="88.59494,20.99998" LocationFloat="273.3772, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="CURP">
+          <StylePriority Ref="72" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="73" Name="xrLabel46" ControlType="XRLabel" SizeF="65.46222,20.99998" LocationFloat="207.9132, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="RFC">
+          <StylePriority Ref="74" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="75" Name="xrLabel44" ControlType="XRLabel" SizeF="50,20.99998" LocationFloat="157.9132, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="IMSS">
+          <StylePriority Ref="76" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="77" Name="xrLabel45" ControlType="XRLabel" SizeF="300,21" LocationFloat="754, 48.00001" Font="Arial Narrow, 8pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel45">
+          <DataBindings>
+            <Item1 Ref="78" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.LeyendaMonedaTipoCambio" />
+          </DataBindings>
+          <StylePriority Ref="79" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="80" Name="xrLabel36" ControlType="XRLabel" SizeF="260.1035,21" LocationFloat="793.8967, 27.00001" Font="Arial Narrow, 9pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel36">
+          <DataBindings>
+            <Item1 Ref="81" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.LeyendaPeriodoCompuesta" />
+          </DataBindings>
+          <StylePriority Ref="82" UseFont="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="83" Name="xrLabel35" ControlType="XRLabel" SizeF="45,21" LocationFloat="1008.897, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="No. RECIBO">
+          <StylePriority Ref="84" UseFont="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="85" Name="xrLabel34" ControlType="XRLabel" SizeF="60,21" LocationFloat="948.8966, 137.1666" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="NETO PAGADO">
+          <StylePriority Ref="86" UseFont="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="87" Name="xrLabel33" ControlType="XRLabel" SizeF="55,33.5" LocationFloat="893.8966, 124.6667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="TOTAL DEDUCCION">
+          <StylePriority Ref="88" UseFont="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="89" Name="xrLabel32" ControlType="XRLabel" SizeF="45,21" LocationFloat="793.8966, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="INFONAVIT">
+          <StylePriority Ref="90" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="91" Name="xrLabel31" ControlType="XRLabel" SizeF="40,21" LocationFloat="753.8966, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="RCV">
+          <StylePriority Ref="92" UseFont="false" UseTextAlignment="false" />
+        </Item14>
+        <Item15 Ref="93" Name="xrLabel30" ControlType="XRLabel" SizeF="40,21" LocationFloat="713.8966, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="IMSS">
+          <StylePriority Ref="94" UseFont="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="95" Name="xrLabel29" ControlType="XRLabel" SizeF="55,33.49999" LocationFloat="608.8965, 124.6666" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="TOTAL INGRESOS">
+          <StylePriority Ref="96" UseFont="false" UseTextAlignment="false" />
+        </Item16>
+        <Item17 Ref="97" Name="xrLabel28" ControlType="XRLabel" SizeF="40,21" LocationFloat="508.8965, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="SUBSIDIO">
+          <StylePriority Ref="98" UseFont="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="99" Name="xrLabel27" ControlType="XRLabel" SizeF="48,21" LocationFloat="460.8966, 137.1666" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="SUELDO">
+          <StylePriority Ref="100" UseFont="false" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="101" Name="xrLabel26" ControlType="XRLabel" SizeF="28.92444,21" LocationFloat="431.9721, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="DIAS">
+          <StylePriority Ref="102" UseFont="false" UseTextAlignment="false" />
+        </Item19>
+        <Item20 Ref="103" Name="xrLabel25" ControlType="XRLabel" SizeF="35,20.99999" LocationFloat="396.9721, 137.1666" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="SDI">
+          <StylePriority Ref="104" UseFont="false" UseTextAlignment="false" />
+        </Item20>
+        <Item21 Ref="105" Name="xrLabel24" ControlType="XRLabel" SizeF="35,20.99998" LocationFloat="361.9721, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleCenter" Text="SD">
+          <StylePriority Ref="106" UseFont="false" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="107" Name="xrLabel2" ControlType="XRLabel" SizeF="1054,25.49997" LocationFloat="3.33786E-06, 95" Font="Arial Narrow, 12pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel2">
+          <DataBindings>
+            <Item1 Ref="108" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.LeyendaTipoNomina" />
+          </DataBindings>
+          <StylePriority Ref="109" UseFont="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="110" Name="xrLabel21" ControlType="XRLabel" SizeF="157.9132,20.99999" LocationFloat="0, 137.1667" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="MiddleLeft" Text="NOMBRE">
+          <StylePriority Ref="111" UseFont="false" UseTextAlignment="false" />
+        </Item23>
+        <Item24 Ref="112" Name="lblRegistroPatronal" ControlType="XRLabel" SizeF="230,21" LocationFloat="0, 71.00002" Font="Arial Narrow, 9pt, style=Bold" Padding="2,2,0,0,100">
+          <DataBindings>
+            <Item1 Ref="113" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.RegistroPatronalIMSS" />
+          </DataBindings>
+          <StylePriority Ref="114" UseFont="false" />
+        </Item24>
+        <Item25 Ref="115" Name="lblRFCTenedora" ControlType="XRLabel" SizeF="230,21" LocationFloat="0, 50.00002" Font="Arial Narrow, 9pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopLeft">
+          <DataBindings>
+            <Item1 Ref="116" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.RFCTenedora" />
+          </DataBindings>
+          <StylePriority Ref="117" UseFont="false" UseTextAlignment="false" />
+        </Item25>
+        <Item26 Ref="118" Name="lblRazonSocial" ControlType="XRLabel" SizeF="783.4799,21" LocationFloat="0, 27.00001" Font="Arial Narrow, 12pt, style=Bold" Padding="2,2,0,0,100" CanGrow="false">
+          <DataBindings>
+            <Item1 Ref="119" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.RazonSocial" />
+          </DataBindings>
+          <StylePriority Ref="120" UseFont="false" />
+        </Item26>
+      </Controls>
+      <StylePriority Ref="121" UseFont="false" />
+    </Item2>
+    <Item3 Ref="122" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Padding="0,0,0,0,100" HeightF="62">
+      <Controls>
+        <Item1 Ref="123" ControlType="XRPageInfo" Name="xrPageInfo1" SizeF="99.58331,23" LocationFloat="954.3133, 10.00001" Font="Arial Narrow, 10pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight">
+          <StylePriority Ref="124" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="125" Name="xrLabel3" ControlType="XRLabel" SizeF="1053.897,23" LocationFloat="0, 10.00001" Font="Times New Roman, 10pt, style=Bold, Italic" Padding="2,2,0,0,100" TextAlignment="TopCenter" Text="xrLabel3">
+          <DataBindings>
+            <Item1 Ref="126" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.FolioLoteCargaNomina" />
+          </DataBindings>
+          <StylePriority Ref="127" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+      </Controls>
+    </Item3>
+    <Item4 Ref="128" ControlType="ReportFooterBand" Name="ReportFooter" HeightF="31.78719">
+      <Controls>
+        <Item1 Ref="129" Name="xrLabel56" ControlType="XRLabel" SizeF="76.0385,23" LocationFloat="142.285, 6.875006" Font="Arial, 8pt, style=Bold, Italic" Padding="2,2,0,0,100" TextAlignment="MiddleLeft" Text="xrLabel56">
+          <DataBindings>
+            <Item1 Ref="130" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.NombreEmpleado" />
+          </DataBindings>
+          <StylePriority Ref="131" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="132" FormatString="{0:#}" Running="Report" Func="Count" />
+        </Item1>
+        <Item2 Ref="133" Name="xrLabel55" ControlType="XRLabel" SizeF="142.285,23" LocationFloat="0, 6.875006" Font="Arial, 8pt, style=Bold, Italic" Padding="2,2,0,0,100" TextAlignment="MiddleLeft" Text="No. Total de Empleados =">
+          <StylePriority Ref="134" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="135" Name="xrLabel54" ControlType="XRLabel" SizeF="49.99835,19" LocationFloat="663.8984, 6.875021" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel54">
+          <DataBindings>
+            <Item1 Ref="136" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.ISR" />
+          </DataBindings>
+          <StylePriority Ref="137" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="138" FormatString="{0:c2}" Running="Report" />
+        </Item3>
+        <Item4 Ref="139" Name="xrLabel50" ControlType="XRLabel" SizeF="55,19" LocationFloat="838.8966, 6.875006" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight">
+          <DataBindings>
+            <Item1 Ref="140" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.TotalOtrasDeducciones" />
+          </DataBindings>
+          <StylePriority Ref="141" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="142" FormatString="{0:c2}" Running="Report" />
+        </Item4>
+        <Item5 Ref="143" Name="xrLabel49" ControlType="XRLabel" SizeF="60,19" LocationFloat="548.8983, 6.875004" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight">
+          <DataBindings>
+            <Item1 Ref="144" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.TotalOtrasPercepciones" />
+          </DataBindings>
+          <StylePriority Ref="145" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="146" FormatString="{0:c2}" Running="Report" />
+        </Item5>
+        <Item6 Ref="147" Name="xrLabel41" ControlType="XRLabel" SizeF="45,19" LocationFloat="793.8966, 6.875006" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel41">
+          <DataBindings>
+            <Item1 Ref="148" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.Infonavit" />
+          </DataBindings>
+          <StylePriority Ref="149" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="150" FormatString="{0:c2}" Running="Report" />
+        </Item6>
+        <Item7 Ref="151" Name="xrLabel42" ControlType="XRLabel" SizeF="55,19" LocationFloat="893.8966, 6.875006" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel42">
+          <DataBindings>
+            <Item1 Ref="152" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.MontoTotalDeducciones" />
+          </DataBindings>
+          <StylePriority Ref="153" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="154" FormatString="{0:c2}" Running="Report" />
+        </Item7>
+        <Item8 Ref="155" Name="xrLabel43" ControlType="XRLabel" SizeF="60,19" LocationFloat="948.8966, 6.875006" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel43">
+          <DataBindings>
+            <Item1 Ref="156" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.MontoNetoPagar" />
+          </DataBindings>
+          <StylePriority Ref="157" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="158" FormatString="{0:c2}" Running="Report" />
+        </Item8>
+        <Item9 Ref="159" Name="xrLabel40" ControlType="XRLabel" SizeF="40,19" LocationFloat="753.8966, 6.875006" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel40">
+          <DataBindings>
+            <Item1 Ref="160" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.RCV" />
+          </DataBindings>
+          <StylePriority Ref="161" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="162" FormatString="{0:c2}" Running="Report" />
+        </Item9>
+        <Item10 Ref="163" Name="xrLabel37" ControlType="XRLabel" SizeF="40,19" LocationFloat="508.8983, 6.875004" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel37">
+          <DataBindings>
+            <Item1 Ref="164" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.Subsidio" />
+          </DataBindings>
+          <StylePriority Ref="165" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="166" FormatString="{0:c2}" Running="Report" />
+        </Item10>
+        <Item11 Ref="167" Name="xrLabel38" ControlType="XRLabel" SizeF="55,19" LocationFloat="608.8983, 6.875004" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel38">
+          <DataBindings>
+            <Item1 Ref="168" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.MontoTotalPercepciones" />
+          </DataBindings>
+          <StylePriority Ref="169" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="170" FormatString="{0:c2}" Running="Report" />
+        </Item11>
+        <Item12 Ref="171" Name="xrLabel39" ControlType="XRLabel" SizeF="40,19" LocationFloat="713.8966, 6.875006" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel39">
+          <DataBindings>
+            <Item1 Ref="172" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.IMSS" />
+          </DataBindings>
+          <StylePriority Ref="173" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="174" FormatString="{0:c2}" Running="Report" />
+        </Item12>
+        <Item13 Ref="175" Name="xrLine1" ControlType="XRLine" SizeF="562.9641,6.875008" LocationFloat="448.9325, 0" />
+        <Item14 Ref="176" Name="xrLabel20" ControlType="XRLabel" SizeF="48,19" LocationFloat="460.8983, 6.875004" Font="Arial Narrow, 6pt, style=Bold" Padding="2,2,0,0,100" TextAlignment="TopRight" Text="xrLabel20">
+          <DataBindings>
+            <Item1 Ref="177" PropertyName="Text" DataMember="stpSelReporteNominaSueldosSA.Sueldo" />
+          </DataBindings>
+          <StylePriority Ref="178" UseFont="false" UseTextAlignment="false" />
+          <Summary Ref="179" FormatString="{0:c2}" Running="Report" />
+        </Item14>
+      </Controls>
+    </Item4>
+  </Bands>
+  <CalculatedFields>
+    <Item1 Ref="180" Name="LeyendaTipoNomina" Expression="'NOMINA DE SUELDOS ' + [DescTipoPeriodoNomina]" DataMember="stpSelReporteNominaSueldosSA" />
+    <Item2 Ref="181" Name="LeyendaPeriodoCompuesta" Expression="'PERIODO ' + [PeriodoPago]" DataMember="stpSelReporteNominaSueldosSA" />
+    <Item3 Ref="182" Name="LeyendaMonedaTipoCambio" Expression="'MONEDA: ' + [DescMoneda] + ',TIPO DE CAMBIO: $ ' + ToStr([TipoCambio])" DataMember="stpSelReporteNominaSueldosSA" />
+    <Item4 Ref="183" Name="LeyendaOperador" Expression="'OPERADOR: ' + [NombreCompletoOperador]" DataMember="stpSelReporteNominaSueldosSA" />
+  </CalculatedFields>
+  <Parameters>
+    <Item1 Ref="186" Visible="false" Description="Ano Fin" Name="pAnoFin" Type="#Ref-184" Value="#Ref-185" />
+    <Item2 Ref="187" Visible="false" Description="Ano Inicio" Name="pAnoInicio" Type="#Ref-184" Value="#Ref-185" />
+    <Item3 Ref="190" Visible="false" Description="Dia Fin" Name="pDiaFin" Type="#Ref-188" Value="#Ref-189" />
+    <Item4 Ref="191" Visible="false" Description="Dia Inicio" Name="pDiaInicio" Type="#Ref-188" Value="#Ref-189" />
+    <Item5 Ref="192" Visible="false" Description="Id Cliente" Name="pIdCliente" Type="#Ref-184" Value="#Ref-185" />
+    <Item6 Ref="193" Visible="false" Description="IdLoteCargaNomina" Name="pIdLoteCargaNomina" Type="#Ref-184" Value="#Ref-185" />
+    <Item7 Ref="194" Visible="false" Description="Id Operador" Name="pIdOperador" Type="#Ref-188" Value="#Ref-189" />
+    <Item8 Ref="195" Visible="false" Description="Id Tenedora" Name="pIdTenedora" Type="#Ref-184" Value="#Ref-185" />
+    <Item9 Ref="196" Visible="false" Description="Id Tipo Periodo Nomina" Name="pIdTipoPeriodoNomina" Type="#Ref-188" Value="#Ref-189" />
+    <Item10 Ref="197" Visible="false" Description="Mes Fin" Name="pMesFin" Type="#Ref-188" Value="#Ref-189" />
+    <Item11 Ref="198" Visible="false" Description="Mes Inicio" Name="pMesInicio" Type="#Ref-188" Value="#Ref-189" />
+  </Parameters>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="184" Content="System.Int32" Type="System.Type" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="185" Content="0" Type="System.Int32" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="188" Content="System.Int16" Type="System.Type" />
+    <Item4 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="189" Content="0" Type="System.Int16" />
+    <Item5 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="1" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPOReportesDataSetTableAdapters.stpSelReporteNominaSueldosSATableAdapter" />
+    <Item6 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.2" Ref="0" Content="~Xtra#NULL" Type="winAppSAIC.dbSAICBPOReportesDataSet" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

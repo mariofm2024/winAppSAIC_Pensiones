@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://api.enlacefiscal.namespace" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://api.enlacefiscal.namespace" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://api.enlacefiscal.namespace" />
+  </wsdl:types>
+  <wsdl:message name="generarAsalariadoRequest">
+    <wsdl:part name="generarAsalariado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="generarAsalariadoResponse">
+    <wsdl:part name="generarAsalariadoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="generarAsimilableRequest">
+    <wsdl:part name="generarAsimilable" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="generarAsimilableResponse">
+    <wsdl:part name="generarAsimilableResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="generarPensionadoRequest">
+    <wsdl:part name="generarPensionado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="generarPensionadoResponse">
+    <wsdl:part name="generarPensionadoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="generarJubiladoRequest">
+    <wsdl:part name="generarJubilado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="generarJubiladoResponse">
+    <wsdl:part name="generarJubiladoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="recuperarAsalariadoRequest">
+    <wsdl:part name="recuperarAsalariado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="recuperarAsalariadoResponse">
+    <wsdl:part name="recuperarAsalariadoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionAsalariadoRequest">
+    <wsdl:part name="infoFolio" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionAsalariadoResponse">
+    <wsdl:part name="infoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionAsimilableRequest">
+    <wsdl:part name="infoFolio" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionAsimilableResponse">
+    <wsdl:part name="infoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionPensionadoRequest">
+    <wsdl:part name="infoFolio" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionPensionadoResponse">
+    <wsdl:part name="infoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionJubiladoRequest">
+    <wsdl:part name="infoFolio" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="informacionJubiladoResponse">
+    <wsdl:part name="infoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarAsalariadoRequest">
+    <wsdl:part name="cancelarAsalariado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarAsalariadoResponse">
+    <wsdl:part name="cancelarAsalariadoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarAsimilableRequest">
+    <wsdl:part name="cancelarAsimilable" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarAsimilableResponse">
+    <wsdl:part name="cancelarAsimilableResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarPensionadoRequest">
+    <wsdl:part name="cancelarPensionado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarPensionadoResponse">
+    <wsdl:part name="cancelarPensionadoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarJubiladoRequest">
+    <wsdl:part name="cancelarJubilado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="cancelarJubiladoResponse">
+    <wsdl:part name="cancelarJubiladoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="obtenerSaldoRequest">
+    <wsdl:part name="saldoInput" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="obtenerSaldoResponse">
+    <wsdl:part name="saldoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlAsalariadoRequest">
+    <wsdl:part name="solicitudFolioAsalariado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlAsalariadoResponse">
+    <wsdl:part name="solicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlAsimilableRequest">
+    <wsdl:part name="solicitudFolioAsimilable" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlAsimilableResponse">
+    <wsdl:part name="solicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlPensionadoRequest">
+    <wsdl:part name="solicitudFolioPensionado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlPensionadoResponse">
+    <wsdl:part name="solicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlJubiladoRequest">
+    <wsdl:part name="solicitudFolioJubilado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarXmlJubiladoResponse">
+    <wsdl:part name="solicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrAsalariadoRequest">
+    <wsdl:part name="QRsolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrAsalariadoResponse">
+    <wsdl:part name="QRsolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrAsimilableRequest">
+    <wsdl:part name="QRsolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrAsimilableResponse">
+    <wsdl:part name="QRsolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrPensionadoRequest">
+    <wsdl:part name="QRsolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrPensionadoResponse">
+    <wsdl:part name="QRsolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrJubiladoRequest">
+    <wsdl:part name="QRsolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="solicitarQrJubiladoResponse">
+    <wsdl:part name="QRsolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionAsimilableRequest">
+    <wsdl:part name="probarConexionAsimilable" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionAsimilableResponse">
+    <wsdl:part name="probarConexionAsimilableResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionAsalariadoRequest">
+    <wsdl:part name="probarConexionAsalariado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionAsalariadoResponse">
+    <wsdl:part name="probarConexionAsalariadoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionPensionadoRequest">
+    <wsdl:part name="probarConexionPensionado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionPensionadoResponse">
+    <wsdl:part name="probarConexionPensionadoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionJubiladoRequest">
+    <wsdl:part name="probarConexionJubilado" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="probarConexionJubiladoResponse">
+    <wsdl:part name="probarConexionJubiladoResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoAsimilableRequest">
+    <wsdl:part name="enviarCorreoAsimilablesolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoAsimilableResponse">
+    <wsdl:part name="enviarCorreoAsimilablesolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoAsalariadoRequest">
+    <wsdl:part name="enviarCorreoAsalariadosolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoAsalariadoResponse">
+    <wsdl:part name="enviarCorreoAsalariadosolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoPensionadoResponse">
+    <wsdl:part name="enviarCorreoPensionadosolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoPensionadoRequest">
+    <wsdl:part name="enviarCorreoPensionadosolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoJubiladoResponse">
+    <wsdl:part name="enviarCorreoJubiladosolicitudResult" type="xs:string" />
+  </wsdl:message>
+  <wsdl:message name="enviarCorreoJubiladoRequest">
+    <wsdl:part name="enviarCorreoJubiladosolicitud" type="xs:string" />
+  </wsdl:message>
+  <wsdl:portType name="wsAPIxmlSOAP">
+    <wsdl:operation name="generarAsalariado">
+      <wsdl:input message="tns:generarAsalariadoRequest" />
+      <wsdl:output message="tns:generarAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="generarAsimilable">
+      <wsdl:input message="tns:generarAsimilableRequest" />
+      <wsdl:output message="tns:generarAsimilableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="generarPensionado">
+      <wsdl:input message="tns:generarPensionadoRequest" />
+      <wsdl:output message="tns:generarPensionadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="generarJubilado">
+      <wsdl:input message="tns:generarJubiladoRequest" />
+      <wsdl:output message="tns:generarJubiladoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="recuperarAsalariado">
+      <wsdl:input message="tns:recuperarAsalariadoRequest" />
+      <wsdl:output message="tns:recuperarAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="informacionAsalariado">
+      <wsdl:input message="tns:informacionAsalariadoRequest" />
+      <wsdl:output message="tns:informacionAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="informacionAsimilable">
+      <wsdl:input message="tns:informacionAsimilableRequest" />
+      <wsdl:output message="tns:informacionAsimilableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="informacionPensionado">
+      <wsdl:input message="tns:informacionPensionadoRequest" />
+      <wsdl:output message="tns:informacionPensionadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="informacionJubilado">
+      <wsdl:input message="tns:informacionJubiladoRequest" />
+      <wsdl:output message="tns:informacionJubiladoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelarAsalariado">
+      <wsdl:input message="tns:cancelarAsalariadoRequest" />
+      <wsdl:output message="tns:cancelarAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelarAsimilable">
+      <wsdl:input message="tns:cancelarAsimilableRequest" />
+      <wsdl:output message="tns:cancelarAsimilableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelarPensionado">
+      <wsdl:input message="tns:cancelarPensionadoRequest" />
+      <wsdl:output message="tns:cancelarPensionadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="cancelarJubilado">
+      <wsdl:input message="tns:cancelarJubiladoRequest" />
+      <wsdl:output message="tns:cancelarJubiladoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="obtenerSaldo">
+      <wsdl:input message="tns:obtenerSaldoRequest" />
+      <wsdl:output message="tns:obtenerSaldoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlAsalariado">
+      <wsdl:input message="tns:solicitarXmlAsalariadoRequest" />
+      <wsdl:output message="tns:solicitarXmlAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlAsimilable">
+      <wsdl:input message="tns:solicitarXmlAsimilableRequest" />
+      <wsdl:output message="tns:solicitarXmlAsimilableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlPensionado">
+      <wsdl:input message="tns:solicitarXmlPensionadoRequest" />
+      <wsdl:output message="tns:solicitarXmlPensionadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlJubilado">
+      <wsdl:input message="tns:solicitarXmlJubiladoRequest" />
+      <wsdl:output message="tns:solicitarXmlJubiladoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionAsimilable">
+      <wsdl:input message="tns:probarConexionAsimilableRequest" />
+      <wsdl:output message="tns:probarConexionAsimilableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionAsalariado">
+      <wsdl:input message="tns:probarConexionAsalariadoRequest" />
+      <wsdl:output message="tns:probarConexionAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionPensionado">
+      <wsdl:input message="tns:probarConexionPensionadoRequest" />
+      <wsdl:output message="tns:probarConexionPensionadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionJubilado">
+      <wsdl:input message="tns:probarConexionJubiladoRequest" />
+      <wsdl:output message="tns:probarConexionJubiladoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrAsalariado">
+      <wsdl:input message="tns:solicitarQrAsalariadoRequest" />
+      <wsdl:output message="tns:solicitarQrAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrAsimilable">
+      <wsdl:input message="tns:solicitarQrAsimilableRequest" />
+      <wsdl:output message="tns:solicitarQrAsimilableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrPensionado">
+      <wsdl:input message="tns:solicitarQrPensionadoRequest" />
+      <wsdl:output message="tns:solicitarQrPensionadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrJubilado">
+      <wsdl:input message="tns:solicitarQrJubiladoRequest" />
+      <wsdl:output message="tns:solicitarQrJubiladoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoAsalariado">
+      <wsdl:input message="tns:enviarCorreoAsalariadoRequest" />
+      <wsdl:output message="tns:enviarCorreoAsalariadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoAsimilable">
+      <wsdl:input message="tns:enviarCorreoAsimilableRequest" />
+      <wsdl:output message="tns:enviarCorreoAsimilableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoPensionado">
+      <wsdl:input message="tns:enviarCorreoPensionadoRequest" />
+      <wsdl:output message="tns:enviarCorreoPensionadoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoJubilado">
+      <wsdl:input message="tns:enviarCorreoJubiladoRequest" />
+      <wsdl:output message="tns:enviarCorreoJubiladoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsAPIXMLBinding" type="tns:wsAPIxmlSOAP">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="generarAsalariado">
+      <soap:operation soapAction="/generarAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="generarAsimilable">
+      <soap:operation soapAction="/generarAsimilable" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="generarPensionado">
+      <soap:operation soapAction="/generarPensionado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="generarJubilado">
+      <soap:operation soapAction="/generarJubilado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarAsalariado">
+      <soap:operation soapAction="/recuperarAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="informacionAsalariado">
+      <soap:operation soapAction="/informacionAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="informacionAsimilable">
+      <soap:operation soapAction="/informacionAsimilable" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="informacionPensionado">
+      <soap:operation soapAction="/informacionPensionado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="informacionJubilado">
+      <soap:operation soapAction="/informacionJubilado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarAsalariado">
+      <soap:operation soapAction="/cancelarAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarAsimilable">
+      <soap:operation soapAction="/cancelarAsimilable" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarPensionado">
+      <soap:operation soapAction="/cancelarPensionado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cancelarJubilado">
+      <soap:operation soapAction="/cancelarJubilado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="obtenerSaldo">
+      <soap:operation soapAction="/obtenerSaldo" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlAsalariado">
+      <soap:operation soapAction="/solicitarXmlAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlAsimilable">
+      <soap:operation soapAction="/solicitarXmlAsimilable" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlPensionado">
+      <soap:operation soapAction="/solicitarXmlPensionado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarXmlJubilado">
+      <soap:operation soapAction="/solicitarXmlJubilado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionAsimilable">
+      <soap:operation soapAction="/probarConexionAsimilable" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionAsalariado">
+      <soap:operation soapAction="/probarConexionAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionPensionado">
+      <soap:operation soapAction="/probarConexionPensionado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="probarConexionJubilado">
+      <soap:operation soapAction="/probarConexionJubilado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrAsalariado">
+      <soap:operation soapAction="/solicitarQrAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrAsimilable">
+      <soap:operation soapAction="/solicitarQrAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrPensionado">
+      <soap:operation soapAction="/solicitarQrPensionado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="solicitarQrJubilado">
+      <soap:operation soapAction="/solicitarQrJubilado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoAsalariado">
+      <soap:operation soapAction="/enviarCorreoAsalariado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoAsimilable">
+      <soap:operation soapAction="/enviarCorreoAsimilable" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoPensionado">
+      <soap:operation soapAction="/enviarCorreoPensionado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enviarCorreoJubilado">
+      <soap:operation soapAction="/enviarCorreoJubilado" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EFService">
+    <wsdl:port name="EFPort" binding="tns:wsAPIXMLBinding">
+      <soap:address location="https://api.enlacefiscal.com/soap/serviceCFDiNomina.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbSAICBPOReporteActualizar" targetNamespace="http://tempuri.org/dbSAICBPOReporteActualizar.xsd" xmlns:mstns="http://tempuri.org/dbSAICBPOReporteActualizar.xsd" xmlns="http://tempuri.org/dbSAICBPOReporteActualizar.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="queriesActualizaReportes" GeneratorFunctionsComponentClassName="queriesActualizaReportes" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="queriesActualizaReportes" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbSAICBPOConnectionStringJOB" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbSAICBPOConnectionStringJOB (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.winAppSAIC.Properties.Settings.GlobalReference.Default.dbSAICBPOConnectionStringJOB" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dbSAICBPOConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbSAICBPOConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.winAppSAIC.Properties.Settings.GlobalReference.Default.dbSAICBPOConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources>
+          <DbSource ConnectionRef="dbSAICBPOConnectionStringJOB (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="spRefreshDimPF" MethodsParameterType="CLR" Modifier="Public" Name="spRefreshDimPF" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="spRefreshDimPF">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>EXEC dbo.sp_start_job N'Generacion DIM dbADNA_PENSION_MX'</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="dbSAICBPOConnectionStringJOB (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="spRefreshinfonavitPF" MethodsParameterType="CLR" Modifier="Public" Name="spRefreshinfonavitPF" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="spRefreshinfonavitPF">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>EXEC dbo.sp_start_job N'Actualizacion Infonavit-Fonacot ADN PENSION MX'</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="dbSAICBPOConnectionStringJOB (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="spRefreshLotesNominaPF" MethodsParameterType="CLR" Modifier="Public" Name="spRefreshLotesNominaPF" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="spRefreshLotesNominaPF">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>EXEC dbo.sp_start_job N'Actualizacion Lotes Nomina por Operador ADNA'</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="dbSAICBPOConnectionStringJOB (Settings)" DbObjectName="" DbObjectType="Unknown" GenerateShortCommands="true" GeneratorSourceName="spRefreshGerenciaOperacionesPF" MethodsParameterType="CLR" Modifier="Public" Name="spRefreshGerenciaOperacionesPF" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="spRefreshGerenciaOperacionesPF">
+            <SelectCommand>
+              <DbCommand CommandType="Text" ModifiedByUser="true">
+                <CommandText>EXEC dbo.sp_start_job N'Generacion Reporte Controles Nuevo'</CommandText>
+                <Parameters />
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbSAICBPOReporteActualizar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dbSAICBPOReporteActualizar" msprop:Generator_UserDSName="dbSAICBPOReporteActualizar">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

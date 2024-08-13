@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbSAICBPO_PENSION_MX2017Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <Function Name="stpSelDetalleNominaTimbreFacilCFDI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pIdLoteCargaNomina" Type="bigint" Mode="In" />
+    <Parameter Name="pIdPDOHeader" Type="bigint" Mode="In" />
+    <Parameter Name="pIdTipoMovimiento" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="stpSelDetalleNominaTimbreFacilCFDIv12" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pIdLoteCargaNomina" Type="bigint" Mode="In" />
+    <Parameter Name="pIdPDOHeader" Type="bigint" Mode="In" />
+    <Parameter Name="pIdTipoMovimiento" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="stpSelPercepcionesDeduccionesGravadoExentoTimbreFacil" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pIdLoteCargaNomina" Type="bigint" Mode="In" />
+    <Parameter Name="pTipoMovimiento" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="stpSelPercepcionesDeduccionesGravadoExentoTimbreFacilv12" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="pIdLoteCargaNomina" Type="bigint" Mode="In" />
+    <Parameter Name="pTipoMovimiento" Type="varchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="dbSAICBPO_PENSION_MX2017ModelStoreContainer" />
+</Schema>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sites>
+  <site technical="true">
+    <name>TechRepublic</name>
+    <url>www.techrepublic.com</url>
+  </site>
+  <site technical="true">
+    <name>News</name>
+    <url>www.news.com</url>
+  </site>
+  <site technical="true">
+    <name>CNET</name>
+    <url>www.cnet.com</url>
+  </site>
+  <site technical="false">
+    <name>GameSpot</name>
+   <url>www.gamespot.com</url>
+  </site>
+</sites>

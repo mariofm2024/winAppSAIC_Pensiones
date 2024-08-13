@@ -1,0 +1,239 @@
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20131217\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20131217\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20131217\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20131217\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140105\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140105\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140105\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140105\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140219\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140219\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140219\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140219\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140227\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140227\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140227\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140227\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140319\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140319\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140319\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140319\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140327V2\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140327V2\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140327V2\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140327V2\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140407\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140407\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140407\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140407\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140407\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140411\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140411\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140411\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140411\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140411\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V3\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V3\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V3\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V3\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V4\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V4\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V4\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V4\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140421V4\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140424\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140424\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140424\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140424\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140430\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140430\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140430\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140430\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516V2\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516V2\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516V2\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516V2\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140516V2\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140523\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140523\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140523\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140523\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530V2\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530V2\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530V2\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530V2\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140530V2\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140609\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140609\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140609\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140609\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140609\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140612\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140612\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140612\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140612\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140703\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140703\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140703\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140703\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140703\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714-V1\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714-V1\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714-V1\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140714-V1\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140721-V1\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140721-V1\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140721-V1\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140721-V1\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-201407226-V2\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-201407226-V2\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-201407226-V2\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-201407226-V2\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140802-V1\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140802-V1\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140802-V1\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140802-V1\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V1\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V1\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V1\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V1\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V2\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V2\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V2\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V2\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V3\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V3\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V3\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V3\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V3\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V4\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V4\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V4\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V4\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V4\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V5\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V5\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V5\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V5\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140804-V5\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140818-V6\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140818-V6\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140818-V6\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140818-V6\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831_2\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831_2\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831_2\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831_2\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC-20140831_2\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20140915\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20140915\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20140915\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20140915\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20140915\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141110\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141110\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141110\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141110\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141203\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141203\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141203\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141203\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20141203\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150119\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150119\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150119\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150119\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150309\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150309\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150309\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150309\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150309\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150316\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150316\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150316\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150316\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150325\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150325\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150325\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150325\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150325\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150605\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150605\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150605\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150605\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150618\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150618\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150618\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150618\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150622\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150622\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150622\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150622\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150715\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150715\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150715\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150715\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150715\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150727\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150727\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150727\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150727\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150727\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150901\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150901\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150901\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150901\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20150901\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160118\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160118\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160118\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160118\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160118\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160222\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160222\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160222\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160222\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160316\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160316\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160316\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160316\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160425\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160425\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160425\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160425\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160504\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160504\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160504\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160504\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160511\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160511\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160511\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\oblanco\Documents\Visual Studio 2010\Projects\winAppSAIC Pensiones-20160511\compNominaCFDI\obj\Release\compNominaCFDI.pdb
+C:\Users\desarrollo02\Documents\Proyectos\SAIC Pensiones\Proyecto\winAppSAIC Pensiones-20160511\compNominaCFDI\bin\Release\compNominaCFDI.dll
+C:\Users\desarrollo02\Documents\Proyectos\SAIC Pensiones\Proyecto\winAppSAIC Pensiones-20160511\compNominaCFDI\bin\Release\compNominaCFDI.pdb
+C:\Users\desarrollo02\Documents\Proyectos\SAIC Pensiones\Proyecto\winAppSAIC Pensiones-20160511\compNominaCFDI\obj\Release\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\Users\desarrollo02\Documents\Proyectos\SAIC Pensiones\Proyecto\winAppSAIC Pensiones-20160511\compNominaCFDI\obj\Release\compNominaCFDI.dll
+C:\Users\desarrollo02\Documents\Proyectos\SAIC Pensiones\Proyecto\winAppSAIC Pensiones-20160511\compNominaCFDI\obj\Release\compNominaCFDI.pdb

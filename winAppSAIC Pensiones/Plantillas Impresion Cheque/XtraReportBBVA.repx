@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="13.1.4.0" Ref="2" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v13.1, Version=13.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="ImpresionChequeBBVA" DataMember="stpSelImpresionCheque" DataSource="#Ref-0" DataAdapter="#Ref-1" Dpi="254" ReportUnit="TenthsOfAMillimeter" PageHeight="2794" PageWidth="2159" Version="13.1" Margins="254, 254, 159, 101">
+  <Bands>
+    <Item1 Ref="3" ControlType="DetailBand" Name="Detail" TextAlignment="TopLeft" Dpi="254" Padding="0,0,0,0,254" HeightF="315">
+      <Controls>
+        <Item1 Ref="4" Name="xrLabel4" ControlType="XRLabel" LocationFloat="1246.188, 117.6142" SizeF="285.7494,58.42" Dpi="254" TextAlignment="TopRight" Font="Arial Narrow, 8.25pt" Padding="5,5,0,0,254" Text="xrLabel4">
+          <DataBindings>
+            <Item1 Ref="5" FormatString="{0:n2}" PropertyName="Text" DataMember="stpSelImpresionCheque.MontoTransaccion" />
+          </DataBindings>
+          <StylePriority Ref="6" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="7" Name="xrLabel3" ControlType="XRLabel" LocationFloat="140.2292, 132.6143" SizeF="1079.5,58.42001" Dpi="254" Font="Arial Narrow, 8.25pt" Padding="5,5,0,0,254" Text="xrLabel3">
+          <DataBindings>
+            <Item1 Ref="8" PropertyName="Text" DataMember="stpSelImpresionCheque.NombreBeneficiarioTransaccionBanco" />
+          </DataBindings>
+          <StylePriority Ref="9" UseFont="false" />
+        </Item2>
+        <Item3 Ref="10" Name="xrLabel2" ControlType="XRLabel" LocationFloat="140.2292, 212.0342" SizeF="1264.708,58.41998" Dpi="254" Font="Arial Narrow, 8.25pt" Padding="5,5,0,0,254" Text="xrLabel2">
+          <DataBindings>
+            <Item1 Ref="11" PropertyName="Text" DataMember="stpSelImpresionCheque.MontoConLetra" />
+          </DataBindings>
+          <StylePriority Ref="12" UseFont="false" />
+        </Item3>
+        <Item4 Ref="13" Name="xrLabel1" ControlType="XRLabel" LocationFloat="934.7915, 39.04168" SizeF="391.5834,58.42" Dpi="254" TextAlignment="TopCenter" Font="Arial Narrow, 8.25pt" Padding="5,5,0,0,254" Text="xrLabel1">
+          <DataBindings>
+            <Item1 Ref="14" PropertyName="Text" DataMember="stpSelImpresionCheque.FechaTexto" />
+          </DataBindings>
+          <StylePriority Ref="15" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+      </Controls>
+    </Item1>
+    <Item2 Ref="16" Name="TopMargin" ControlType="TopMarginBand" TextAlignment="TopLeft" Dpi="254" Padding="0,0,0,0,254" HeightF="158.6458" />
+    <Item3 Ref="17" Name="BottomMargin" ControlType="BottomMarginBand" TextAlignment="TopLeft" Dpi="254" Padding="0,0,0,0,254" HeightF="101" />
+  </Bands>
+  <FormattingRuleSheet>
+    <Item1 Ref="18" Name="formattingRule1">
+      <Formatting Ref="19" StringFormat="Near;Near;0;None;Character;Default" BorderStyle="Inset" />
+    </Item1>
+  </FormattingRuleSheet>
+  <Parameters>
+    <Item1 Ref="22" Name="pIdTransaccionBanco" Type="#Ref-20" Value="#Ref-21" Visible="false" Description="Id Transaccion Banco" />
+  </Parameters>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.1" Ref="20" Content="System.Int32" Type="System.Type" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.1" Ref="21" Content="0" Type="System.Int32" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.1" Ref="0" Content="~Xtra#NULL" Type="winAppSAIC.Tesoreria.dbSAICBPOTesoreriaDataSet" />
+    <Item4 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v13.1" Ref="1" Content="~Xtra#NULL" Type="winAppSAIC.Tesoreria.dbSAICBPOTesoreriaDataSetTableAdapters.stpSelImpresionChequeTableAdapter" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

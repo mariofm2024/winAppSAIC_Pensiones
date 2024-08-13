@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbSAICBPO_MXModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="dbSAICBPO_MXModelStoreContainer">
+    <EntitySet Name="vwHeaderReporteChequesNominaSueldosSA" EntityType="dbSAICBPO_MXModel.Store.vwHeaderReporteChequesNominaSueldosSA" store:Type="Views" store:Schema="dbo" store:Name="vwHeaderReporteChequesNominaSueldosSA">
+      <DefiningQuery>SELECT 
+      [vwHeaderReporteChequesNominaSueldosSA].[IdLoteCargaNomina] AS [IdLoteCargaNomina], 
+      [vwHeaderReporteChequesNominaSueldosSA].[FolioLoteCargaNomina] AS [FolioLoteCargaNomina], 
+      [vwHeaderReporteChequesNominaSueldosSA].[IdTenedora] AS [IdTenedora], 
+      [vwHeaderReporteChequesNominaSueldosSA].[RazonSocialTenedora] AS [RazonSocialTenedora], 
+      [vwHeaderReporteChequesNominaSueldosSA].[NombreComercialTenedora] AS [NombreComercialTenedora], 
+      [vwHeaderReporteChequesNominaSueldosSA].[IdCliente] AS [IdCliente], 
+      [vwHeaderReporteChequesNominaSueldosSA].[RazonSocialCliente] AS [RazonSocialCliente], 
+      [vwHeaderReporteChequesNominaSueldosSA].[NombreComercialCliente] AS [NombreComercialCliente], 
+      [vwHeaderReporteChequesNominaSueldosSA].[IdTipoPeriodoNomina] AS [IdTipoPeriodoNomina], 
+      [vwHeaderReporteChequesNominaSueldosSA].[DescTipoPeriodoNomina] AS [DescTipoPeriodoNomina], 
+      [vwHeaderReporteChequesNominaSueldosSA].[IdPDOHeader] AS [IdPDOHeader], 
+      [vwHeaderReporteChequesNominaSueldosSA].[NoRecibo] AS [NoRecibo], 
+      [vwHeaderReporteChequesNominaSueldosSA].[NombreEmpleado] AS [NombreEmpleado], 
+      [vwHeaderReporteChequesNominaSueldosSA].[MontoNetoPagar] AS [MontoNetoPagar], 
+      [vwHeaderReporteChequesNominaSueldosSA].[ImporteConLetra] AS [ImporteConLetra], 
+      [vwHeaderReporteChequesNominaSueldosSA].[TipoPago] AS [TipoPago], 
+      [vwHeaderReporteChequesNominaSueldosSA].[IdOperador] AS [IdOperador], 
+      [vwHeaderReporteChequesNominaSueldosSA].[NombreCompletoOperador] AS [NombreCompletoOperador], 
+      [vwHeaderReporteChequesNominaSueldosSA].[IdMoneda] AS [IdMoneda], 
+      [vwHeaderReporteChequesNominaSueldosSA].[DescMoneda] AS [DescMoneda]
+      FROM [dbo].[vwHeaderReporteChequesNominaSueldosSA] AS [vwHeaderReporteChequesNominaSueldosSA]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="vwHeaderReporteChequesNominaSueldosSC" EntityType="dbSAICBPO_MXModel.Store.vwHeaderReporteChequesNominaSueldosSC" store:Type="Views" store:Schema="dbo" store:Name="vwHeaderReporteChequesNominaSueldosSC">
+      <DefiningQuery>SELECT 
+      [vwHeaderReporteChequesNominaSueldosSC].[IdLoteCargaNomina] AS [IdLoteCargaNomina], 
+      [vwHeaderReporteChequesNominaSueldosSC].[FolioLoteCargaNomina] AS [FolioLoteCargaNomina], 
+      [vwHeaderReporteChequesNominaSueldosSC].[IdTenedora] AS [IdTenedora], 
+      [vwHeaderReporteChequesNominaSueldosSC].[RazonSocialTenedora] AS [RazonSocialTenedora], 
+      [vwHeaderReporteChequesNominaSueldosSC].[NombreComercialTenedora] AS [NombreComercialTenedora], 
+      [vwHeaderReporteChequesNominaSueldosSC].[IdCliente] AS [IdCliente], 
+      [vwHeaderReporteChequesNominaSueldosSC].[RazonSocialCliente] AS [RazonSocialCliente], 
+      [vwHeaderReporteChequesNominaSueldosSC].[NombreComercialCliente] AS [NombreComercialCliente], 
+      [vwHeaderReporteChequesNominaSueldosSC].[IdTipoPeriodoNomina] AS [IdTipoPeriodoNomina], 
+      [vwHeaderReporteChequesNominaSueldosSC].[DescTipoPeriodoNomina] AS [DescTipoPeriodoNomina], 
+      [vwHeaderReporteChequesNominaSueldosSC].[IdPDOHeader] AS [IdPDOHeader], 
+      [vwHeaderReporteChequesNominaSueldosSC].[NoRecibo] AS [NoRecibo], 
+      [vwHeaderReporteChequesNominaSueldosSC].[NombreEmpleado] AS [NombreEmpleado], 
+      [vwHeaderReporteChequesNominaSueldosSC].[TotalAlimentosNeto] AS [TotalAlimentosNeto], 
+      [vwHeaderReporteChequesNominaSueldosSC].[ImporteConLetra] AS [ImporteConLetra], 
+      [vwHeaderReporteChequesNominaSueldosSC].[TipoPago] AS [TipoPago], 
+      [vwHeaderReporteChequesNominaSueldosSC].[IdOperador] AS [IdOperador], 
+      [vwHeaderReporteChequesNominaSueldosSC].[NombreCompletoOperador] AS [NombreCompletoOperador], 
+      [vwHeaderReporteChequesNominaSueldosSC].[IdMoneda] AS [IdMoneda], 
+      [vwHeaderReporteChequesNominaSueldosSC].[DescMoneda] AS [DescMoneda]
+      FROM [dbo].[vwHeaderReporteChequesNominaSueldosSC] AS [vwHeaderReporteChequesNominaSueldosSC]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'dbSAICBPO_MX.dbo.vwHeaderReporteChequesNominaSueldosSA' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vwHeaderReporteChequesNominaSueldosSA">
+    <Key>
+      <PropertyRef Name="IdLoteCargaNomina" />
+      <PropertyRef Name="FolioLoteCargaNomina" />
+      <PropertyRef Name="IdTenedora" />
+      <PropertyRef Name="RazonSocialTenedora" />
+      <PropertyRef Name="NombreComercialTenedora" />
+      <PropertyRef Name="IdCliente" />
+      <PropertyRef Name="RazonSocialCliente" />
+      <PropertyRef Name="NombreComercialCliente" />
+      <PropertyRef Name="IdTipoPeriodoNomina" />
+      <PropertyRef Name="DescTipoPeriodoNomina" />
+      <PropertyRef Name="IdPDOHeader" />
+      <PropertyRef Name="NoRecibo" />
+      <PropertyRef Name="NombreEmpleado" />
+      <PropertyRef Name="MontoNetoPagar" />
+      <PropertyRef Name="ImporteConLetra" />
+      <PropertyRef Name="TipoPago" />
+      <PropertyRef Name="IdOperador" />
+      <PropertyRef Name="NombreCompletoOperador" />
+      <PropertyRef Name="IdMoneda" />
+      <PropertyRef Name="DescMoneda" />
+    </Key>
+    <Property Name="IdLoteCargaNomina" Type="bigint" Nullable="false" />
+    <Property Name="FolioLoteCargaNomina" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IdTenedora" Type="int" Nullable="false" />
+    <Property Name="RazonSocialTenedora" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="NombreComercialTenedora" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="RazonSocialCliente" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="NombreComercialCliente" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="IdTipoPeriodoNomina" Type="tinyint" Nullable="false" />
+    <Property Name="DescTipoPeriodoNomina" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IdPDOHeader" Type="bigint" Nullable="false" />
+    <Property Name="NoRecibo" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="NombreEmpleado" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="MontoNetoPagar" Type="smallmoney" Nullable="false" />
+    <Property Name="ImporteConLetra" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="TipoPago" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="IdOperador" Type="smallint" Nullable="false" />
+    <Property Name="NombreCompletoOperador" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="IdMoneda" Type="varchar" Nullable="false" MaxLength="3" />
+    <Property Name="DescMoneda" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'dbSAICBPO_MX.dbo.vwHeaderReporteChequesNominaSueldosSC' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="vwHeaderReporteChequesNominaSueldosSC">
+    <Key>
+      <PropertyRef Name="IdLoteCargaNomina" />
+      <PropertyRef Name="FolioLoteCargaNomina" />
+      <PropertyRef Name="IdTenedora" />
+      <PropertyRef Name="RazonSocialTenedora" />
+      <PropertyRef Name="NombreComercialTenedora" />
+      <PropertyRef Name="IdCliente" />
+      <PropertyRef Name="RazonSocialCliente" />
+      <PropertyRef Name="NombreComercialCliente" />
+      <PropertyRef Name="IdTipoPeriodoNomina" />
+      <PropertyRef Name="DescTipoPeriodoNomina" />
+      <PropertyRef Name="IdPDOHeader" />
+      <PropertyRef Name="NoRecibo" />
+      <PropertyRef Name="NombreEmpleado" />
+      <PropertyRef Name="TotalAlimentosNeto" />
+      <PropertyRef Name="ImporteConLetra" />
+      <PropertyRef Name="TipoPago" />
+      <PropertyRef Name="IdOperador" />
+      <PropertyRef Name="NombreCompletoOperador" />
+      <PropertyRef Name="IdMoneda" />
+      <PropertyRef Name="DescMoneda" />
+    </Key>
+    <Property Name="IdLoteCargaNomina" Type="bigint" Nullable="false" />
+    <Property Name="FolioLoteCargaNomina" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IdTenedora" Type="int" Nullable="false" />
+    <Property Name="RazonSocialTenedora" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="NombreComercialTenedora" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="IdCliente" Type="int" Nullable="false" />
+    <Property Name="RazonSocialCliente" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="NombreComercialCliente" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="IdTipoPeriodoNomina" Type="tinyint" Nullable="false" />
+    <Property Name="DescTipoPeriodoNomina" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="IdPDOHeader" Type="bigint" Nullable="false" />
+    <Property Name="NoRecibo" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="NombreEmpleado" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="TotalAlimentosNeto" Type="money" Nullable="false" />
+    <Property Name="ImporteConLetra" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="TipoPago" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="IdOperador" Type="smallint" Nullable="false" />
+    <Property Name="NombreCompletoOperador" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="IdMoneda" Type="varchar" Nullable="false" MaxLength="3" />
+    <Property Name="DescMoneda" Type="varchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+</Schema>

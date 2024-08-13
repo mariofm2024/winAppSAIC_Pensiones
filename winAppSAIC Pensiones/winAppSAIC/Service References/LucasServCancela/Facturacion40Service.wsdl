@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Facturacion40Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpsBinding_IFacturacion40Service_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IFacturacion40Service_GenerarComprobante_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarComprobante" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_GenerarComprobante_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarComprobanteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_GenerarComprobanteSellado_InputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarComprobanteSellado" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_GenerarComprobanteSellado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GenerarComprobanteSelladoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_FacturacionCancelar40_InputMessage">
+    <wsdl:part name="parameters" element="tns:FacturacionCancelar40" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_FacturacionCancelar40_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FacturacionCancelar40Response" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_FacturacionCancelar40v02_InputMessage">
+    <wsdl:part name="parameters" element="tns:FacturacionCancelar40v02" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_FacturacionCancelar40v02_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FacturacionCancelar40v02Response" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_FacturacionConsultarEstadoSAT_InputMessage">
+    <wsdl:part name="parameters" element="tns:FacturacionConsultarEstadoSAT" />
+  </wsdl:message>
+  <wsdl:message name="IFacturacion40Service_FacturacionConsultarEstadoSAT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:FacturacionConsultarEstadoSATResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IFacturacion40Service">
+    <wsdl:operation name="GenerarComprobante">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFacturacion40Service/GenerarComprobante" message="tns:IFacturacion40Service_GenerarComprobante_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFacturacion40Service/GenerarComprobanteResponse" message="tns:IFacturacion40Service_GenerarComprobante_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GenerarComprobanteSellado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFacturacion40Service/GenerarComprobanteSellado" message="tns:IFacturacion40Service_GenerarComprobanteSellado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFacturacion40Service/GenerarComprobanteSelladoResponse" message="tns:IFacturacion40Service_GenerarComprobanteSellado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FacturacionCancelar40">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFacturacion40Service/FacturacionCancelar40" message="tns:IFacturacion40Service_FacturacionCancelar40_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFacturacion40Service/FacturacionCancelar40Response" message="tns:IFacturacion40Service_FacturacionCancelar40_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FacturacionCancelar40v02">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFacturacion40Service/FacturacionCancelar40v02" message="tns:IFacturacion40Service_FacturacionCancelar40v02_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFacturacion40Service/FacturacionCancelar40v02Response" message="tns:IFacturacion40Service_FacturacionCancelar40v02_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="FacturacionConsultarEstadoSAT">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFacturacion40Service/FacturacionConsultarEstadoSAT" message="tns:IFacturacion40Service_FacturacionConsultarEstadoSAT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFacturacion40Service/FacturacionConsultarEstadoSATResponse" message="tns:IFacturacion40Service_FacturacionConsultarEstadoSAT_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpsBinding_IFacturacion40Service" type="tns:IFacturacion40Service">
+    <wsp:PolicyReference URI="#BasicHttpsBinding_IFacturacion40Service_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GenerarComprobante">
+      <soap:operation soapAction="http://tempuri.org/IFacturacion40Service/GenerarComprobante" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GenerarComprobanteSellado">
+      <soap:operation soapAction="http://tempuri.org/IFacturacion40Service/GenerarComprobanteSellado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FacturacionCancelar40">
+      <soap:operation soapAction="http://tempuri.org/IFacturacion40Service/FacturacionCancelar40" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FacturacionCancelar40v02">
+      <soap:operation soapAction="http://tempuri.org/IFacturacion40Service/FacturacionCancelar40v02" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FacturacionConsultarEstadoSAT">
+      <soap:operation soapAction="http://tempuri.org/IFacturacion40Service/FacturacionConsultarEstadoSAT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Facturacion40Service">
+    <wsdl:port name="BasicHttpsBinding_IFacturacion40Service" binding="tns:BasicHttpsBinding_IFacturacion40Service">
+      <soap:address location="https://dev.braunter.mx/lucas/eCommerce/sFacturacion40.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

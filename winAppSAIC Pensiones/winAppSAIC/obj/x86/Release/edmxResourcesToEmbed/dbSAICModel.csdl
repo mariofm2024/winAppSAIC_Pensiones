@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbSAICBPOModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="dbSAICBPOEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AutorizacionNomina" EntityType="dbSAICBPOModel.AutorizacionNomina" />
+    <EntitySet Name="PDODetailAhorro" EntityType="dbSAICBPOModel.PDODetailAhorro" />
+    <EntitySet Name="PDODetailSA" EntityType="dbSAICBPOModel.PDODetailSA" />
+    <EntitySet Name="PDODetailSC" EntityType="dbSAICBPOModel.PDODetailSC" />
+    <EntitySet Name="PDOHeaderAhorro" EntityType="dbSAICBPOModel.PDOHeaderAhorro" />
+    <EntitySet Name="PDOHeaderSA" EntityType="dbSAICBPOModel.PDOHeaderSA" />
+    <EntitySet Name="PDOHeaderSC" EntityType="dbSAICBPOModel.PDOHeaderSC" />
+    <AssociationSet Name="FK_PDODetailAhorro_PDOHeaderAhorro" Association="dbSAICBPOModel.FK_PDODetailAhorro_PDOHeaderAhorro">
+      <End Role="PDOHeaderAhorro" EntitySet="PDOHeaderAhorro" />
+      <End Role="PDODetailAhorro" EntitySet="PDODetailAhorro" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PDODetailSA_PDOHeaderSA" Association="dbSAICBPOModel.FK_PDODetailSA_PDOHeaderSA">
+      <End Role="PDOHeaderSA" EntitySet="PDOHeaderSA" />
+      <End Role="PDODetailSA" EntitySet="PDODetailSA" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PDODetailSC_PDOHeaderSC" Association="dbSAICBPOModel.FK_PDODetailSC_PDOHeaderSC">
+      <End Role="PDOHeaderSC" EntitySet="PDOHeaderSC" />
+      <End Role="PDODetailSC" EntitySet="PDODetailSC" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AutorizacionNomina">
+    <Key>
+      <PropertyRef Name="IdAutorizacionNomina" />
+    </Key>
+    <Property Name="IdAutorizacionNomina" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdPDOHeaderOrigen" Type="Int64" Nullable="false" />
+    <Property Name="IdTenedora" Type="Int32" Nullable="false" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="AnoPeriodoInicio" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="AnoPeriodoFin" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="FechaInicio" Type="DateTime" Nullable="false" />
+    <Property Name="FechaFin" Type="DateTime" Nullable="false" />
+    <Property Name="IdTipoPeriodoNomina" Type="Byte" Nullable="false" />
+    <Property Name="IdTipoSalario" Type="Byte" Nullable="false" />
+    <Property Name="IdTipoMovimientoOrigen" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="IdTipoMovimientoReal" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="IdOperador" Type="Int16" Nullable="false" />
+    <Property Name="EstatusBorrado" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaCerrada" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaPagada" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" />
+    <Property Name="UsuarioCreacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PDODetailAhorro">
+    <Key>
+      <PropertyRef Name="IdPDODetailAhorro" />
+    </Key>
+    <Property Name="IdPDODetailAhorro" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdPDOHeader" Type="Int64" Nullable="false" />
+    <Property Name="IdConcepto" Type="Int32" Nullable="false" />
+    <Property Name="MontoPDO" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" />
+    <Property Name="UsuarioCreacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PDOHeaderAhorro" Relationship="dbSAICBPOModel.FK_PDODetailAhorro_PDOHeaderAhorro" FromRole="PDODetailAhorro" ToRole="PDOHeaderAhorro" />
+  </EntityType>
+  <EntityType Name="PDODetailSA">
+    <Key>
+      <PropertyRef Name="IdPDODetail" />
+    </Key>
+    <Property Name="IdPDODetail" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdPDOHeader" Type="Int64" Nullable="false" />
+    <Property Name="IdConcepto" Type="Int32" Nullable="false" />
+    <Property Name="MontoPDO" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" />
+    <Property Name="UsuarioCreacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PDOHeaderSA" Relationship="dbSAICBPOModel.FK_PDODetailSA_PDOHeaderSA" FromRole="PDODetailSA" ToRole="PDOHeaderSA" />
+  </EntityType>
+  <EntityType Name="PDODetailSC">
+    <Key>
+      <PropertyRef Name="IdPDODetail" />
+    </Key>
+    <Property Name="IdPDODetail" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdPDOHeader" Type="Int64" Nullable="false" />
+    <Property Name="IdConcepto" Type="Int32" Nullable="false" />
+    <Property Name="MontoPDO" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" />
+    <Property Name="UsuarioCreacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PDOHeaderSC" Relationship="dbSAICBPOModel.FK_PDODetailSC_PDOHeaderSC" FromRole="PDODetailSC" ToRole="PDOHeaderSC" />
+  </EntityType>
+  <EntityType Name="PDOHeaderAhorro">
+    <Key>
+      <PropertyRef Name="IdPDOHeader" />
+    </Key>
+    <Property Name="IdPDOHeader" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdTenedora" Type="Int32" Nullable="false" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="AnoPeriodoInicio" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="AnoPeriodoFin" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="FechaInicio" Type="DateTime" Nullable="false" />
+    <Property Name="FechaFin" Type="DateTime" Nullable="false" />
+    <Property Name="IdTipoPeriodoNomina" Type="Byte" Nullable="false" />
+    <Property Name="IdTipoSalario" Type="Byte" Nullable="false" />
+    <Property Name="LeyendaPeriodo" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="IdTipoMovimiento" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="NoRecibo" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="NoEmpleado" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="NombreEmpleado" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="NSS" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="RFC" Type="String" Nullable="false" MaxLength="13" Unicode="false" FixedLength="false" />
+    <Property Name="CURP" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="FechaIngreso" Type="DateTime" Nullable="false" />
+    <Property Name="Observaciones" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="IdOperador" Type="Int16" Nullable="false" />
+    <Property Name="EstatusBorrado" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaCerrada" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaPagada" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" />
+    <Property Name="UsuarioCreacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PDODetailAhorro" Relationship="dbSAICBPOModel.FK_PDODetailAhorro_PDOHeaderAhorro" FromRole="PDOHeaderAhorro" ToRole="PDODetailAhorro" />
+  </EntityType>
+  <EntityType Name="PDOHeaderSA">
+    <Key>
+      <PropertyRef Name="IdPDOHeader" />
+    </Key>
+    <Property Name="IdPDOHeader" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdTenedora" Type="Int32" Nullable="false" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="AnoPeriodoInicio" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="AnoPeriodoFin" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="FechaInicio" Type="DateTime" Nullable="false" />
+    <Property Name="FechaFin" Type="DateTime" Nullable="false" />
+    <Property Name="IdTipoPeriodoNomina" Type="Byte" Nullable="false" />
+    <Property Name="IdTipoSalario" Type="Byte" Nullable="false" />
+    <Property Name="LeyendaPeriodo" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="IdTipoMovimiento" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="NoRecibo" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="NoEmpleado" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="NombreEmpleado" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="NSS" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="RFC" Type="String" Nullable="false" MaxLength="13" Unicode="false" FixedLength="false" />
+    <Property Name="CURP" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="FechaIngreso" Type="DateTime" Nullable="false" />
+    <Property Name="TipoPago" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="NoCuentaBanco" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="NoSucursalBanco" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="DescBanco" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DiasJornada" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="SD" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="SDI" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="DiasPagar" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="MontoTotalPercepciones" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="MontoTotalDeducciones" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="MontoNetoPagar" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="ImporteConLetra" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Observaciones" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="IdOperador" Type="Int16" Nullable="false" />
+    <Property Name="EstatusBorrado" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaCerrada" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaPagada" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" />
+    <Property Name="UsuarioCreacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PDODetailSA" Relationship="dbSAICBPOModel.FK_PDODetailSA_PDOHeaderSA" FromRole="PDOHeaderSA" ToRole="PDODetailSA" />
+  </EntityType>
+  <EntityType Name="PDOHeaderSC">
+    <Key>
+      <PropertyRef Name="IdPDOHeader" />
+    </Key>
+    <Property Name="IdPDOHeader" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdTenedora" Type="Int32" Nullable="false" />
+    <Property Name="IdCliente" Type="Int32" Nullable="false" />
+    <Property Name="AnoPeriodoInicio" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoInicio" Type="Byte" Nullable="false" />
+    <Property Name="AnoPeriodoFin" Type="Int16" Nullable="false" />
+    <Property Name="MesPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="DiaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="SemanaPeriodoFin" Type="Byte" Nullable="false" />
+    <Property Name="FechaInicio" Type="DateTime" Nullable="false" />
+    <Property Name="FechaFin" Type="DateTime" Nullable="false" />
+    <Property Name="IdTipoPeriodoNomina" Type="Byte" Nullable="false" />
+    <Property Name="IdTipoSalario" Type="Byte" Nullable="false" />
+    <Property Name="LeyendaPeriodo" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="IdTipoMovimiento" Type="String" Nullable="false" MaxLength="1" Unicode="false" FixedLength="false" />
+    <Property Name="NoRecibo" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="NoEmpleado" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="NombreEmpleado" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="NSS" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="RFC" Type="String" Nullable="false" MaxLength="13" Unicode="false" FixedLength="false" />
+    <Property Name="CURP" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="FechaIngreso" Type="DateTime" Nullable="false" />
+    <Property Name="TipoPago" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="NoCuentaBanco" Type="String" Nullable="false" MaxLength="30" Unicode="false" FixedLength="false" />
+    <Property Name="NoSucursalBanco" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="DescBanco" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DiasJornada" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="SD" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="SDI" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="DiasPagar" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="MontoTotalPercepcionesSA" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="MontoTotalDeduccionesSA" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="MontoNetoPagarSA" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="SueldoBruto" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="TotalAlimentosBruto" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="TotalAlimentosNeto" Type="Decimal" Nullable="false" Precision="10" Scale="4" />
+    <Property Name="ImporteConLetra" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="Observaciones" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="IdOperador" Type="Int16" Nullable="false" />
+    <Property Name="EstatusBorrado" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaCerrada" Type="Boolean" Nullable="false" />
+    <Property Name="EstatusNominaPagada" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" />
+    <Property Name="FechaModificacion" Type="DateTime" Nullable="false" />
+    <Property Name="UsuarioCreacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="UsuarioModificacion" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="PDODetailSC" Relationship="dbSAICBPOModel.FK_PDODetailSC_PDOHeaderSC" FromRole="PDOHeaderSC" ToRole="PDODetailSC" />
+  </EntityType>
+  <Association Name="FK_PDODetailAhorro_PDOHeaderAhorro">
+    <End Role="PDOHeaderAhorro" Type="dbSAICBPOModel.PDOHeaderAhorro" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PDODetailAhorro" Type="dbSAICBPOModel.PDODetailAhorro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PDOHeaderAhorro">
+        <PropertyRef Name="IdPDOHeader" />
+      </Principal>
+      <Dependent Role="PDODetailAhorro">
+        <PropertyRef Name="IdPDOHeader" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PDODetailSA_PDOHeaderSA">
+    <End Role="PDOHeaderSA" Type="dbSAICBPOModel.PDOHeaderSA" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PDODetailSA" Type="dbSAICBPOModel.PDODetailSA" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PDOHeaderSA">
+        <PropertyRef Name="IdPDOHeader" />
+      </Principal>
+      <Dependent Role="PDODetailSA">
+        <PropertyRef Name="IdPDOHeader" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PDODetailSC_PDOHeaderSC">
+    <End Role="PDOHeaderSC" Type="dbSAICBPOModel.PDOHeaderSC" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PDODetailSC" Type="dbSAICBPOModel.PDODetailSC" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PDOHeaderSC">
+        <PropertyRef Name="IdPDOHeader" />
+      </Principal>
+      <Dependent Role="PDODetailSC">
+        <PropertyRef Name="IdPDOHeader" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
