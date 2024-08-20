@@ -149,7 +149,7 @@
             this.gpoSol.Controls.Add(this.label4);
             this.gpoSol.Location = new System.Drawing.Point(13, 74);
             this.gpoSol.Name = "gpoSol";
-            this.gpoSol.Size = new System.Drawing.Size(1314, 112);
+            this.gpoSol.Size = new System.Drawing.Size(997, 112);
             this.gpoSol.TabIndex = 123;
             this.gpoSol.TabStop = false;
             this.gpoSol.Text = "Solicitud de pago a proveedores";
@@ -485,7 +485,7 @@
             // btnGuardarDetalle
             // 
             this.btnGuardarDetalle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.btnGuardarDetalle.Location = new System.Drawing.Point(1208, 32);
+            this.btnGuardarDetalle.Location = new System.Drawing.Point(1040, 70);
             this.btnGuardarDetalle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardarDetalle.Name = "btnGuardarDetalle";
             this.btnGuardarDetalle.Size = new System.Drawing.Size(106, 32);
