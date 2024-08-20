@@ -30,20 +30,20 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmxMenu));
-            DevExpress.Utils.SuperToolTip superToolTip8 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem7 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip9 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem8 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip10 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem9 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip11 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem10 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip12 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem11 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip13 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem12 = new DevExpress.Utils.ToolTipTitleItem();
-            DevExpress.Utils.SuperToolTip superToolTip14 = new DevExpress.Utils.SuperToolTip();
-            DevExpress.Utils.ToolTipItem toolTipItem2 = new DevExpress.Utils.ToolTipItem();
+            DevExpress.Utils.SuperToolTip superToolTip1 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem1 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip2 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem2 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip3 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem3 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip4 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem4 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip5 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem5 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip6 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipTitleItem toolTipTitleItem6 = new DevExpress.Utils.ToolTipTitleItem();
+            DevExpress.Utils.SuperToolTip superToolTip7 = new DevExpress.Utils.SuperToolTip();
+            DevExpress.Utils.ToolTipItem toolTipItem1 = new DevExpress.Utils.ToolTipItem();
             this.rbcMenu = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.rbiSalir = new DevExpress.XtraBars.BarButtonItem();
             this.rbiEliminarMovsNomina = new DevExpress.XtraBars.BarButtonItem();
@@ -181,6 +181,7 @@
             this.rbiSolicitudPagoOp = new DevExpress.XtraBars.BarButtonItem();
             this.rbiCatClientesSaldo = new DevExpress.XtraBars.BarButtonItem();
             this.btnSaldosTesoreria = new DevExpress.XtraBars.BarButtonItem();
+            this.BtnSolPagosProv = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
             this.rbpArchivo = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.rbpgArchivo = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -189,6 +190,7 @@
             this.rbpgContactos = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpgTenedoras = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpgGenerales = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup19 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpJuridico = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.rbpgControlEmpleadoIMSS = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rbpIMSS = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -437,10 +439,11 @@
             this.rbiSolicitudPago,
             this.rbiSolicitudPagoOp,
             this.rbiCatClientesSaldo,
-            this.btnSaldosTesoreria});
+            this.btnSaldosTesoreria,
+            this.BtnSolPagosProv});
             this.rbcMenu.Location = new System.Drawing.Point(0, 0);
             this.rbcMenu.Margin = new System.Windows.Forms.Padding(4);
-            this.rbcMenu.MaxItemId = 183;
+            this.rbcMenu.MaxItemId = 184;
             this.rbcMenu.Name = "rbcMenu";
             this.rbcMenu.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.ribbonPageCategory1});
@@ -523,9 +526,9 @@
             this.rbiControlRecibosFirmadosSueldos.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("rbiControlRecibosFirmadosSueldos.ImageOptions.Image")));
             this.rbiControlRecibosFirmadosSueldos.Name = "rbiControlRecibosFirmadosSueldos";
             this.rbiControlRecibosFirmadosSueldos.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
-            toolTipTitleItem7.Text = "Recibos Firmados Sueldos";
-            superToolTip8.Items.Add(toolTipTitleItem7);
-            this.rbiControlRecibosFirmadosSueldos.SuperTip = superToolTip8;
+            toolTipTitleItem1.Text = "Recibos Firmados Sueldos";
+            superToolTip1.Items.Add(toolTipTitleItem1);
+            this.rbiControlRecibosFirmadosSueldos.SuperTip = superToolTip1;
             this.rbiControlRecibosFirmadosSueldos.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.rbiControlRecibosFirmadosSueldos_ItemClick);
             // 
             // rbiControlRecibosFirmadosAlimentos
@@ -535,9 +538,9 @@
             this.rbiControlRecibosFirmadosAlimentos.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("rbiControlRecibosFirmadosAlimentos.ImageOptions.Image")));
             this.rbiControlRecibosFirmadosAlimentos.Name = "rbiControlRecibosFirmadosAlimentos";
             this.rbiControlRecibosFirmadosAlimentos.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
-            toolTipTitleItem8.Text = "Recibos Firmados Pensiones";
-            superToolTip9.Items.Add(toolTipTitleItem8);
-            this.rbiControlRecibosFirmadosAlimentos.SuperTip = superToolTip9;
+            toolTipTitleItem2.Text = "Recibos Firmados Pensiones";
+            superToolTip2.Items.Add(toolTipTitleItem2);
+            this.rbiControlRecibosFirmadosAlimentos.SuperTip = superToolTip2;
             this.rbiControlRecibosFirmadosAlimentos.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.rbiControlRecibosFirmadosAlimentos_ItemClick);
             // 
             // rbsbSQLServer
@@ -591,9 +594,9 @@
             this.rbiAdmonNominas.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("rbiAdmonNominas.ImageOptions.Image")));
             this.rbiAdmonNominas.Name = "rbiAdmonNominas";
             this.rbiAdmonNominas.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            toolTipTitleItem9.Text = "Administración de Recibos de Nómina  y Layout Bancarios";
-            superToolTip10.Items.Add(toolTipTitleItem9);
-            this.rbiAdmonNominas.SuperTip = superToolTip10;
+            toolTipTitleItem3.Text = "Administración de Recibos de Nómina  y Layout Bancarios";
+            superToolTip3.Items.Add(toolTipTitleItem3);
+            this.rbiAdmonNominas.SuperTip = superToolTip3;
             this.rbiAdmonNominas.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.rbiAdmonNominas_ItemClick);
             // 
             // rbiControlSeguridad
@@ -903,9 +906,9 @@
             this.rbiModificacionInfoEmpleadoOperador.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("rbiModificacionInfoEmpleadoOperador.ImageOptions.Image")));
             this.rbiModificacionInfoEmpleadoOperador.Name = "rbiModificacionInfoEmpleadoOperador";
             this.rbiModificacionInfoEmpleadoOperador.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText)));
-            toolTipTitleItem10.Text = "Informacion de Empleados";
-            superToolTip11.Items.Add(toolTipTitleItem10);
-            this.rbiModificacionInfoEmpleadoOperador.SuperTip = superToolTip11;
+            toolTipTitleItem4.Text = "Informacion de Empleados";
+            superToolTip4.Items.Add(toolTipTitleItem4);
+            this.rbiModificacionInfoEmpleadoOperador.SuperTip = superToolTip4;
             this.rbiModificacionInfoEmpleadoOperador.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.rbiModificacionInfoEmpleadoOperador_ItemClick);
             // 
             // rbiCancelarRegistroNomina
@@ -969,9 +972,9 @@
             this.btnAltaEmpleados.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnAltaEmpleados.ImageOptions.Image")));
             this.btnAltaEmpleados.Name = "btnAltaEmpleados";
             this.btnAltaEmpleados.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            toolTipTitleItem11.Text = "Alta de Empleados";
-            superToolTip12.Items.Add(toolTipTitleItem11);
-            this.btnAltaEmpleados.SuperTip = superToolTip12;
+            toolTipTitleItem5.Text = "Alta de Empleados";
+            superToolTip5.Items.Add(toolTipTitleItem5);
+            this.btnAltaEmpleados.SuperTip = superToolTip5;
             this.btnAltaEmpleados.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnAltaEmpleados_ItemClick);
             // 
             // btnControlVersionesAlta
@@ -1018,9 +1021,9 @@
             this.btnSolicitudAltaEmpleadosOperaciones.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSolicitudAltaEmpleadosOperaciones.ImageOptions.Image")));
             this.btnSolicitudAltaEmpleadosOperaciones.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnSolicitudAltaEmpleadosOperaciones.ImageOptions.LargeImage")));
             this.btnSolicitudAltaEmpleadosOperaciones.Name = "btnSolicitudAltaEmpleadosOperaciones";
-            toolTipTitleItem12.Text = "Solicitudes de Alta de Empleados";
-            superToolTip13.Items.Add(toolTipTitleItem12);
-            this.btnSolicitudAltaEmpleadosOperaciones.SuperTip = superToolTip13;
+            toolTipTitleItem6.Text = "Solicitudes de Alta de Empleados";
+            superToolTip6.Items.Add(toolTipTitleItem6);
+            this.btnSolicitudAltaEmpleadosOperaciones.SuperTip = superToolTip6;
             this.btnSolicitudAltaEmpleadosOperaciones.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnSolicitudAltaEmpleadosOperaciones_ItemClick);
             // 
             // btnTemas
@@ -1052,9 +1055,9 @@
             this.rbiFirmantesContratos.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("rbiFirmantesContratos.ImageOptions.LargeImage")));
             this.rbiFirmantesContratos.Name = "rbiFirmantesContratos";
             this.rbiFirmantesContratos.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
-            toolTipItem2.Text = "Firmantes para CIT";
-            superToolTip14.Items.Add(toolTipItem2);
-            this.rbiFirmantesContratos.SuperTip = superToolTip14;
+            toolTipItem1.Text = "Firmantes para CIT";
+            superToolTip7.Items.Add(toolTipItem1);
+            this.rbiFirmantesContratos.SuperTip = superToolTip7;
             this.rbiFirmantesContratos.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.rbiFirmantesContratos_ItemClick);
             // 
             // btnCierreNomina1
@@ -1696,6 +1699,15 @@
             this.btnSaldosTesoreria.Name = "btnSaldosTesoreria";
             this.btnSaldosTesoreria.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnSaldosTesoreria_ItemClick);
             // 
+            // BtnSolPagosProv
+            // 
+            this.BtnSolPagosProv.Caption = "Solicitud Pago Proveedores";
+            this.BtnSolPagosProv.Id = 183;
+            this.BtnSolPagosProv.ImageOptions.Image = global::winAppSAIC.Properties.Resources.Solicitud_de_pagos_48x48;
+            this.BtnSolPagosProv.ImageOptions.LargeImage = global::winAppSAIC.Properties.Resources.Solicitud_de_pagos_48x48;
+            this.BtnSolPagosProv.Name = "BtnSolPagosProv";
+            this.BtnSolPagosProv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.rbiSolPagosProv_ItemClick);
+            // 
             // ribbonPageCategory1
             // 
             this.ribbonPageCategory1.Name = "ribbonPageCategory1";
@@ -1721,7 +1733,8 @@
             this.rbpgServicios,
             this.rbpgContactos,
             this.rbpgTenedoras,
-            this.rbpgGenerales});
+            this.rbpgGenerales,
+            this.ribbonPageGroup19});
             this.rbpCatalogos.Name = "rbpCatalogos";
             this.rbpCatalogos.Text = "Catálogos";
             // 
@@ -1757,6 +1770,12 @@
             this.rbpgGenerales.ItemLinks.Add(this.rbiGenerales);
             this.rbpgGenerales.Name = "rbpgGenerales";
             this.rbpgGenerales.Text = "Generales";
+            // 
+            // ribbonPageGroup19
+            // 
+            this.ribbonPageGroup19.ItemLinks.Add(this.BtnSolPagosProv);
+            this.ribbonPageGroup19.Name = "ribbonPageGroup19";
+            this.ribbonPageGroup19.Text = "Solicitud pago";
             // 
             // rbpJuridico
             // 
@@ -2709,5 +2728,7 @@
         private DevExpress.XtraBars.BarButtonItem rbiSolicitudPagoOp;
         private DevExpress.XtraBars.BarButtonItem rbiCatClientesSaldo;
         private DevExpress.XtraBars.BarButtonItem btnSaldosTesoreria;
+        private DevExpress.XtraBars.BarButtonItem BtnSolPagosProv;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup19;
     }
 }
