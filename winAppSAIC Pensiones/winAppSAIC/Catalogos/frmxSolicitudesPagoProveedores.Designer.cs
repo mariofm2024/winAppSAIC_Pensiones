@@ -147,7 +147,7 @@
             this.gpoSol.Controls.Add(this.label1);
             this.gpoSol.Controls.Add(this.dtFechaSolicitud);
             this.gpoSol.Controls.Add(this.label4);
-            this.gpoSol.Location = new System.Drawing.Point(13, 74);
+            this.gpoSol.Location = new System.Drawing.Point(300, 74);
             this.gpoSol.Name = "gpoSol";
             this.gpoSol.Size = new System.Drawing.Size(997, 112);
             this.gpoSol.TabIndex = 123;
@@ -157,7 +157,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnGuardar);
-            this.groupBox1.Controls.Add(this.btnNuevo);
             this.groupBox1.Controls.Add(this.btnCancelar);
             this.groupBox1.Controls.Add(this.btnEditar);
             this.groupBox1.Location = new System.Drawing.Point(1103, 536);
@@ -445,7 +444,7 @@
             // btnNuevo
             // 
             this.btnNuevo.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo.ImageOptions.Image")));
-            this.btnNuevo.Location = new System.Drawing.Point(28, 22);
+            this.btnNuevo.Location = new System.Drawing.Point(1153, 425);
             this.btnNuevo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(328, 32);
@@ -485,7 +484,7 @@
             // btnGuardarDetalle
             // 
             this.btnGuardarDetalle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.btnGuardarDetalle.Location = new System.Drawing.Point(1040, 70);
+            this.btnGuardarDetalle.Location = new System.Drawing.Point(1214, 27);
             this.btnGuardarDetalle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardarDetalle.Name = "btnGuardarDetalle";
             this.btnGuardarDetalle.Size = new System.Drawing.Size(106, 32);
@@ -498,6 +497,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1835, 1004);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.layoutControlBase);
             this.Controls.Add(this.gpoSinLotesPago);
             this.Controls.Add(this.gpoSol);
