@@ -144,7 +144,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(531, 176);
+            this.ClientSize = new System.Drawing.Size(533, 178);
             this.ControlBox = false;
             this.Controls.Add(this.checkRecordarPass);
             this.Controls.Add(this.btnCancelar);

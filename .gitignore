@@ -6965,3 +6965,5 @@ ModelManifest.xml
 
 winAppSAIC Pensiones/winAppSAIC/obj/
 >>>>>>> main
+
+*.cache

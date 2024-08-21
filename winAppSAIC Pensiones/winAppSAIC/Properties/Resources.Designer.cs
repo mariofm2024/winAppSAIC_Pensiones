@@ -1663,6 +1663,16 @@ namespace winAppSAIC.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Solicitud_de_pagos_48x48 {
+            get {
+                object obj = ResourceManager.GetObject("Solicitud de pagos 48x48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Solicitud1 {
             get {
                 object obj = ResourceManager.GetObject("Solicitud1", resourceCulture);

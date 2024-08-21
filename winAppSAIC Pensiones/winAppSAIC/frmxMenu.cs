@@ -1334,5 +1334,11 @@ namespace winAppSAIC
             Tesoreria.frmxSaldosTesoreria objSaldosTesoreria = new Tesoreria.frmxSaldosTesoreria();
             objSaldosTesoreria.ShowDialog();
         }
+
+        private void rbiSolPagosProv_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Catalogos.frmxSolicitudesPagoProveedores objSolPagProveedores = new Catalogos.frmxSolicitudesPagoProveedores();
+            objSolPagProveedores.ShowDialog();
+        }
     }
 }
