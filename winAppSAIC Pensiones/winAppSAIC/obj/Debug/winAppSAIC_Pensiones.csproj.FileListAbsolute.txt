@@ -7921,3 +7921,7 @@ C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppS
 C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppSAIC_Pensiones\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC_Pensiones.csproj.ResolveComReference.cache
 C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppSAIC_Pensiones\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.exe
 C:\Proyectos\develop\ADNA\0 WinAppSAIC_Pensiones Dev Solicitudes de pago\winAppSAIC_Pensiones\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.pdb
+C:\ADNA\9 Solicitud de pagos\Proyecto\winAppSAIC Pensiones\winAppSAIC\bin\Debug\winAppSAIC.exe.config
+C:\ADNA\9 Solicitud de pagos\Proyecto\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC_Pensiones.csproj.ResolveComReference.cache
+C:\ADNA\9 Solicitud de pagos\Proyecto\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.exe
+C:\ADNA\9 Solicitud de pagos\Proyecto\winAppSAIC Pensiones\winAppSAIC\obj\Debug\winAppSAIC.pdb
