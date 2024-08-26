@@ -63,18 +63,20 @@ int IdAreaOperativa = OperadorBD.OperadorGlobal.IdAreaOperativa;
 
             var query = from x in dtAreaOpTipoPagoProv.AsEnumerable()
                         where x.Field<int>("IdAreaOperativa").Equals(IdAreaOperativa)
-                        select new  {x.IdTipoPagoProveedor , x.DescTipoPagoProveedor};
+                        select x;
+
+                        //select new  {x.IdTipoPagoProveedor , x.DescTipoPagoProveedor};
 
             //DataTable dtFAreaOpTipoPagoProv = 
             query.CopyToDataTable(table, LoadOption.PreserveChanges);
 
 
 
-            if (dtFAreaOpTipoPagoProv.Rows.Count > 0)
-            {
-                gdTipoPagoProveedor.Properties.DataSource = dtFAreaOpTipoPagoProv;
-                //dtTipoPagoProv.Rows.[0].["IdTipoPagoProveedor"].ToString();
-            }
+            //if (dtFAreaOpTipoPagoProv.Rows.Count > 0)
+            //{
+            //    //gdTipoPagoProveedor.Properties.DataSource = dtFAreaOpTipoPagoProv;
+            //    //dtTipoPagoProv.Rows.[0].["IdTipoPagoProveedor"].ToString();
+            //}
 
 
             //'gdTipoPagoProveedor.DataBindings
