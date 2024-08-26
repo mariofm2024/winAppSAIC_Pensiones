@@ -25,7 +25,6 @@
 /winAppSAIC Pensiones/Setup ADN
 /winAppSAIC Pensiones/winAppSAIC/ArchivoCFDI
 /winAppSAIC Pensiones/winAppSAIC/Contablidad
-/winAppSAIC Pensiones/winAppSAIC/Catalogos
 /winAppSAIC Pensiones/winAppSAIC/Cancelaciones
 /winAppSAIC Pensiones/winAppSAIC/bin
 /winAppSAIC Pensiones/winAppSAIC/Asimilados
@@ -56,7 +55,6 @@
 /winAppSAIC Pensiones/winAppSAIC/ReportesCFDI
 /winAppSAIC Pensiones/winAppSAIC/Reportes
 /winAppSAIC Pensiones/winAppSAIC/ReporteActualiza
-/winAppSAIC Pensiones
 winAppSAIC Pensiones/.vs/config/applicationhost.config
 winAppSAIC Pensiones/.vs/winAppSAIC/v14/.suo
 winAppSAIC Pensiones/.vs/winAppSAIC/v14/vbcs.cache/edb.chk
@@ -723,12 +721,9 @@ winAppSAIC Pensiones/UpgradeLog3.htm
 winAppSAIC Pensiones/UpgradeLog4.htm
 winAppSAIC Pensiones/UpgradeLog5.htm
 winAppSAIC Pensiones/winAppSAIC.psess
-winAppSAIC Pensiones/winAppSAIC.sln
-winAppSAIC Pensiones/winAppSAIC.suo
 winAppSAIC Pensiones/winAppSAIC.v11.suo
 winAppSAIC Pensiones/winAppSAIC.v12.suo
 winAppSAIC Pensiones/winAppSAIC/Aha-Soft-Standard-Portfolio-Money.ico
-winAppSAIC Pensiones/winAppSAIC/app.config
 winAppSAIC Pensiones/winAppSAIC/ArchivoCFDI/cadenaoriginal_3_2.xslt
 winAppSAIC Pensiones/winAppSAIC/Asimilados/dbSAICAsimilados.cs
 winAppSAIC Pensiones/winAppSAIC/Asimilados/dbSAICAsimilados.Designer.cs
@@ -1513,12 +1508,6 @@ winAppSAIC Pensiones/winAppSAIC/frmxDesgloseNominasCanceladas.resx
 winAppSAIC Pensiones/winAppSAIC/frmxImprimirRecibos.cs
 winAppSAIC Pensiones/winAppSAIC/frmxImprimirRecibos.Designer.cs
 winAppSAIC Pensiones/winAppSAIC/frmxImprimirRecibos.resx
-winAppSAIC Pensiones/winAppSAIC/frmxLogin.cs
-winAppSAIC Pensiones/winAppSAIC/frmxLogin.Designer.cs
-winAppSAIC Pensiones/winAppSAIC/frmxLogin.resx
-winAppSAIC Pensiones/winAppSAIC/frmxMenu.cs
-winAppSAIC Pensiones/winAppSAIC/frmxMenu.Designer.cs
-winAppSAIC Pensiones/winAppSAIC/frmxMenu.resx
 winAppSAIC Pensiones/winAppSAIC/frmxVisualizarRelacionMovimientos.cs
 winAppSAIC Pensiones/winAppSAIC/frmxVisualizarRelacionMovimientos.Designer.cs
 winAppSAIC Pensiones/winAppSAIC/frmxVisualizarRelacionMovimientos.resx
