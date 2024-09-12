@@ -1701,12 +1701,12 @@
             // 
             // BtnSolPagosProv
             // 
-            this.BtnSolPagosProv.Caption = "Solicitud Pago Proveedores";
+            this.BtnSolPagosProv.Caption = "Solicitud pagos proveedores";
             this.BtnSolPagosProv.Id = 183;
             this.BtnSolPagosProv.ImageOptions.Image = global::winAppSAIC.Properties.Resources.Solicitud_de_pagos_48x48;
             this.BtnSolPagosProv.ImageOptions.LargeImage = global::winAppSAIC.Properties.Resources.Solicitud_de_pagos_48x48;
             this.BtnSolPagosProv.Name = "BtnSolPagosProv";
-            this.BtnSolPagosProv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.rbiSolPagosProv_ItemClick);
+            this.BtnSolPagosProv.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnSolPagosProv_ItemClick);
             // 
             // ribbonPageCategory1
             // 
@@ -1775,7 +1775,7 @@
             // 
             this.ribbonPageGroup19.ItemLinks.Add(this.BtnSolPagosProv);
             this.ribbonPageGroup19.Name = "ribbonPageGroup19";
-            this.ribbonPageGroup19.Text = "Solicitud pago";
+            this.ribbonPageGroup19.Text = "Solcitud de pagos ";
             // 
             // rbpJuridico
             // 
