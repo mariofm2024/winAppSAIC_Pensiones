@@ -2382,14 +2382,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="winAppSAIC.exe" size="20544000">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="winAppSAIC.exe" size="20563456">
       <assemblyIdentity name="winAppSAIC" version="5.1.2024.716" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>sKpNExX+4g6o4MnfQbieD7Qaako=</dsig:DigestValue>
+        <dsig:DigestValue>NtwOipyotfNYrfP0umK0dddXFGE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2999,13 +2999,13 @@
       <dsig:DigestValue>OpY8mkOTPQXPgMR3hMh1mhWNTAU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SAT\Pagos10.xslt" size="5952">
+  <file name="SAT\Pagos10.xslt" size="6116">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ULxCp98gaBL8JA1H2XlUp3tpnjQ=</dsig:DigestValue>
+      <dsig:DigestValue>C0vliZFG9+iHwWyNIqsaa97+31Y=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SAT\pfic.xslt" size="1010">

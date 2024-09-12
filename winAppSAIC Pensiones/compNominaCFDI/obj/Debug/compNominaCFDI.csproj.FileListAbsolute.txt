@@ -205,3 +205,10 @@ C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\w
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compNominaCFDI\obj\Debug\compNominaCFDI.csprojResolveAssemblyReference.cache
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compNominaCFDI\obj\Debug\compNominaCFDI.dll
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compNominaCFDI\obj\Debug\compNominaCFDI.pdb
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compNominaCFDI\bin\Debug\compNominaCFDI.dll
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compNominaCFDI\bin\Debug\compNominaCFDI.pdb
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compNominaCFDI\bin\Debug\compCatalogosSAIC.dll
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compNominaCFDI\bin\Debug\compCatalogosSAIC.pdb
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compNominaCFDI\obj\Debug\compNominaCFDI.csprojResolveAssemblyReference.cache
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compNominaCFDI\obj\Debug\compNominaCFDI.dll
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compNominaCFDI\obj\Debug\compNominaCFDI.pdb

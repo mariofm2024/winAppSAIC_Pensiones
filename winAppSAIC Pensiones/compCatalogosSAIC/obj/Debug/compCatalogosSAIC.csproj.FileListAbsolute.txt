@@ -157,3 +157,8 @@ C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\w
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compCatalogosSAIC\obj\Debug\compCatalogosSAIC.csprojResolveAssemblyReference.cache
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compCatalogosSAIC\obj\Debug\compCatalogosSAIC.dll
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compCatalogosSAIC\obj\Debug\compCatalogosSAIC.pdb
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compCatalogosSAIC\bin\Debug\compCatalogosSAIC.dll
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compCatalogosSAIC\bin\Debug\compCatalogosSAIC.pdb
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compCatalogosSAIC\obj\Debug\compCatalogosSAIC.csprojResolveAssemblyReference.cache
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compCatalogosSAIC\obj\Debug\compCatalogosSAIC.dll
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compCatalogosSAIC\obj\Debug\compCatalogosSAIC.pdb
