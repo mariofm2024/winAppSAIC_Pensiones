@@ -127,7 +127,7 @@
             // 
             // checkRecordarPass
             // 
-            this.checkRecordarPass.Location = new System.Drawing.Point(18, 102);
+            this.checkRecordarPass.Location = new System.Drawing.Point(18, 104);
             this.checkRecordarPass.Margin = new System.Windows.Forms.Padding(4);
             this.checkRecordarPass.Name = "checkRecordarPass";
             this.checkRecordarPass.Properties.Caption = "Recordar Contraseña";
@@ -146,7 +146,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(18, 146);
+            this.checkBox1.Location = new System.Drawing.Point(12, 158);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(82, 23);
             this.checkBox1.TabIndex = 7;
@@ -157,7 +157,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(106, 146);
+            this.checkBox2.Location = new System.Drawing.Point(100, 158);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(107, 23);
             this.checkBox2.TabIndex = 8;
@@ -168,7 +168,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(421, 146);
+            this.checkBox3.Location = new System.Drawing.Point(415, 158);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(69, 23);
             this.checkBox3.TabIndex = 9;
@@ -179,7 +179,7 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(219, 146);
+            this.checkBox4.Location = new System.Drawing.Point(213, 158);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(90, 23);
             this.checkBox4.TabIndex = 10;
@@ -190,7 +190,7 @@
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(327, 146);
+            this.checkBox5.Location = new System.Drawing.Point(321, 158);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(71, 23);
             this.checkBox5.TabIndex = 11;
@@ -204,7 +204,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(542, 204);
+            this.ClientSize = new System.Drawing.Size(519, 204);
             this.ControlBox = false;
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);

@@ -111,6 +111,7 @@ namespace winAppSAIC
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+
             if (txtUsuario.Text.Trim().Length > 0 && txtContrasena.Text.Trim().Length > 0)
             {
                 string cipherText = AES_Encryption(txtContrasena.Text.Trim());
@@ -155,6 +156,7 @@ namespace winAppSAIC
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
+
             this.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             //Application.Exit();     //terminar aplicacion
         }
@@ -456,12 +458,15 @@ namespace winAppSAIC
         {
             txtUsuario.Text =  "mario.flores";
             txtContrasena.Text = "mar0103floR3$";
+
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
             txtUsuario.Text = "juan.martin";
             txtContrasena.Text = "jua1802mar+8A";
+
+
         }
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
@@ -474,6 +479,8 @@ namespace winAppSAIC
         {
             txtUsuario.Text = "salvador.galicia";
             txtContrasena.Text = "sal1004gal0O$";
+
+
         }
 
         private void checkBox5_CheckedChanged(object sender, EventArgs e)

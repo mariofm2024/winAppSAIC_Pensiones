@@ -47,9 +47,11 @@
     <Compile Include="InfoDetalleLoteCargaNominaCanceladoBD.cs" />
     <Compile Include="InfoDetalleSolicitudCancelacionNomina.cs" />
     <Compile Include="InfoDetalleSolicitudCancelacionNominaBD.cs" />
+    <Compile Include="InfoDetalleSolPagoProveedores.cs" />
     <Compile Include="InfoEstadoCuentaSaldos.cs" />
     <Compile Include="InfoNominaBase.cs" />
     <Compile Include="InfoPDF.cs" />
+    <Compile Include="InfoSolicitudPagoProveedores.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilerias.cs" />
   </ItemGroup>
