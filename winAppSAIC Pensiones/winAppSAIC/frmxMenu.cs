@@ -1335,10 +1335,11 @@ namespace winAppSAIC
             objSaldosTesoreria.ShowDialog();
         }
 
-        private void rbiSolPagosProv_ItemClick(object sender, ItemClickEventArgs e)
+        private void BtnSolPagosProv_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Catalogos.frmxSolicitudesPagoProveedores objSolPagProveedores = new Catalogos.frmxSolicitudesPagoProveedores();
-            objSolPagProveedores.ShowDialog();
+                Catalogos.frmxSolicitudesPagoProveedores objSolPagProveedores = new Catalogos.frmxSolicitudesPagoProveedores();
+                objSolPagProveedores.ShowDialog();
         }
+
     }
 }

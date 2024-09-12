@@ -19,6 +19,10 @@ namespace winAppSAIC.Catalogos {
 
 namespace winAppSAIC.Catalogos.dbSAIC_CatalogosTableAdapters
 {
+    partial class stpSelSolicitudPagoProveedHeaderTableAdapter
+    {
+    }
+
     partial class PromotorTableAdapter
     {
     }

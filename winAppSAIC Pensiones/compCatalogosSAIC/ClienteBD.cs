@@ -83,6 +83,10 @@ namespace compCatalogosSAIC
                 objCliente.IdRegimenFiscal = Convert.ToInt32(row[50].ToString());
                 objCliente.RegimenCapital = row[53].ToString();
                 objCliente.idCategoriaCliente = Convert.ToInt32(row["idCategoriaCliente"].ToString());
+                objCliente.IdPestana = Convert.ToInt32(row["IdPestana"].ToString());
+
+                //
+                //objCliente.IdPestana = Convert.ToInt32(row["IdPestana"].ToString());
 
             }
             catch   //(Exception ex)

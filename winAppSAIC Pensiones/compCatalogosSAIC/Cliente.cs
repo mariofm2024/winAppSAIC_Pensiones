@@ -93,5 +93,8 @@ namespace compCatalogosSAIC
         public Decimal GastoP { get; set; }
         public Decimal OtroP { get; set; }
 
+        //Pestaña
+        public int IdPestana { get; set; }
+
     }
 }

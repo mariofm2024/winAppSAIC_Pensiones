@@ -120,6 +120,9 @@ namespace winAppSAIC.Catalogos
                 objCliente.Otro = Convert.ToDecimal(spPctBPOOtro.EditValue);
                 objCliente.OtroP = Convert.ToDecimal(spPctProOtro.EditValue);
 
+                //Pestaña MAFM
+                objCliente.IdPestana = Convert.ToInt16(cbPestaña.EditValue);
+
                 //Llenar Conceptos Multiples
                 AsignarConceptosMultiples(objCliente.IdCliente);
             }
@@ -194,6 +197,9 @@ namespace winAppSAIC.Catalogos
             RegimenCapitaltextEdit.Text = objCliente.RegimenCapital;
 
             btnModificPromotor.Enabled = false;
+
+            //Pestaña mafm
+            cbPestaña.EditValue = objCliente.IdPestana;
         }
 
         private void ActivarControlesInfoCliente(bool bFlag)
@@ -313,6 +319,11 @@ namespace winAppSAIC.Catalogos
                 btnCancelarPro.Enabled = bFlag;
 
             }
+            //
+            //Pestaña mafm
+            gdPestaña.Enabled = bFlag;
+
+
         }
 
         private void LimpiarControlesInfoCliente()
@@ -403,6 +414,10 @@ namespace winAppSAIC.Catalogos
             spPctProGasto.Text = "0";
             spPctBPOOtro.Text = "0";
             spPctProOtro.Text = "0";
+
+
+            //Pestaña mafm
+            cbPestaña.EditValue = -1;
         }
 
         private void AsignarConceptosMultiples(Int32 IdCliente)
@@ -567,6 +582,8 @@ namespace winAppSAIC.Catalogos
 
         private void frmxClientes_Load(object sender, EventArgs e)
         {
+            // TODO: esta línea de código carga datos en la tabla 'dbSAIC_Catalogos.vwCatPestaña' Puede moverla o quitarla según sea necesario.
+            this.vwCatPestañaTableAdapter.Fill(this.dbSAIC_Catalogos.vwCatPestaña);
             try
             {
                 splashSMCargando.ShowWaitForm();
@@ -739,7 +756,8 @@ namespace winAppSAIC.Catalogos
                     Validator.IsPositiveOrZeroNumber(spPctProTarjeta) && Validator.IsPositiveOrZeroNumber(spPctProCucas) &&
                     Validator.IsPositiveOrZeroNumber(spPctProEfectivo) && Validator.IsPositiveOrZeroNumber(spPctProSeguros) &&
                     Validator.IsPositiveOrZeroNumber(spPctProProveedor) && Validator.IsPositiveOrZeroNumber(spPctProGasto) &&
-                    Validator.IsPositiveOrZeroNumber(spPctProOtro)
+                    Validator.IsPositiveOrZeroNumber(spPctProOtro) &&
+                    Validator.IsPresent(cbPestaña)
                     )
                 {
                     Cliente objCliente = AsignarInfoCliente();
@@ -750,7 +768,7 @@ namespace winAppSAIC.Catalogos
                         if (tipoOperacionABC == Constantes.TipoOperacionABC.Nuevo)
                         {
                             int? pIdCliente = 0;
-
+                            //mafm
                             this.clienteTableAdapter.Insert(objCliente.CodigoClienteProvedor, objCliente.RazonSocial, objCliente.NombreComercial,
                                 objCliente.RFC, objCliente.CURP, objCliente.IdActividadComercial, objCliente.IdMatrizCliente, objCliente.Calle, objCliente.NoExterior,
                                 objCliente.NoInterior, objCliente.Colonia, objCliente.CodigoPostal, objCliente.IdPais, objCliente.IdEstado,
@@ -772,6 +790,7 @@ namespace winAppSAIC.Catalogos
                                 objCliente.IdRegimenFiscal,
                                 objCliente.RegimenCapital,
                                 objCliente.idCategoriaCliente,
+                                objCliente.IdPestana,
                                 ref pIdCliente);
 
                             if (pIdCliente == 0)        //si existe Id asignado => Alta del cliente exitosa
@@ -795,6 +814,7 @@ namespace winAppSAIC.Catalogos
                         }
                         else if (tipoOperacionABC == Constantes.TipoOperacionABC.Editar)
                         {
+                            //mafm
                             int intNoRegistrosAfectados = this.clienteTableAdapter.Update(objCliente.CodigoClienteProvedor, objCliente.RazonSocial, objCliente.NombreComercial,
                                 objCliente.RFC, objCliente.CURP, objCliente.IdActividadComercial, objCliente.IdMatrizCliente, objCliente.Calle, objCliente.NoExterior,
                                 objCliente.NoInterior, objCliente.Colonia, objCliente.CodigoPostal, objCliente.IdPais, objCliente.IdEstado, objCliente.NombreDelegacionMunicipio,
@@ -805,7 +825,9 @@ namespace winAppSAIC.Catalogos
                                 objCliente.IdTipoClienteProveedor, objCliente.IdClaseRiesgo, objCliente.ISN, objCliente.TieneSucursales, objCliente.Confidencial,
                                 objCliente.Seguro, objCliente.Decreto, objCliente.Sindicato, objCliente.PctComisionBPO, objCliente.PctAsimilados, objCliente.SaldoAFavor, objCliente.Financiamiento,
                                 objCliente.FechaBaja, objCliente.Observaciones, objCliente.IdEstatus,
-                                OperadorBD.OperadorGlobal.NombreUsuario, Convert.ToInt32(txtIdCliente.Text), objCliente.idPlazaCliente, objCliente.IdRegimenFiscal, objCliente.RegimenCapital, objCliente.idCategoriaCliente);
+                                OperadorBD.OperadorGlobal.NombreUsuario, Convert.ToInt32(txtIdCliente.Text), objCliente.idPlazaCliente, objCliente.IdRegimenFiscal, objCliente.RegimenCapital
+                                , objCliente.idCategoriaCliente, objCliente.IdPestana);
+
 
                             if (intNoRegistrosAfectados == 0)        //si existe Id asignado => Alta del cliente exitosa
                                 XtraMessageBox.Show("¡La modificación del cliente NO ha sido exitosa!\nContacte a Sistemas.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -1238,5 +1260,6 @@ namespace winAppSAIC.Catalogos
                 XtraMessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
     }
 }
