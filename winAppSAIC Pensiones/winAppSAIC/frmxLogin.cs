@@ -451,5 +451,35 @@ namespace winAppSAIC
             ConfigurationManager.RefreshSection(_config.ConnectionStrings.SectionInformation.Name);
             Properties.Settings.Default.Reload();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            txtUsuario.Text =  "mario.flores";
+            txtContrasena.Text = "mar0103floR3$";
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            txtUsuario.Text = "juan.martin";
+            txtContrasena.Text = "jua1802mar+8A";
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            txtUsuario.Text = "mayra.ortiz";
+            txtContrasena.Text = "may0511ort!2@";
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            txtUsuario.Text = "salvador.galicia";
+            txtContrasena.Text = "sal1004gal0O$";
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            txtUsuario.Text = "regina.tapia";
+            txtContrasena.Text = "reg2012tap¿5D";
+        }
     }
 }

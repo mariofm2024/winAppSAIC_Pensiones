@@ -291,6 +291,9 @@
     <Compile Include="Cancelaciones\frmxSolicitudCancelacionNomina.designer.cs">
       <DependentUpon>frmxSolicitudCancelacionNomina.cs</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\dbSAICBPO_CatalogosValidacionDataSet.cs">
+      <DependentUpon>dbSAICBPO_CatalogosValidacionDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Catalogos\dbSAICBPO_CatalogosValidacionDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
