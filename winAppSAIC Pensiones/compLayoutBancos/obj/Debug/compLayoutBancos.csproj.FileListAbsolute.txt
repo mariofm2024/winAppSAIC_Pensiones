@@ -194,3 +194,8 @@ C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\w
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compLayoutBancos\obj\Debug\compLayoutBancos.csprojResolveAssemblyReference.cache
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compLayoutBancos\obj\Debug\compLayoutBancos.dll
 C:\ADNA\App\Pos Produccion Final 17072024 Nube\PF\winAppSAIC Pensiones ADNA PF\winAppSAIC Pensiones\compLayoutBancos\obj\Debug\compLayoutBancos.pdb
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compLayoutBancos\bin\Debug\compLayoutBancos.dll
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compLayoutBancos\bin\Debug\compLayoutBancos.pdb
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compLayoutBancos\obj\Debug\compLayoutBancos.csprojResolveAssemblyReference.cache
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compLayoutBancos\obj\Debug\compLayoutBancos.dll
+C:\ADNA\10 Pruebas sin nuevo desarrollo\winAppSAIC_Pensiones\winAppSAIC Pensiones\compLayoutBancos\obj\Debug\compLayoutBancos.pdb
