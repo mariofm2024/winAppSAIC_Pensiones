@@ -6971,9 +6971,6 @@ ModelManifest.xml
 .fake/
 
 winAppSAIC Pensiones/winAppSAIC/obj/
-<<<<<<<
-
-=======
 <<<<<<< HEAD
 winAppSAIC Pensiones/compCatalogosSAIC/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 winAppSAIC Pensiones/compCatalogosSAIC/obj/Debug/compCatalogosSAIC.csproj.FileListAbsolute.txt
@@ -7014,4 +7011,3 @@ winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.application
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.application
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.exe
 >>>>>>> origin/develop
->>>>>>>
