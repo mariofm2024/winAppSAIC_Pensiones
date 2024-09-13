@@ -6971,6 +6971,19 @@ ModelManifest.xml
 .fake/
 
 winAppSAIC Pensiones/winAppSAIC/obj/
+<<<<<<< HEAD
+winAppSAIC Pensiones/compCatalogosSAIC/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+winAppSAIC Pensiones/compCatalogosSAIC/obj/Debug/compCatalogosSAIC.csproj.FileListAbsolute.txt
+winAppSAIC Pensiones/compEmail/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+winAppSAIC Pensiones/compExport/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+winAppSAIC Pensiones/compIMSS/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+winAppSAIC Pensiones/compLayoutBancos/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+winAppSAIC Pensiones/compLayoutBancos/obj/Debug/compLayoutBancos.csproj.FileListAbsolute.txt
+winAppSAIC Pensiones/compLibreriaSAIC/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+winAppSAIC Pensiones/compNominaCFDI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+winAppSAIC Pensiones/compNominaCFDI/obj/Debug/compNominaCFDI.csproj.FileListAbsolute.txt
+winAppSAIC Pensiones/compNominaCFDI/obj/Debug/compNominaCFDI.csprojResolveAssemblyReference.cache
+=======
 >>>>>>> main
 
 *.cache
@@ -6980,6 +6993,7 @@ winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.exe.manifest
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.pdb
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.vshost.application
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.vshost.exe.manifest
+>>>>>>> origin/develop
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/app.publish/winAppSAIC.exe
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.application
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.exe
@@ -6987,6 +7001,8 @@ winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.exe.manifest
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.pdb
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.vshost.application
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.vshost.exe.manifest
+<<<<<<< HEAD
+=======
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/app.publish/winAppSAIC.exe
 winAppSAIC Pensiones/winAppSAIC/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 winAppSAIC Pensiones/winAppSAIC/obj/Debug/winAppSAIC_Pensiones.csproj.FileListAbsolute.txt
@@ -6994,3 +7010,4 @@ winAppSAIC Pensiones/winAppSAIC/obj/Debug/winAppSAIC_Pensiones.csprojResolveAsse
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.application
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.application
 winAppSAIC Pensiones/winAppSAIC/bin/Debug/winAppSAIC.exe
+>>>>>>> origin/develop
